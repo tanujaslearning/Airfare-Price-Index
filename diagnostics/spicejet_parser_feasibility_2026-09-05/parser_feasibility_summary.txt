@@ -1,0 +1,8 @@
+RESULT: SUCCESS
+RESULTS_PAGE_REACHED: True
+NUMBER_OF_VISIBLE_RESULT_CARDS: 1
+PARSER_FEASIBILITY: PARSER_READY_WITH_MINOR_GAPS
+VISIBLE_CARDS:
+{"flight_number": "SG 802", "raw_window": ["SpiceFlex", "SpiceMax", "22:30", "DEL", "Flight Details", "2h 20m", "00:50+1", "BOM", "SG 802", "Direct", "₹ 18,047", "Earn 636", "Points", "₹ 18,467", "Earn 652", "Points", "₹ 19,359", "Earn 684", "Points"], "departure_time": "22:30", "arrival_time": "00:50+1", "arrival_next_day": true, "origin": "DEL", "destination": "BOM", "duration": "2h 20m", "service_type": "Direct", "visible_fares": ["INR 18,047", "INR 18,467", "INR 19,359"], "selected_or_lowest_fare": "INR 18,047", "fare_families": ["SpiceSaver", "SpiceFlex", "SpiceMax"]}
+FARE_INTERPRETATION: Displayed amounts are total fares inclusive of taxes/fees, not base fare.
+RAWQUOTE_GAPS: base_fare and taxes_fees not separately visible; sold-out and multiple-card examples not observed.

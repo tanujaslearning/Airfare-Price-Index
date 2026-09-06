@@ -1,0 +1,23 @@
+{
+  "timestamp": "2026-09-05T04:54:15.483Z",
+  "url": "https://www.spicejet.com/search?from=DEL&to=BOM&tripType=1&departure=2026-09-05&adult=1&child=0&srCitizen=0&infant=0&currency=INR&redirectTo=/",
+  "title": "SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets",
+  "readyState": "complete",
+  "bodyLength": 1958,
+  "inputs": [],
+  "searchButtons": [],
+  "visibleErrors": [],
+  "loaders": [],
+  "bodySignals": {
+    "oneWayVisible": true,
+    "oneAdultVisible": true,
+    "inrVisible": false,
+    "dateVisibleUnpadded": false,
+    "dateVisiblePadded": true,
+    "searchFlightVisible": false,
+    "departsVisible": true,
+    "selectDepartureVisible": true,
+    "sgFlightVisible": false,
+    "captchaOrBlock": false
+  }
+}

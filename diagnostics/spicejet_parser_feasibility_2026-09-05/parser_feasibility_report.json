@@ -1,0 +1,244 @@
+{
+  "RESULT": "SUCCESS",
+  "RESULTS_PAGE_REACHED": true,
+  "NUMBER_OF_VISIBLE_RESULT_CARDS": 1,
+  "CARD_STRUCTURE": {
+    "container": "Rendered result list is under a React Native Web section with id=list-results-section-0.",
+    "stable_ids_observed": [
+      "list-results-section-0"
+    ],
+    "stable_data_testids_observed": [
+      "agencyBalance-inputbox-Crises-management",
+      "agencyName-inputbox-Crises-management",
+      "agencyNumber-inputbox-Crises-management",
+      "application-id",
+      "contactPhone-inputbox-Crises-management",
+      "continue-search-page-cta",
+      "currency-inputbox-Crises-management",
+      "emailAddress-inputbox-Crises-management",
+      "lowfare-calendar-dateId",
+      "lowfare-carousel",
+      "mainAgentId-renderTextField-Gst",
+      "minBalance-inputbox-Crises-management",
+      "password-renderTextField-Gst",
+      "scpoints-search-page-cta",
+      "searchPage-sortingOption-Arrival Time",
+      "searchPage-sortingOption-Arrival Time-child",
+      "searchPage-sortingOption-Departure Time",
+      "searchPage-sortingOption-Departure Time-child",
+      "searchPage-sortingOption-Duration",
+      "searchPage-sortingOption-Duration-child",
+      "searchPage-sortingOption-spiceflex",
+      "searchPage-sortingOption-spiceflex-child",
+      "searchPage-sortingOption-spicemax",
+      "searchPage-sortingOption-spicemax-child",
+      "searchPage-sortingOption-spicesaver",
+      "searchPage-sortingOption-spicesaver-child",
+      "spiceflex-flight-select-radio-button-1",
+      "spicemax-flight-select-radio-button-2",
+      "spicesaver-flight-select-radio-button-0",
+      "svg-img",
+      "toogle_fare_breakup"
+    ],
+    "observed_row_order": [
+      "departure_time",
+      "origin",
+      "Flight Details",
+      "duration",
+      "arrival_time(+optional +1)",
+      "destination",
+      "flight_number",
+      "service_type",
+      "fare_family_columns"
+    ],
+    "visible_cards": [
+      {
+        "flight_number": "SG 802",
+        "raw_window": [
+          "SpiceFlex",
+          "SpiceMax",
+          "22:30",
+          "DEL",
+          "Flight Details",
+          "2h 20m",
+          "00:50+1",
+          "BOM",
+          "SG 802",
+          "Direct",
+          "₹ 18,047",
+          "Earn 636",
+          "Points",
+          "₹ 18,467",
+          "Earn 652",
+          "Points",
+          "₹ 19,359",
+          "Earn 684",
+          "Points"
+        ],
+        "departure_time": "22:30",
+        "arrival_time": "00:50+1",
+        "arrival_next_day": true,
+        "origin": "DEL",
+        "destination": "BOM",
+        "duration": "2h 20m",
+        "service_type": "Direct",
+        "visible_fares": [
+          "INR 18,047",
+          "INR 18,467",
+          "INR 19,359"
+        ],
+        "fare_families": [
+          "SpiceSaver",
+          "SpiceFlex",
+          "SpiceMax"
+        ],
+        "selected_or_lowest_fare": "INR 18,047"
+      }
+    ],
+    "top_summary": {
+      "route_line": "Delhi to Mumbai, 05 Sep 2026",
+      "selected_date_line": "Sat, 05 Sep 2026",
+      "lowest_summary_fare": "INR 18,047"
+    }
+  },
+  "FIELD_EXTRACTION_MAP": {
+    "airline": "Infer from source context/page; visible carrier name is site-level SpiceJet, not repeated per card.",
+    "flight_number": "Visible text token matching SG\\s?\\d{2,4}; observed SG 802.",
+    "origin_airport": "Visible IATA code after departure time in each row; observed DEL.",
+    "destination_airport": "Visible IATA code after arrival time in each row; observed BOM.",
+    "departure_time": "Visible HH:MM token before origin; observed 22:30.",
+    "arrival_time": "Visible HH:MM token before destination, with optional +1 suffix; observed 00:50+1.",
+    "arrival_next_day_indicator": "Visible +1 attached to arrival time and legend says Flight arrives next day.",
+    "departure_date": "Visible search summary/header: Depart Date: Sat, 05 Sep 2026 and result header Sat, 05 Sep 2026.",
+    "total_fare": "Visible fare amount in fare-family column; observed SpiceSaver INR 18,047 for SG 802.",
+    "cabin_or_fare_family": "Fare family columns visible: SpiceSaver, SpiceFlex, SpiceMax. Economy comes from search context, not a repeated card label."
+  },
+  "SELECTOR_RELIABILITY": {
+    "strong": [
+      "#list-results-section-0",
+      "[data-testid^=\"spicesaver-flight-select-radio-button-\"]",
+      "[data-testid^=\"spiceflex-flight-select-radio-button-\"]",
+      "[data-testid^=\"spicemax-flight-select-radio-button-\"]",
+      "[data-testid^=\"searchPage-sortingOption-\"]"
+    ],
+    "moderate": [
+      "Visible text row parsing around SG flight-number tokens",
+      "Headers DEPARTS/DURATION/ARRIVES and fare-family labels"
+    ],
+    "weak": [
+      "Generated css-* and r-* classes",
+      "absolute pixel positions",
+      "global #total-price top summary for card-level association"
+    ],
+    "notes": "The radio data-testid suffixes appear index-like; confirm on a page with multiple cards before depending on numeric suffix semantics."
+  },
+  "FARE_INTERPRETATION": {
+    "observed_amounts": [
+      "INR 18,047 SpiceSaver",
+      "INR 18,467 SpiceFlex",
+      "INR 19,359 SpiceMax"
+    ],
+    "associated_with_sg_802": true,
+    "visible_statement": "All the fare include taxes and fee. Top summary also says inclusive of taxes.",
+    "interpretation": "Displayed amounts are total fares inclusive of taxes/fees, not base fare.",
+    "base_fare_visible": false,
+    "taxes_fees_visible_separately": false
+  },
+  "SOLD_OUT_HANDLING": {
+    "observed": false,
+    "evidence": "No sold out/unavailable text in saved result page.",
+    "likely_parser_rule": "Skip cards/fare-family cells whose visible text indicates sold out/unavailable/no flights or whose fare radio is absent/disabled; needs evidence before finalizing."
+  },
+  "MULTIPLE_CARD_HANDLING": {
+    "observed_multiple_cards": false,
+    "visible_card_count": 1,
+    "evidence": "Only SG 802 was visible for the controlled DEL-BOM 2026-09-05 result.",
+    "assessment": "Independent card boundaries appear feasible via repeated SG flight-number rows under #list-results-section-0, but require one more natural multi-card artifact for high confidence."
+  },
+  "RAWQUOTE_FIELD_COVERAGE": {
+    "source_id": "Covered by caller/source lookup, not page DOM.",
+    "route_id": "Covered by caller/route lookup, not page DOM.",
+    "flight_number": "Covered: SG 802 visible.",
+    "departure_datetime": "Covered from visible departure date + visible departure time.",
+    "arrival_datetime": "Covered from visible departure date + arrival time + visible +1 next-day marker.",
+    "advance_window_days": "Covered by collection date and visible departure date.",
+    "base_fare": "Not visible separately; do not invent. Keep unavailable/0 under current contract unless a legitimate visible breakdown is opened later.",
+    "taxes_fees": "Not visible separately; do not invent. Keep unavailable/0 under current contract unless a legitimate visible breakdown is opened later.",
+    "total_fare": "Covered: INR 18,047 visible and associated with SG 802 / SpiceSaver.",
+    "cabin_class": "Partially covered: Economy is search context; visible fare family can optionally enrich as ECONOMY-SPICESAVER if contract allows.",
+    "scraped_at": "Covered by scraper runtime timestamp."
+  },
+  "PARSER_FEASIBILITY": "PARSER_READY_WITH_MINOR_GAPS",
+  "RISKS": [
+    "Only one visible flight card in this artifact; multiple-card row boundaries need a follow-up fixture or supervised observation before high-confidence production rollout.",
+    "Generated css-* and r-* classes are brittle and should not be used.",
+    "Base fare and taxes/fees are not separately visible on the default result card.",
+    "Sold-out/unavailable representation was not observed.",
+    "The page also includes low-fare calendar prices and top summary prices; parser must avoid treating those as independent quotes."
+  ],
+  "RECOMMENDED_IMPLEMENTATION": [
+    "Parse rendered DOM/text only after the normal public Playwright flow reaches /search.",
+    "Anchor card extraction under #list-results-section-0, ignoring lowfare carousel and top #total-price summary for quote creation.",
+    "Split rows by visible SG flight-number tokens; require exact DEL->BOM IATA sequence and visible date match.",
+    "Parse departure date from the result page summary/header and require it to match requested date.",
+    "Use visible lowest/default fare-family total as total_fare; keep base_fare/taxes_fees unavailable/0 unless visible breakdown is legitimately added later.",
+    "Add fixture tests using this after_click text/HTML before enabling production ingestion."
+  ],
+  "SCREENSHOT_DOM_ARTIFACT_REFERENCES": {
+    "source_artifacts": [
+      "diagnostics\\spicejet_postclick_2026-09-05\\after_click.png",
+      "diagnostics\\spicejet_postclick_2026-09-05\\after_click.html",
+      "diagnostics\\spicejet_postclick_2026-09-05\\visible_text.txt",
+      "diagnostics\\spicejet_postclick_2026-09-05\\interaction_report.json"
+    ],
+    "diagnostic_report": "diagnostics\\spicejet_parser_feasibility_2026-09-05\\parser_feasibility_report.json",
+    "summary_text": "diagnostics\\spicejet_parser_feasibility_2026-09-05\\parser_feasibility_summary.txt"
+  },
+  "LOWFARE_CALENDAR_VISIBLE_DATES": [
+    {
+      "date": "Sat, 05 Sep",
+      "fare": "INR 18,047"
+    },
+    {
+      "date": "Sun, 06 Sep",
+      "fare": "INR 12,867"
+    },
+    {
+      "date": "Mon, 07 Sep",
+      "fare": "INR 6,738"
+    },
+    {
+      "date": "Tue, 08 Sep",
+      "fare": "INR 7,085"
+    },
+    {
+      "date": "Wed, 09 Sep",
+      "fare": "INR 6,738"
+    },
+    {
+      "date": "Thu, 10 Sep",
+      "fare": "INR 6,447"
+    },
+    {
+      "date": "Fri, 11 Sep",
+      "fare": "INR 7,469"
+    }
+  ],
+  "DATABASE_BEFORE_PHASE_3F": {
+    "size": 1318912,
+    "mtime_epoch": 1788579116.9334743,
+    "mtime_text": "2026-09-05T09:01:56.933474",
+    "latest_job_id": 13,
+    "live_quote_count": 12,
+    "raw_count": 1902
+  },
+  "DATABASE_AFTER_PHASE_3F": {
+    "size": 1318912,
+    "mtime_epoch": 1788579116.9334743,
+    "mtime_text": "2026-09-05T09:01:56.933474",
+    "latest_job_id": 13,
+    "live_quote_count": 12,
+    "raw_count": 1902
+  },
+  "DATABASE_CHANGED_IN_PHASE_3F": false
+}

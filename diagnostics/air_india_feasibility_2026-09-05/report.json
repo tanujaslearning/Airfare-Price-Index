@@ -1,0 +1,77 @@
+{
+  "timestamp": "2026-09-05T10:31:44.449688+00:00",
+  "target": {
+    "source": "Air India",
+    "route": "DEL-BOM",
+    "origin": "DEL",
+    "destination": "BOM",
+    "requested_window": "T+7",
+    "advance_window_days": 7,
+    "departure_date": "2026-09-12",
+    "trip": "one-way",
+    "passengers": "1 adult",
+    "currency": "INR"
+  },
+  "database_before": {
+    "raw_total": 2172,
+    "processed_total": 2172,
+    "live_raw": 12,
+    "live_processed": 12,
+    "latest_job_id": 20
+  },
+  "robots": {
+    "robots_url": "https://www.airindia.com/robots.txt",
+    "target_url": "https://www.airindia.com/en-in/book-flights/",
+    "relevant_path": "/en-in/book-flights/",
+    "http_status": null,
+    "elapsed_ms": 12491.9,
+    "allowed": null,
+    "result": "INCONCLUSIVE",
+    "relevant_rule": null,
+    "error": "ReadTimeout: "
+  },
+  "browser": {},
+  "application_rendering": {},
+  "booking_interaction": {
+    "one_way_selected": false,
+    "origin_selected": false,
+    "destination_selected": false,
+    "date_selected": false,
+    "passenger_selected": false,
+    "currency_selected": false,
+    "search_submitted": false
+  },
+  "results": {
+    "results_page_reached": false,
+    "flight_card_count": 0,
+    "flight_number_visible": false,
+    "origin_destination_visible": false,
+    "departure_arrival_visible": false,
+    "total_fare_visible": false,
+    "fare_family_or_cabin_visible": false,
+    "base_fare_visible": false,
+    "taxes_fees_visible": false,
+    "no_availability_visible": false
+  },
+  "blocking": {
+    "captcha": false,
+    "bot_or_access_block": false,
+    "http_403_or_429": false
+  },
+  "interaction_log": [],
+  "console": [],
+  "network": {},
+  "artifacts": [
+    "report.json",
+    "run_diagnostic.py"
+  ],
+  "database_after": {
+    "raw_total": 2172,
+    "processed_total": 2172,
+    "live_raw": 12,
+    "live_processed": 12,
+    "latest_job_id": 20
+  },
+  "database_changed": false,
+  "classification": "INCONCLUSIVE"
+}

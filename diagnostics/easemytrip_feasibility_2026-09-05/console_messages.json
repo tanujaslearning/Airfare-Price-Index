@@ -1,0 +1,374 @@
+[
+  {
+    "type": "log",
+    "text": "WARNING: Tried to load AngularJS more than once."
+  },
+  {
+    "type": "log",
+    "text": "apps loadednull [object Object]"
+  },
+  {
+    "type": "log",
+    "text": "apps2 loadednull [object Object]"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_bahrain"
+  },
+  {
+    "type": "log",
+    "text": "TypeError: Cannot read properties of undefined (reading 'split')\n    at eval (eval at w.<computed>.e (https://www.googletagmanager.com/gtm.js?id=GTM-NWSP4ZN:5:28), <anonymous>:1:63)\n    at eval (eval at w.<computed>.e (https://www.googletagmanager.com/gtm.js?id=GTM-NWSP4ZN:5:28), <anonymous>:1:205)\n"
+  },
+  {
+    "type": "log",
+    "text": "TypeError: Cannot read properties of undefined (reading 'split')\n    at eval (eval at w.<computed>.e (https://www.googletagmanager.com/gtm.js?id=GTM-NWSP4ZN:5:28), <anonymous>:1:63)\n    at eval (eval at w.<computed>.e (https://www.googletagmanager.com/gtm.js?id=GTM-NWSP4ZN:5:28), <anonymous>:1:205)\n"
+  },
+  {
+    "type": "log",
+    "text": "TypeError: Cannot read properties of undefined (reading 'split')\n    at eval (eval at w.<computed>.e (https://www.googletagmanager.com/gtm.js?id=GTM-NWSP4ZN:5:28), <anonymous>:1:63)\n    at eval (eval at w.<computed>.e (https://www.googletagmanager.com/gtm.js?id=GTM-NWSP4ZN:5:28), <anonymous>:1:205)\n"
+  },
+  {
+    "type": "warning",
+    "text": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+  },
+  {
+    "type": "log",
+    "text": "SigninController"
+  },
+  {
+    "type": "log",
+    "text": "SigninController"
+  },
+  {
+    "type": "info",
+    "text": "Smartech Initiated"
+  },
+  {
+    "type": "error",
+    "text": "Failed to load resource: the server responded with a status of 500 ()"
+  },
+  {
+    "type": "error",
+    "text": "Failed to load resource: the server responded with a status of 500 ()"
+  },
+  {
+    "type": "info",
+    "text": "BPN not supported for this platform"
+  },
+  {
+    "type": "warning",
+    "text": "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing."
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflg_sabah"
+  },
+  {
+    "type": "warning",
+    "text": "Your client application uses libraries for user authentication or authorization that are deprecated. See the [Migration Guide](https://developers.google.com/identity/gsi/web/guides/gis-migration) for more information."
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_qatar"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_thailand"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoairindia-brand-desk"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_bicester"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_com_abudhabi"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_outletcity"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_bahrain"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflg_sabah"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_qatar"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_thailand"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoairindia-brand-desk"
+  },
+  {
+    "type": "log",
+    "text": "spn12FromSector_showDEL-Delhi, Indiaairport12test"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_bicester"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_com_abudhabi"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_outletcity"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_bahrain"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflg_sabah"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_qatar"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_thailand"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoairindia-brand-desk"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_bicester"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_com_abudhabi"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_outletcity"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_bahrain"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflg_sabah"
+  },
+  {
+    "type": "log",
+    "text": "Tue Sep 01 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) old-dt"
+  },
+  {
+    "type": "log",
+    "text": "Wed Sep 02 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) old-dt"
+  },
+  {
+    "type": "log",
+    "text": "Thu Sep 03 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) old-dt"
+  },
+  {
+    "type": "log",
+    "text": "Fri Sep 04 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) old-dt"
+  },
+  {
+    "type": "log",
+    "text": "Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Sun Sep 06 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Mon Sep 07 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Tue Sep 08 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Wed Sep 09 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Thu Sep 10 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Fri Sep 11 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Sat Sep 12 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Sun Sep 13 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Mon Sep 14 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Tue Sep 15 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Wed Sep 16 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Thu Sep 17 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Fri Sep 18 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Sat Sep 19 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Sun Sep 20 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Mon Sep 21 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Tue Sep 22 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Wed Sep 23 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Thu Sep 24 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Fri Sep 25 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Sat Sep 26 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Sun Sep 27 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Mon Sep 28 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Tue Sep 29 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Wed Sep 30 2026 00:00:00 GMT+0530 (India Standard Time) Sat Sep 05 2026 00:00:00 GMT+0530 (India Standard Time) "
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_qatar"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_thailand"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoairindia-brand-desk"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_bicester"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_com_abudhabi"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_outletcity"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_bahrain"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflg_sabah"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_qatar"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_thailand"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoairindia-brand-desk"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_bicester"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_com_abudhabi"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_outletcity"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_bahrain"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflg_sabah"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_qatar"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_thailand"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoairindia-brand-desk"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_bicester"
+  },
+  {
+    "type": "log",
+    "text": "Impression fired: seoflt_com_abudhabi"
+  }
+]

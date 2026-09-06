@@ -1,0 +1,2662 @@
+[
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. This script element was modified without use of TrustedScript assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "warning",
+    "text": "Unrecognized feature: 'web-share'."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. This script element was modified without use of TrustedScript assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. This script element was modified without use of TrustedScript assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. This script element was modified without use of TrustedScript assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. This script element was modified without use of TrustedScript assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScript' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedHTML' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "Smartech Initiated"
+  },
+  {
+    "type": "warning",
+    "text": "You are using replayIntegration() even though this bundle does not include replay."
+  },
+  {
+    "type": "info",
+    "text": "This document requires 'TrustedScriptURL' assignment. The policy is report-only, so the violation has been logged but no further action has been taken."
+  },
+  {
+    "type": "info",
+    "text": "BPN not supported for this platform"
+  }
+]

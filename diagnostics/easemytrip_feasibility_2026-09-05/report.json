@@ -1,0 +1,134 @@
+{
+  "target": {
+    "source": "EaseMyTrip",
+    "route": "DEL-BOM",
+    "collection_date": "2026-09-05",
+    "departure_date": "2026-09-06",
+    "advance_window_days": 1,
+    "trip": "one-way",
+    "passengers": "1 adult",
+    "cabin": "Economy"
+  },
+  "db_before": {
+    "raw_total": 1951,
+    "processed_total": 1951,
+    "raw_by_mode": [
+      {
+        "collection_mode": "LIVE",
+        "count": 61
+      },
+      {
+        "collection_mode": "MOCK",
+        "count": 1890
+      }
+    ],
+    "processed_by_raw_mode": [
+      {
+        "collection_mode": "LIVE",
+        "count": 61
+      },
+      {
+        "collection_mode": "MOCK",
+        "count": 1890
+      }
+    ],
+    "job_count": 32,
+    "max_job_id": 32,
+    "index_count": 1
+  },
+  "robots": [
+    {
+      "url": "https://www.easemytrip.com/robots.txt",
+      "status": 200,
+      "elapsed_ms": 612.0,
+      "error": null,
+      "relevant_rules": [
+        "Disallow: /cheap_flights/",
+        "Disallow: /cheap-flights/",
+        "Disallow: /flight-search/listing*"
+      ],
+      "permission": "DISALLOWED"
+    },
+    {
+      "url": "https://flight.easemytrip.com/robots.txt",
+      "status": 200,
+      "elapsed_ms": 271.7,
+      "error": null,
+      "relevant_rules": [
+        "Disallow: /cheap_flights/",
+        "Disallow: /cheap-flights/"
+      ],
+      "permission": "ALLOWED"
+    }
+  ],
+  "browser": {
+    "playwright_success": true,
+    "browser_version": "151.0.7922.34",
+    "page_http_status": 200,
+    "final_url": "https://www.easemytrip.com/flights/",
+    "page_title": "Cheap Flights, Flight Ticket Booking at Lowest Prices in India",
+    "javascript_rendering": "YES",
+    "public_ui_reachable": "YES",
+    "search_interaction": "FAIL",
+    "results_rendered": "NO",
+    "fare_extraction": "FAIL",
+    "required_fields_available": [
+      "airline",
+      "cabin class",
+      "route",
+      "total fare"
+    ],
+    "captcha_block_detected": "NO",
+    "tos_access_concern": "NO",
+    "classification": "INCONCLUSIVE",
+    "events": [
+      "one_way_selector=text=One-Way",
+      "from_selector=None",
+      "from_option=li:has-text('Delhi')",
+      "to_selector=None",
+      "to_option=div:has-text('Mumbai'):has-text('BOM')",
+      "date_selector=None",
+      "date_option=None",
+      "search_selector=None"
+    ],
+    "stable_anchors": [],
+    "sample_observations": [],
+    "visible_text_excerpt": "\u00d7\nSign-in to Save More\nEnjoy Exclusive Discounts on First Booking\nLogin or Create Account \u2192\nSecure login\nlights\notels\nrains\nus\nolidays\nabs\nctivities\nisa\nore\nasemytrip Cards \npply Now To Get Rewards\nasyeloped\nor Romantic Getaways\nasydarshan\npiritual Tours In India\nirport Experience\nnjoy Airport Service\nift Card\nuy Giftcards Here\nffers\nheck Best Latest Offers\nCustomer Service\nCall Support\nTel : 011 - 43131313, 43030303\nMail Support\nCare@easemytrip.com\nLogin or Signup\nCustomer Login\nLogin & check bookings\nCorporate Travel\nLogin corporate account\nAgent Login\nLogin your agent account\nMy Booking\nManage your bookings here\n\u2716\nOne-Way\nRound-Trip\nMulti-City\nFlight Ticket Booking\n\nFROM\n\n[DEL]Indira Gandhi International Airport\n\nTO\n\n[BOM]Chhatrapati Shivaji International Airport\n\nDEPARTURE DATE\n\n5Sep'2026\n\nSaturday\n\nRETURN DATE\n\nBook a round trip\nto save more\n\nTRAVELLER & CLASS\n\n1\nTraveller\n\nEconomy\n\nSEARCH\nHome\nFlight Booking\nFlight Booking Offers\nFlight Tickets For\nYour Family\nFLYFAMILY\nEnjoy Up to Rs. 3000 Off on Booking Flight Tickets for your Family\nValid Till : 30th Sep 2026\nBOOK NOW\nFlight Tickets\nFor Two Persons\nFLYCOUPLE\nGet Up to Rs. 2500 Off on Booking Flight Tickets for Two Persons\nValid Till : 30th Sep 2026\nBOOK NOW\nUnlock Travel Discount With\nUPI Payment\nUPIPAY\nEnjoy huge discounts on travel booking by paying through UPI\nValid Till : 30th Sep 2026\nBOOK NOW\nBook Flights With\nNo Convenience Fee*\nEMTNCF\nEnjoy Travelling to Your Favourite Destination with No Convenience Fee*\nValid Till : 30th Sep 2026\nBOOK NOW\nNew User Deal On\nFirst Flight\nEMTFIRST\nRegister and Get Discount on Booking First Flight with Us\nValid Till : 30th Sep 2026\nBOOK NOW\nDiscover Special Fares On\nFlights with Malaysia Airlines\nUnlock Huge Savings with Exclusive Fares on Flights from India Across the Malaysia Airlines Network\nValid Till : 30th Sep 2026\nBOOK NOW\nGet Exclusive Fares On\nFlights with Nok Air\nEMTNOK\nEnjoy Special Fares on Flights from Hyderabad to Thailand with Nok Air\nValid Till : 30th Sep 2026\nBOOK NOW\nEnjoy Exclusive Savings\nWith Qatar Airways\nBook Flights with Qatar Airways & Unlock Exclusive Savings of Up to 30%*\nValid Till : 6th Sep 2026\nBOOK NOW\nFly Further With New Routes By\nAir India Express\nEnjoy Flights to 5 New Routes with Air India Express\nBOOK NOW\nReach Skies At Unbeatable Price\nwith Singapore Airlines\nBOOKNOW\nRedefine Your Flying Experience with Up to INR 15,000 OFF* on Flight Bookings\nValid Till : 15th Sep 2026\nBOOK NOW\nNow See The World With\nRoyal Jordanian\nBOOK",
+    "page_title_after_search": "Cheap Flights, Flight Ticket Booking at Lowest Prices in India",
+    "result_url": "https://www.easemytrip.com/flights/",
+    "result_text_excerpt": "\u00d7\nSign-in to Save More\nEnjoy Exclusive Discounts on First Booking\nLogin or Create Account \u2192\nSecure login\nlights\notels\nrains\nus\nolidays\nabs\nctivities\nisa\nore\nasemytrip Cards \npply Now To Get Rewards\nasyeloped\nor Romantic Getaways\nasydarshan\npiritual Tours In India\nirport Experience\nnjoy Airport Service\nift Card\nuy Giftcards Here\nffers\nheck Best Latest Offers\nCustomer Service\nCall Support\nTel : 011 - 43131313, 43030303\nMail Support\nCare@easemytrip.com\nLogin or Signup\nCustomer Login\nLogin & check bookings\nCorporate Travel\nLogin corporate account\nAgent Login\nLogin your agent account\nMy Booking\nManage your bookings here\n\u2716\nOne-Way\nRound-Trip\nMulti-City\nFlight Ticket Booking\n\nFROM\n\n[DEL] Indira Gandhi International Airport\n\nTO\n\n[BOM]Chhatrapati Shivaji International Airport\n\nDEPARTURE DATE\n\n5Sep'2026\n\nSaturday\n\nSEP 2026\nSu\nMo\nTu\nWe\nTh\nFr\nSa\n1\n2\n3\n4\n5\n\u20b9 6530\n6\n\u20b9 6529\n7\n\u20b9 6095\n8\n\u20b9 6095\n9\n\u20b9 6090\n10\n\u20b9 6090\n11\n\u20b9 6090\n12\n\u20b9 6442\n13\n\u20b9 6528\n14\n\u20b9 6442\n15\n\u20b9 6367\n16\n\u20b9 6442\n17\n\u20b9 6528\n18\n\u20b9 6442\n19\n\u20b9 6442\n20\n\u20b9 6528\n21\n\u20b9 6442\n22\n\u20b9 6090\n23\n\u20b9 6090\n24\n\u20b9 6090\n25\n\u20b9 6442\n26\n\u20b9 6442\n27\n\u20b9 6528\n28\n\u20b9 6442\n29\n\u20b9 6528\n30\n\u20b9 6442\nOCT 2026\nSu\nMo\nTu\nWe\nTh\nFr\nSa\n1\n\u20b9 6367\n2\n\u20b9 6367\n3\n\u20b9 6090\n4\n\u20b9 6446\n5\n\u20b9 6090\n6\n\u20b9 6090\n7\n\u20b9 6090\n8\n\u20b9 6090\n9\n\u20b9 6442\n10\n\u20b9 6442\n11\n\u20b9 6442\n12\n\u20b9 6442\n13\n\u20b9 6090\n14\n\u20b9 6090\n15\n\u20b9 6090\n16\n\u20b9 6500\n17\n\u20b9 6500\n18\n\u20b9 6500\n19\n\u20b9 6500\n20\n\u20b9 6090\n21\n\u20b9 6500\n22\n\u20b9 6500\n23\n\u20b9 6500\n24\n\u20b9 6500\n25\n\u20b9 6527\n26\n\u20b9 6527\n27\n\u20b9 6413\n28\n\u20b9 6527\n29\n\u20b9 6527\n30\n\u20b9 6527\n31\n\u20b9 6173\n-\nCheapest\n-\nHighest\n-\nAverage\n\nRETURN DATE\n\nBook a round trip\nto save more\n\nTRAVELLER & CLASS\n\n1\nTraveller\n\nEconomy\n\nSEARCH\nHome\nFlight Booking\nFlight Booking Offers\nFlight Tickets For\nYour Family\nFLYFAMILY\nEnjoy Up to Rs. 3000 Off on Booking Flight Tickets for your Family\nValid Till : 30th Sep 2026\nBOOK NOW\nFlight Tickets\nFor Two Persons\nFLYCOUPLE\nGet Up to Rs. 2500 Off on Booking Flight Tickets for Two Persons\nValid Till : 30th Sep 2026\nBOOK NOW\nUnlock Travel Discount With\nUPI Payment\nUPIPAY\nEnjoy huge discounts on travel booking by paying through UPI\nValid Till : 30th Sep 2026\nBOOK NOW\nBook Flights With\nNo Convenience Fee*\nEMTNCF\nEnjoy Travelling to Your Favourite Destination with No Convenience Fee*\nValid Till : 30th Sep 2026\nBOOK NOW\nNew User Deal On\nFirst Flight\nEMTFIRST\nRegister and Get Discount on Booking First Flight with Us\nValid Till : 30th Sep 2026\nBOOK NOW\nDiscover Special Fares On\nFlights with Malaysia Airlines\nUnlock Huge Savings with Exclusive Fares on Flights from India Across the Malaysia Airlines Network\nValid Till : 30th Sep 2026\nBOOK NOW\nGet Exclusive Fares On\nFlights with Nok Air\nEMTNOK\nEnjoy Special Fares on Flights from Hyderabad to Thailand with Nok Air\nValid Till : 30th Sep 2026\nBOOK NOW\nEnjoy Exclusive Savings\nWith Qatar Airways\nBook Flights with Qatar Airways & Unlock Exclusive Savings of Up to 30%*\nValid Till : 6th Sep 2026\nBOOK NOW\nFly Further With New Routes By\nAir India Express\nEnjoy Flights to 5 New Routes with Air India Express\nBOOK NOW\nReach Skies At Unbeatable Price\nwith Singapore Airlines\nBOOKNOW\nRedefine Your Flying Experience with Up to INR 15,000 OFF* on Flight Bookings\nValid Till : 15th Sep 2026\nBOOK NOW\nNow See The World With\nRoyal Jordanian\nBOOKNOW\nEnjoy Up to INR 15,000 OFF* on Flight Bookings with Royal Jordanian\nValid Till : 15th Sep 2026\nBOOK NOW\nTake Off With Exclusive Deals\non Virgin Atlantic\nBOOKNOW\nLet Your Next Seamless Journey Begin with Up to INR 15,000 OFF* on Flight Bookings\nValid Till : 15th Sep 2026\nBOOK NOW\nExclusive Deals For\nStudent Travellers\nEMTSTUDENT\nSpecial student discounts and extra baggage allowance on popular international airlines\nValid Till : 30th Sep 2026\nBOOK NOW\nBook Flights At The\nLowest Price Guaranteed*\nFly at the Lowest Fare or Get Double the Fare Difference\nKnow More\nBOOK NOW\nSpecial Deals On\nInternational Flights\nINTEMT\nSpecial Deals on Top International Airlines with EaseMyTrip\nValid Till : 30th Sep 2026\nBOOK NOW\nIntroducing\nIndiGoStretch Flights\nIntroducing IndiGo Airlines Non-Stop Direct Flights to & from Jewar, Noida\nKnow More\nBOO",
+    "rendered_card_candidate_count": 120,
+    "route_date_verification": {
+      "route_visible": true,
+      "departure_date_visible": false
+    }
+  },
+  "db_after": {
+    "raw_total": 1951,
+    "processed_total": 1951,
+    "raw_by_mode": [
+      {
+        "collection_mode": "LIVE",
+        "count": 61
+      },
+      {
+        "collection_mode": "MOCK",
+        "count": 1890
+      }
+    ],
+    "processed_by_raw_mode": [
+      {
+        "collection_mode": "LIVE",
+        "count": 61
+      },
+      {
+        "collection_mode": "MOCK",
+        "count": 1890
+      }
+    ],
+    "job_count": 32,
+    "max_job_id": 32,
+    "index_count": 1
+  },
+  "db_unchanged": true
+}

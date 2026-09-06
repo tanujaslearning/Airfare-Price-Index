@@ -1,0 +1,47 @@
+[
+  {
+    "source_id": 3,
+    "route_id": 1,
+    "flight_number": "SG 802",
+    "departure_datetime": "2026-09-05T22:30:00Z",
+    "arrival_datetime": "2026-09-06T00:50:00Z",
+    "advance_window_days": 1,
+    "base_fare": 0.0,
+    "taxes_fees": 0.0,
+    "total_fare": 18047.0,
+    "cabin_class": "ECONOMY-SPICESAVER",
+    "collection_mode": null,
+    "scraping_job_id": null,
+    "scraped_at": "2026-09-04T10:00:00Z"
+  },
+  {
+    "source_id": 3,
+    "route_id": 1,
+    "flight_number": "SG 802",
+    "departure_datetime": "2026-09-05T22:30:00Z",
+    "arrival_datetime": "2026-09-06T00:50:00Z",
+    "advance_window_days": 1,
+    "base_fare": 0.0,
+    "taxes_fees": 0.0,
+    "total_fare": 18467.0,
+    "cabin_class": "ECONOMY-SPICEFLEX",
+    "collection_mode": null,
+    "scraping_job_id": null,
+    "scraped_at": "2026-09-04T10:00:00Z"
+  },
+  {
+    "source_id": 3,
+    "route_id": 1,
+    "flight_number": "SG 802",
+    "departure_datetime": "2026-09-05T22:30:00Z",
+    "arrival_datetime": "2026-09-06T00:50:00Z",
+    "advance_window_days": 1,
+    "base_fare": 0.0,
+    "taxes_fees": 0.0,
+    "total_fare": 19359.0,
+    "cabin_class": "ECONOMY-SPICEMAX",
+    "collection_mode": null,
+    "scraping_job_id": null,
+    "scraped_at": "2026-09-04T10:00:00Z"
+  }
+]

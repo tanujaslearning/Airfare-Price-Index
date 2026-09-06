@@ -1,0 +1,615 @@
+{
+  "timestamp_utc": "2026-09-05T15:55:34.617935+00:00",
+  "previous_status": "INCONCLUSIVE",
+  "target": {
+    "source": "EaseMyTrip",
+    "route": "DEL-BOM",
+    "origin": "DEL",
+    "destination": "BOM",
+    "collection_date": "2026-09-05",
+    "departure_date": "2026-09-06",
+    "advance_window_days": 1,
+    "trip": "one-way",
+    "passengers": "1 adult",
+    "cabin": "Economy"
+  },
+  "database_before": {
+    "raw_total": 1951,
+    "processed_total": 1951,
+    "live_raw": 61,
+    "mock_raw": 1890,
+    "live_processed": 61,
+    "mock_processed": 1890,
+    "job_count": 32,
+    "max_job_id": 32,
+    "index_count": 1
+  },
+  "robots": {
+    "https://www.easemytrip.com/robots.txt": {
+      "url": "https://www.easemytrip.com/robots.txt",
+      "status": 200,
+      "elapsed_ms": 381.73,
+      "error": null,
+      "text_file": "www_easemytrip_com_robots.txt",
+      "targets": {
+        "https://www.easemytrip.com/flights/": {
+          "hostname": "www.easemytrip.com",
+          "path": "/flights/",
+          "allowed": true,
+          "relevant_rules": []
+        },
+        "https://www.easemytrip.com/flight-search/listing": {
+          "hostname": "www.easemytrip.com",
+          "path": "/flight-search/listing",
+          "allowed": false,
+          "relevant_rules": [
+            "Disallow: /flight-search/listing*"
+          ],
+          "manual_wildcard_rule_interpretation": "DISALLOWED via Disallow: /flight-search/listing*"
+        }
+      }
+    },
+    "https://flight.easemytrip.com/robots.txt": {
+      "url": "https://flight.easemytrip.com/robots.txt",
+      "status": 200,
+      "elapsed_ms": 236.68,
+      "error": null,
+      "text_file": "flight_easemytrip_com_robots.txt",
+      "targets": {
+        "https://flight.easemytrip.com/flightlist": {
+          "hostname": "flight.easemytrip.com",
+          "path": "/flightlist",
+          "allowed": true,
+          "relevant_rules": []
+        }
+      }
+    }
+  },
+  "robots_permission": "INCONCLUSIVE",
+  "browser": {
+    "public_ui_reachable": true,
+    "javascript_renders": true,
+    "booking_form_visible": true,
+    "browser_version": "151.0.7922.34",
+    "booking_http_status": 200
+  },
+  "booking_page": {
+    "url": "https://www.easemytrip.com/flights/",
+    "hostname": "www.easemytrip.com",
+    "pathname": "/flights/",
+    "title": "Cheap Flights, Flight Ticket Booking at Lowest Prices in India",
+    "visible_text_excerpt": "\u00d7 Sign-in to Save More Enjoy Exclusive Discounts on First Booking Login or Create Account \u2192 Secure login lights otels rains us olidays abs ctivities isa ore asemytrip Cards pply Now To Get Rewards asyeloped or Romantic Getaways asydarshan piritual Tours In India irport Experience njoy Airport Service ift Card uy Giftcards Here ffers heck Best Latest Offers Customer Service Call Support Tel : 011 - 43131313, 43030303 Mail Support Care@easemytrip.com Login or Signup Customer Login Login & check bookings Corporate Travel Login corporate account Agent Login Login your agent account My Booking Manage your bookings here \u2716 One-Way Round-Trip Multi-City Flight Ticket Booking FROM [DEL]Indira Gandhi International Airport TO [BOM]Chhatrapati Shivaji International Airport DEPARTURE DATE 5Sep'2026 Saturday RETURN DATE Book a round trip to save more TRAVELLER & CLASS 1 Traveller Economy SEARCH Home Flight Booking Flight Booking Offers Flight Tickets For Your Family FLYFAMILY Enjoy Up to Rs. 3000 Off on Booking Flight Tickets for your Family Valid Till : 30th Sep 2026 BOOK NOW Flight Tickets For Two Persons FLYCOUPLE Get Up to Rs. 2500 Off on Booking Flight Tickets for Two Persons Valid Till : 30th Sep 2026 BOOK NOW Unlock Travel Discount With UPI Payment UPIPAY Enjoy huge discounts on travel booking by paying through UPI Valid Till : 30th Sep 2026 BOOK NOW Book Flights With No Convenience Fee* EMTNCF Enjoy Travelling to Your Favourite Destination with No Convenience Fee* Valid Till : 30th Sep 2026 BOOK NOW New User Deal On First Flight EMTFIRST Register and Get Discount on Booking First Flight with Us Valid Till : 30th Sep 2026 BOOK NOW Discover Special Fares On Flights with Malaysia Airlines Unlock Huge Savings with Exclusive Fares on Flights from India Across the Malaysia Airlines Network Valid Till : 30th Sep 2026 BOOK NOW Get Exclusive Fares On Flights with Nok Air EMTNOK Enjoy Special Fares on Flights from Hyderabad to Thailand with Nok Air Valid Till : 30th Sep 2026 BOOK NOW Enjoy Exclusive Savings With Qatar Airways Book Flights with Qatar Airways & Unlock Exclusive Savings of Up to 30%* Valid Till : 6th Sep 2026 BOOK NOW Fly Further With New Routes By Air India Express Enjoy Flights to 5 New Routes with Air India Express BOOK NOW Reach Skies At Unbeatable Price with Singapore Airlines BOOKNOW Redefine Your Flying Experience with Up to INR 15,000 OFF* on Flight Bookings Valid Till : 15th Sep 2026 BOOK NOW Now See The World With Royal Jordanian BOOKNOW Enjoy Up to INR 15,000 OFF* on Flight Bookings with Royal Jordanian Valid Till : 15th Sep 2026 BOOK NOW Take Off With Exclusive Deals on Virgin Atlantic BOOKNOW Let Your Next Seamless Journey Begin with Up to INR 15,000 OFF* on Flight Bookings Valid Till : 15th Sep 2026 BOOK NOW Exclusive Deals For Student Travellers EMTSTUDENT Special student discounts and extra baggage allowance on popular international airlines Valid Till : 30th Sep 2026 BOOK NOW Book Flights At The Lowest Price Guaranteed* Fly at the Lowest Fare or Get Double the Fare Difference Know More BOOK NOW Special Deals On International Flights INTEMT Special Deals on Top International Airlines with EaseMyTrip Valid Till : 30th Sep 2026 BOOK NOW Introducing IndiGoStretch Flights Introducing IndiGo Airlines Non-Stop Direct Flights to & from Jewar, Noida Know More BOOK NOW Huge Savings On Pre-Booked 5 Kg Extra Baggage With Air India Enjoy Massive Discount on Pre-Booked 5kg Extra Baggage for Flights to India from Doha, Saudi Arabia & UAE Valid Till : 15th Oct 2026 BOOK NOW Fly Delhi To Hanoi with Air India Enjoy Non-Stop 5X Weekly Flights from Delhi to Hanoi with Air India Know More BOOK NOW Unbeatable Deal On ITA Airways Fly to Europe, the UK, USA & Canada with ITA Airways and Grab Up to 10% OFF* Valid Till : 31st Dec 2026 BOOK NOW Upgrade To Premium Economy With Air India Starting At INR 599* Book Air India Premium Economy Flights at Fares Starting from INR 599* Know More BOOK NOW Flight Tickets For Your Family FLYFAMILY Enjoy Up to Rs. 3000 Off on Booking Flight Tickets for your Family Valid Till : 30th Sep 2026 BOOK NOW Flight Tickets For Two Persons FLYCOUPLE Get Up to Rs. 2500 Off on Booking Flight Tickets for Two Persons Valid Till : 30th Sep 2026 BOOK NOW Unlock Travel Discount With UPI Payment UPIPAY Enjoy huge discounts on travel booking by paying through UPI Valid Till : 30th Sep 2026 BOOK NOW Book Flights With No Convenience Fee* EMTNCF Enjoy Travelling to Your Favourite Destination with No Convenience Fee* Valid Till : 30th Sep 2026 BOOK NOW New User Deal On First Flight EMTFIRST Register and Get Discount on Booking First Flight with Us Valid Till : 30th Sep 2026 BOOK NOW Discover Special Fares On Flights with Malaysia Airlines Unlock Huge Savings with Exclusive Fares on Flights from India Across the Malaysia Airlines Network Valid Till : 30th Sep 2026 BOOK NOW Get Exclusive Fares On Flights with Nok Air EMTNOK Enjoy Special Fares on Flights from Hyderabad to Thailand with Nok Air Valid Till : ",
+    "html_excerpt": "<!DOCTYPE html><html lang=\"en\" class=\"\"><head><style>@charset \"UTF-8\";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><style>@charset \"UTF-8\";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><script src=\"https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.zhTT8Br0Ho8.O/m=auth2/rt=j/sv=1/d=1/ed=1/rs=AHpOoo-7LeULGjNQZRvhdu3G71akb6JY6A/cb=gapi.loaded_0?le=scs,fedcm_migration_mod\" async=\"\"></script><script async=\"\" src=\"//cdnt.netcoresmartech.com/webactivity/ADGMOT35CHFLVDHBJNIG50K968K26SUE6301A7TADAOQVJTGRGU0.js\"></script><script async=\"\" src=\"//cdnt.netcoresmartech.com/webactivity/ADGMOT35CHFLVDHBJNIG50K968K26SUE6301A7TADAOQVJTG",
+    "anchors": {
+      "data_testid": [],
+      "aria_labels": [
+        "1 / 28",
+        "10 / 28",
+        "11 / 28",
+        "12 / 28",
+        "13 / 28",
+        "14 / 28",
+        "15 / 28",
+        "16 / 28",
+        "17 / 28",
+        "18 / 28",
+        "19 / 28",
+        "2 / 28",
+        "20 / 28",
+        "21 / 28",
+        "22 / 28",
+        "23 / 28",
+        "24 / 28",
+        "25 / 28",
+        "26 / 28",
+        "27 / 28",
+        "28 / 28",
+        "3 / 28",
+        "4 / 28",
+        "5 / 28",
+        "6 / 28",
+        "7 / 28",
+        "8 / 28",
+        "9 / 28",
+        "Download on Android",
+        "Download on IOS",
+        "Next slide",
+        "Previous slide"
+      ],
+      "roles": [
+        "button",
+        "group"
+      ],
+      "semantic_text": [
+        "One-Way",
+        "FROM",
+        "TO",
+        "DEPARTURE DATE",
+        "TRAVELLER & CLASS",
+        "SEARCH",
+        "[DEL]",
+        "[BOM]",
+        "Economy"
+      ]
+    }
+  },
+  "interaction": {
+    "one_way": true,
+    "origin_del": false,
+    "destination_bom": false,
+    "departure_date": false,
+    "adult_economy": true,
+    "search_submitted": false
+  },
+  "results_page": {
+    "url": "https://www.easemytrip.com/flights/",
+    "hostname": "www.easemytrip.com",
+    "pathname": "/flights/",
+    "title": "Cheap Flights, Flight Ticket Booking at Lowest Prices in India",
+    "visible_text_excerpt": "\u00d7 Sign-in to Save More Enjoy Exclusive Discounts on First Booking Login or Create Account \u2192 Secure login lights otels rains us olidays abs ctivities isa ore asemytrip Cards pply Now To Get Rewards asyeloped or Romantic Getaways asydarshan piritual Tours In India irport Experience njoy Airport Service ift Card uy Giftcards Here ffers heck Best Latest Offers Customer Service Call Support Tel : 011 - 43131313, 43030303 Mail Support Care@easemytrip.com Login or Signup Customer Login Login & check bookings Corporate Travel Login corporate account Agent Login Login your agent account My Booking Manage your bookings here \u2716 One-Way Round-Trip Multi-City Flight Ticket Booking FROM [DEL]Indira Gandhi International Airport TO [BOM]Chhatrapati Shivaji International Airport DEPARTURE DATE 5Sep'2026 Saturday RETURN DATE Book a round trip to save more TRAVELLER & CLASS 1 Traveller Economy SEARCH Home Flight Booking Flight Booking Offers Flight Tickets For Your Family FLYFAMILY Enjoy Up to Rs. 3000 Off on Booking Flight Tickets for your Family Valid Till : 30th Sep 2026 BOOK NOW Flight Tickets For Two Persons FLYCOUPLE Get Up to Rs. 2500 Off on Booking Flight Tickets for Two Persons Valid Till : 30th Sep 2026 BOOK NOW Unlock Travel Discount With UPI Payment UPIPAY Enjoy huge discounts on travel booking by paying through UPI Valid Till : 30th Sep 2026 BOOK NOW Book Flights With No Convenience Fee* EMTNCF Enjoy Travelling to Your Favourite Destination with No Convenience Fee* Valid Till : 30th Sep 2026 BOOK NOW New User Deal On First Flight EMTFIRST Register and Get Discount on Booking First Flight with Us Valid Till : 30th Sep 2026 BOOK NOW Discover Special Fares On Flights with Malaysia Airlines Unlock Huge Savings with Exclusive Fares on Flights from India Across the Malaysia Airlines Network Valid Till : 30th Sep 2026 BOOK NOW Get Exclusive Fares On Flights with Nok Air EMTNOK Enjoy Special Fares on Flights from Hyderabad to Thailand with Nok Air Valid Till : 30th Sep 2026 BOOK NOW Enjoy Exclusive Savings With Qatar Airways Book Flights with Qatar Airways & Unlock Exclusive Savings of Up to 30%* Valid Till : 6th Sep 2026 BOOK NOW Fly Further With New Routes By Air India Express Enjoy Flights to 5 New Routes with Air India Express BOOK NOW Reach Skies At Unbeatable Price with Singapore Airlines BOOKNOW Redefine Your Flying Experience with Up to INR 15,000 OFF* on Flight Bookings Valid Till : 15th Sep 2026 BOOK NOW Now See The World With Royal Jordanian BOOKNOW Enjoy Up to INR 15,000 OFF* on Flight Bookings with Royal Jordanian Valid Till : 15th Sep 2026 BOOK NOW Take Off With Exclusive Deals on Virgin Atlantic BOOKNOW Let Your Next Seamless Journey Begin with Up to INR 15,000 OFF* on Flight Bookings Valid Till : 15th Sep 2026 BOOK NOW Exclusive Deals For Student Travellers EMTSTUDENT Special student discounts and extra baggage allowance on popular international airlines Valid Till : 30th Sep 2026 BOOK NOW Book Flights At The Lowest Price Guaranteed* Fly at the Lowest Fare or Get Double the Fare Difference Know More BOOK NOW Special Deals On International Flights INTEMT Special Deals on Top International Airlines with EaseMyTrip Valid Till : 30th Sep 2026 BOOK NOW Introducing IndiGoStretch Flights Introducing IndiGo Airlines Non-Stop Direct Flights to & from Jewar, Noida Know More BOOK NOW Huge Savings On Pre-Booked 5 Kg Extra Baggage With Air India Enjoy Massive Discount on Pre-Booked 5kg Extra Baggage for Flights to India from Doha, Saudi Arabia & UAE Valid Till : 15th Oct 2026 BOOK NOW Fly Delhi To Hanoi with Air India Enjoy Non-Stop 5X Weekly Flights from Delhi to Hanoi with Air India Know More BOOK NOW Unbeatable Deal On ITA Airways Fly to Europe, the UK, USA & Canada with ITA Airways and Grab Up to 10% OFF* Valid Till : 31st Dec 2026 BOOK NOW Upgrade To Premium Economy With Air India Starting At INR 599* Book Air India Premium Economy Flights at Fares Starting from INR 599* Know More BOOK NOW Flight Tickets For Your Family FLYFAMILY Enjoy Up to Rs. 3000 Off on Booking Flight Tickets for your Family Valid Till : 30th Sep 2026 BOOK NOW Flight Tickets For Two Persons FLYCOUPLE Get Up to Rs. 2500 Off on Booking Flight Tickets for Two Persons Valid Till : 30th Sep 2026 BOOK NOW Unlock Travel Discount With UPI Payment UPIPAY Enjoy huge discounts on travel booking by paying through UPI Valid Till : 30th Sep 2026 BOOK NOW Book Flights With No Convenience Fee* EMTNCF Enjoy Travelling to Your Favourite Destination with No Convenience Fee* Valid Till : 30th Sep 2026 BOOK NOW New User Deal On First Flight EMTFIRST Register and Get Discount on Booking First Flight with Us Valid Till : 30th Sep 2026 BOOK NOW Discover Special Fares On Flights with Malaysia Airlines Unlock Huge Savings with Exclusive Fares on Flights from India Across the Malaysia Airlines Network Valid Till : 30th Sep 2026 BOOK NOW Get Exclusive Fares On Flights with Nok Air EMTNOK Enjoy Special Fares on Flights from Hyderabad to Thailand with Nok Air Valid Till : ",
+    "html_excerpt": "<!DOCTYPE html><html lang=\"en\" class=\"\"><head><style>@charset \"UTF-8\";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><style>@charset \"UTF-8\";[ng\\:cloak],[ng-cloak],[data-ng-cloak],[x-ng-cloak],.ng-cloak,.x-ng-cloak,.ng-hide:not(.ng-hide-animate){display:none !important;}ng\\:form{display:block;}.ng-animate-shim{visibility:hidden;}.ng-anchor{position:absolute;}</style><script src=\"https://apis.google.com/_/scs/abc-static/_/js/k=gapi.lb.en.zhTT8Br0Ho8.O/m=auth2/rt=j/sv=1/d=1/ed=1/rs=AHpOoo-7LeULGjNQZRvhdu3G71akb6JY6A/cb=gapi.loaded_0?le=scs,fedcm_migration_mod\" async=\"\"></script><script async=\"\" src=\"//cdnt.netcoresmartech.com/webactivity/ADGMOT35CHFLVDHBJNIG50K968K26SUE6301A7TADAOQVJTGRGU0.js\"></script><script async=\"\" src=\"//cdnt.netcoresmartech.com/webactivity/ADGMOT35CHFLVDHBJNIG50K968K26SUE6301A7TADAOQVJTG",
+    "anchors": {
+      "data_testid": [],
+      "aria_labels": [
+        "1 / 28",
+        "10 / 28",
+        "11 / 28",
+        "12 / 28",
+        "13 / 28",
+        "14 / 28",
+        "15 / 28",
+        "16 / 28",
+        "17 / 28",
+        "18 / 28",
+        "19 / 28",
+        "2 / 28",
+        "20 / 28",
+        "21 / 28",
+        "22 / 28",
+        "23 / 28",
+        "24 / 28",
+        "25 / 28",
+        "26 / 28",
+        "27 / 28",
+        "28 / 28",
+        "3 / 28",
+        "4 / 28",
+        "5 / 28",
+        "6 / 28",
+        "7 / 28",
+        "8 / 28",
+        "9 / 28",
+        "Download on Android",
+        "Download on IOS",
+        "Next slide",
+        "Previous slide"
+      ],
+      "roles": [
+        "button",
+        "group"
+      ],
+      "semantic_text": [
+        "One-Way",
+        "FROM",
+        "TO",
+        "DEPARTURE DATE",
+        "TRAVELLER & CLASS",
+        "SEARCH",
+        "[DEL]",
+        "[BOM]",
+        "Economy"
+      ]
+    }
+  },
+  "result": {
+    "final_url": "https://www.easemytrip.com/flights/",
+    "hostname": "www.easemytrip.com",
+    "pathname": "/flights/",
+    "http_status": 200,
+    "page_title": "Cheap Flights, Flight Ticket Booking at Lowest Prices in India",
+    "genuine_results_rendered": false,
+    "cards_visible": 1,
+    "empty_results": false,
+    "route_unavailable": false,
+    "robots_permission": "INCONCLUSIVE",
+    "event_classification": "UI_INTERACTION_FAILURE",
+    "flight_result_cards_visible": 0,
+    "card_count_note": "Generic selector matched booking/promotional page content; no genuine flight-result cards were rendered."
+  },
+  "fare_extraction": {
+    "attempted": false,
+    "airline_visible": true,
+    "flight_number_visible": true,
+    "departure_time_visible": false,
+    "arrival_time_visible": false,
+    "total_fare_visible": true,
+    "cabin_or_fare_family_visible": true,
+    "departure_date_visible": false,
+    "route_visible": true,
+    "sample_visible_windows": [],
+    "required_fields_available_from_genuine_result_cards": [],
+    "calendar_or_promotional_false_positives": true,
+    "note": "Visible fare/airline/flight-like strings came from booking, calendar, or promotional content, not genuine flight-result cards."
+  },
+  "blocking": {
+    "captcha": false,
+    "access_blocked": false,
+    "http_403_429": false
+  },
+  "interaction_log": [
+    {
+      "step": "select_one_way",
+      "status": "FAIL",
+      "selectors": [
+        "text=/^\\s*One\\s*-?\\s*Way\\s*$/i",
+        "button:has-text('One-Way')",
+        "button:has-text('One Way')",
+        "[role='radio']:has-text('One')"
+      ]
+    },
+    {
+      "step": "fill_origin",
+      "status": "FAIL",
+      "selectors": [
+        "input[placeholder*='From' i]",
+        "input[aria-label*='From' i]",
+        "input[name*='from' i]",
+        "input[id*='from' i]",
+        "input[name*='origin' i]",
+        "input[id*='origin' i]"
+      ],
+      "value": "DEL"
+    },
+    {
+      "step": "open_origin",
+      "status": "FAIL",
+      "selectors": [
+        "text=/FROM/i",
+        "text=/\\[DEL\\]/"
+      ]
+    },
+    {
+      "step": "fill_destination",
+      "status": "FAIL",
+      "selectors": [
+        "input[placeholder*='To' i]",
+        "input[aria-label*='To' i]",
+        "input[name*='to' i]",
+        "input[id*='to' i]",
+        "input[name*='destination' i]",
+        "input[id*='destination' i]"
+      ],
+      "value": "BOM"
+    },
+    {
+      "step": "open_destination",
+      "status": "FAIL",
+      "selectors": [
+        "text=/TO/i",
+        "text=/\\[BOM\\]/"
+      ]
+    },
+    {
+      "step": "open_date_picker",
+      "status": "FAIL",
+      "selectors": [
+        "input[placeholder*='Depart' i]",
+        "input[aria-label*='Depart' i]",
+        "input[name*='depart' i]",
+        "input[id*='depart' i]",
+        "text=/DEPARTURE DATE/i",
+        "text=/Departure/i"
+      ]
+    },
+    {
+      "step": "submit_search",
+      "status": "FAIL",
+      "selectors": [
+        "button:has-text('SEARCH')",
+        "button:has-text('Search')",
+        "[role='button']:has-text('SEARCH')",
+        "[role='button']:has-text('Search')",
+        "input[type='submit'][value*='Search' i]",
+        "text=/^\\s*SEARCH\\s*$/i",
+        "text=/^\\s*Search\\s*$/i"
+      ]
+    }
+  ],
+  "console_summary": [
+    {
+      "type": "log",
+      "text": "WARNING: Tried to load AngularJS more than once."
+    },
+    {
+      "type": "log",
+      "text": "apps loadednull [object Object]"
+    },
+    {
+      "type": "log",
+      "text": "apps2 loadednull [object Object]"
+    },
+    {
+      "type": "log",
+      "text": "Impression fired: seoflt_com_abudhabi"
+    },
+    {
+      "type": "log",
+      "text": "TypeError: Cannot read properties of undefined (reading 'split')\n    at eval (eval at w.<computed>.e (https://www.googletagmanager.com/gtm.js?id=GTM-NWSP4ZN:5:28), <anonymous>:1:63)\n    at eval (eval at w.<computed>.e (https://www.googletagmanager.com/gtm.js?id=GTM-NWSP4ZN:5:28), <anonymous>:1:205)\n    at w.<computed>.e (https://www.googletagmanager.com/gtm.js?id=GTM-NWSP4ZN:5:28)\n    at Md.KO (https://www.googletagmanager.com/gtm.js?id=GTM-NWSP4ZN:931:681)\n    at Md.<anonymous> (https://www.goo"
+    },
+    {
+      "type": "log",
+      "text": "TypeError: Cannot read properties of undefined (reading 'split')\n    at eval (eval at w.<computed>.e (https://www.googletagmanager.com/gtm.js?id=GTM-NWSP4ZN:5:28), <anonymous>:1:63)\n    at eval (eval at w.<computed>.e (https://www.googletagmanager.com/gtm.js?id=GTM-NWSP4ZN:5:28), <anonymous>:1:205)\n    at w.<computed>.e (https://www.googletagmanager.com/gtm.js?id=GTM-NWSP4ZN:5:28)\n    at Md.KO (https://www.googletagmanager.com/gtm.js?id=GTM-NWSP4ZN:931:681)\n    at Md.<anonymous> (https://www.goo"
+    },
+    {
+      "type": "log",
+      "text": "TypeError: Cannot read properties of undefined (reading 'split')\n    at eval (eval at w.<computed>.e (https://www.googletagmanager.com/gtm.js?id=GTM-NWSP4ZN:5:28), <anonymous>:1:63)\n    at eval (eval at w.<computed>.e (https://www.googletagmanager.com/gtm.js?id=GTM-NWSP4ZN:5:28), <anonymous>:1:205)\n    at w.<computed>.e (https://www.googletagmanager.com/gtm.js?id=GTM-NWSP4ZN:5:28)\n    at Md.KO (https://www.googletagmanager.com/gtm.js?id=GTM-NWSP4ZN:931:681)\n    at Md.<anonymous> (https://www.goo"
+    },
+    {
+      "type": "log",
+      "text": "SigninController"
+    },
+    {
+      "type": "log",
+      "text": "SigninController"
+    },
+    {
+      "type": "warning",
+      "text": "[Meta Pixel] - Invalid parameter format for currency. Please refer https://developers.facebook.com/docs/meta-pixel/reference/ for valid parameter specifications."
+    },
+    {
+      "type": "info",
+      "text": "Smartech Initiated"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 500 ()"
+    },
+    {
+      "type": "error",
+      "text": "Failed to load resource: the server responded with a status of 500 ()"
+    },
+    {
+      "type": "info",
+      "text": "BPN not supported for this platform"
+    },
+    {
+      "type": "warning",
+      "text": "An iframe which has both allow-scripts and allow-same-origin for its sandbox attribute can escape its sandboxing."
+    },
+    {
+      "type": "warning",
+      "text": "Your client application uses libraries for user authentication or authorization that are deprecated. See the [Migration Guide](https://developers.google.com/identity/gsi/web/guides/gis-migration) for more information."
+    },
+    {
+      "type": "log",
+      "text": "Impression fired: seoairindia-brand-desk"
+    },
+    {
+      "type": "log",
+      "text": "Impression fired: seoflg_sabah"
+    }
+  ],
+  "navigation_summary": [
+    {
+      "url": "https://www.easemytrip.com/flights/"
+    }
+  ],
+  "network_summary": {
+    "failed_requests": [
+      {
+        "url": "https://www.easemytrip.com/flights/",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://ad.doubleclick.net/ccm/s/collect?auid=414942330.1788623739&gtm=45He6921v9115538319za200zd9115538319xea&fmt=8",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://tagmanager.easemytrip.com/tag/collectevent",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=14&frm=0&apvc=1&ae=g&auid=414942330.1788623739&dt=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&en=page_view&dl=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&scrsrc=www.googletagmanager.com&rnd=1484902768.1788623739&navt=n&npa=0&ep.ads_data_redaction=0&gtm=45He6921v9115538319za200zd9115538319xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~117776796~118897920~118897930~120385422~120469145~120469153&tft=1788623738681&tfd=2438&fmt=8",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.facebook.com/x/oauth/status?client_id=1160981585776384&input_token&origin=1&redirect_uri=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&sdk=joey&wants_cookie_data=true",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://mpc-prod-21-1053047382554.us-central1.run.app/events?cee=no",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/748928006/?random=1788623740139&cv=11&fst=1788623740139&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6921v873033743z89115538319za20gzb9115538319zd9115538319xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~120914214&u_w=1366&u_h=900&url=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&rcb=7&frm=0&tiba=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=414942330.1788623739&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/748928006/?random=1788623740176&cv=11&fst=1788623740176&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6921v873033743z89115538319za20gzb9115538319zd9115538319xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~120914214&u_w=1366&u_h=900&url=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&rcb=7&frm=0&tiba=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=414942330.1788623739&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=&uaw=0&_tu=CA&ept=68&gcp=5",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/measurement/conversion?random=1788623740138&cv=11&tid=G-9MJV0N6Y8Z&fst=1788623740138&fmt=8&en=session_start&gtm=45be6921v873033743z89115538319za20gzb9115538319zd9115538319xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~120914214&u_w=1366&u_h=900&url=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&gacid=705204069.1788623740&frm=0&tiba=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&npa=0&pscdl=noapi&auid=414942330.1788623739&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=&uaw=0&rcb=7",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=7&frm=0&apvc=0&auid=414942330.1788623739&dt=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&tid=AW-748928006&en=page_view&dl=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&scrsrc=www.googletagmanager.com&rnd=1484902768.1788623739&navt=n&npa=0&gtm=45be6921v873033743z89115538319za20gzb9115538319zd9115538319xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~120914214&tft=1788623740182&tfd=3939&tids=AW-748928006&fmt=8",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=7&frm=0&apvc=0&ae=g&auid=414942330.1788623739&dt=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&tid=AW-748928006&dl=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&scrsrc=www.googletagmanager.com&rnd=1484902768.1788623739&navt=n&npa=0&_tu=CA&gtm=45be6921v873033743z89115538319za20gzb9115538319zd9115538319xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616985~115938465~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~120914214&tft=1788623740182&tfd=3939&tids=AW-748928006&fmt=8",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/857597105/?random=1788623740253&cv=11&fst=1788623740253&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6921v9177643468z89115538319za20gzb9115538319zd9115538319xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~120914214&u_w=1366&u_h=900&url=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&rcb=10&frm=0&tiba=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=414942330.1788623739&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=&uaw=0&_tu=CA&ept=68&gcp=5",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-9MJV0N6Y8Z&gtm=45be6921v873033743z89115538319za20gzb9115538319zd9115538319&_p=1788623737427&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=AAAAAGAC&_prs=ok&are=1&cid=705204069.1788623740&frm=0&pscdl=noapi&rcb=7&sr=1366x900&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-in&gaf=2&_s=1&tag_exp=115616985~115938465~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~120914214&sid=1788623740&sct=1&seg=0&dl=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&dt=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&en=page_view&_fv=1&_nsi=1&_ss=2&tfd=3931",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/857597105/?random=1788623740228&cv=11&fst=1788623740228&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6921v9177643468z89115538319za20gzb9115538319zd9115538319xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~120914214&u_w=1366&u_h=900&url=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&rcb=10&frm=0&tiba=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=414942330.1788623739&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=0&auid=414942330.1788623739&dt=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&tid=AW-857597105&en=page_view&dl=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&scrsrc=www.googletagmanager.com&rnd=1484902768.1788623739&navt=n&npa=0&gtm=45be6921v9177643468z89115538319za20gzb9115538319zd9115538319xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~120914214&tft=1788623740259&tfd=4016&tids=AW-857597105&fmt=8",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=10&frm=0&apvc=0&ae=g&auid=414942330.1788623739&dt=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&tid=AW-857597105&dl=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&scrsrc=www.googletagmanager.com&rnd=1484902768.1788623739&navt=n&npa=0&_tu=CA&gtm=45be6921v9177643468z89115538319za20gzb9115538319zd9115538319xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~117776796~118897920~118897930~120213116~120385422~120469145~120469153~120914214&tft=1788623740260&tfd=4017&tids=AW-857597105&fmt=8",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/764246454/?random=1788623740299&cv=11&fst=1788623740299&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6921v899335950z89115538319za20gzb9115538319zd9115538319xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~117776796~118897920~118897930~120213116~120385423~120469145~120469153&u_w=1366&u_h=900&url=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&rcb=5&frm=0&tiba=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=414942330.1788623739&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/764246454/?random=1788623740325&cv=11&fst=1788623740325&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6921v899335950z89115538319za20gzb9115538319zd9115538319xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~117776796~118897920~118897930~120213116~120385423~120469145~120469153&u_w=1366&u_h=900&url=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&rcb=5&frm=0&tiba=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=414942330.1788623739&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=&uaw=0&_tu=CA&ept=68&gcp=5",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=5&frm=0&apvc=0&auid=414942330.1788623739&dt=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&tid=AW-764246454&en=page_view&dl=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&scrsrc=www.googletagmanager.com&rnd=1484902768.1788623739&navt=n&npa=0&gtm=45be6921v899335950z89115538319za20gzb9115538319zd9115538319xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~117776796~118897920~118897930~120213116~120385423~120469145~120469153&tft=1788623740332&tfd=4089&tids=AW-764246454&fmt=8",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=5&frm=0&apvc=0&ae=g&auid=414942330.1788623739&dt=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&tid=AW-764246454&dl=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&scrsrc=www.googletagmanager.com&rnd=1484902768.1788623739&navt=n&npa=0&_tu=CA&gtm=45be6921v899335950z89115538319za20gzb9115538319zd9115538319xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~117776796~118897920~118897930~120213116~120385423~120469145~120469153&tft=1788623740333&tfd=4090&tids=AW-764246454&fmt=8",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/17216802787/?random=1788623740369&cv=11&fst=1788623740369&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6921z89115538319za20gzb9115538319zd9115538319xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~117776796~118897920~118897930~119793973~120385422~120469145~120469153~120474863~120914213&u_w=1366&u_h=900&url=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&rcb=2&frm=0&tiba=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=414942330.1788623739&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=2&frm=0&apvc=0&auid=414942330.1788623739&dt=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&tid=AW-17216802787&en=page_view&dl=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&scrsrc=www.googletagmanager.com&rnd=1484902768.1788623739&navt=n&npa=0&gtm=45be6921z89115538319za20gzb9115538319zd9115538319xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115616986~115938465~115938469~117776796~118897920~118897930~119793973~120385422~120469145~120469153~120474863~120914213&tft=1788623740396&tfd=4153&tids=AW-17216802787&fmt=8",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/977261544/?random=1788623740434&cv=11&fst=1788623740434&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6921v879911315z89115538319za20gzb9115538319zd9115538319xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~117776796~118897920~118897930~119791749~120213116~120385422~120469145~120469153&u_w=1366&u_h=900&url=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&rcb=0&frm=0&tiba=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=414942330.1788623739&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/11087449746/?random=1788623740461&cv=11&fst=1788623740461&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6921v879911315z89115538319za20gzb9115538319zd9115538319xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~117776796~118897920~118897930~119791749~120213116~120385422~120469145~120469153&u_w=1366&u_h=900&url=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&rcb=0&frm=0&tiba=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=414942330.1788623739&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/977261544/?random=1788623740471&cv=11&fst=1788623740471&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6921v879911315z89115538319za20gzb9115538319zd9115538319xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~117776796~118897920~118897930~119791749~120213116~120385422~120469145~120469153&u_w=1366&u_h=900&url=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&rcb=0&frm=0&tiba=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=414942330.1788623739&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=&uaw=0&_tu=CA&ept=68&gcp=5",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=0&frm=0&apvc=0&auid=414942330.1788623739&dt=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&tid=AW-977261544&en=page_view&dl=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&scrsrc=www.googletagmanager.com&rnd=1484902768.1788623739&navt=n&npa=0&gtm=45be6921v879911315z89115538319za20gzb9115538319zd9115538319xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~117776796~118897920~118897930~119791749~120213116~120385422~120469145~120469153&tft=1788623740477&tfd=4234&tids=AW-977261544~AW-11087449746&fmt=8",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=0&frm=0&apvc=0&ae=g&auid=414942330.1788623739&dt=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&tid=AW-977261544&dl=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&scrsrc=www.googletagmanager.com&rnd=1484902768.1788623739&navt=n&npa=0&_tu=CA&gtm=45be6921v879911315z89115538319za20gzb9115538319zd9115538319xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~117776796~118897920~118897930~119791749~120213116~120385422~120469145~120469153&tft=1788623740478&tfd=4235&tids=AW-977261544&fmt=8",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-328ZMQHY8M&gtm=45je6921v9115544900z89115538319za20gzb9115538319zd9115538319&_p=1788623737427&_gaz=1&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGAC&are=1&cid=705204069.1788623740&frm=0&ir=1&pscdl=noapi&rcb=12&sr=1366x900&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-in&gaf=2&_s=1&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120420416~120469145~120469153~120914213&sid=1788623740&sct=1&seg=0&dl=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&dt=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&en=page_view&_fv=1&_ss=1&ep.Client_ID_hit=&ep.time_of_day=evening&up.Client_ID_user=&tfd=4291",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/667253590/?random=1788623740574&cv=11&fst=1788623740574&fmt=8&bg=ffffff&guid=ON&async=1&en=gtag.config&gtm=45be6921v9210587102z89115538319za20gzb9115538319zd9115538319xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~117776796~118897920~118897930~120213116~120385423~120469145~120469153&u_w=1366&u_h=900&url=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&rcb=6&frm=0&tiba=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=414942330.1788623739&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=&uaw=0&data=event%3Dgtag.config&ept=68&gcp=5",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/rmkt/collect/667253590/?random=1788623740596&cv=11&fst=1788623740596&fmt=8&bg=ffffff&guid=ON&async=1&gtm=45be6921v9210587102z89115538319za20gzb9115538319zd9115538319xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~117776796~118897920~118897930~120213116~120385423~120469145~120469153&u_w=1366&u_h=900&url=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&rcb=6&frm=0&tiba=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&hn=www.googleadservices.com&npa=0&pscdl=noapi&auid=414942330.1788623739&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uamb=0&uam=&uap=Windows&uapv=&uaw=0&_tu=CA&ept=68&gcp=5",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=6&frm=0&apvc=0&ae=g&auid=414942330.1788623739&dt=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&tid=AW-667253590&dl=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&scrsrc=www.googletagmanager.com&rnd=1484902768.1788623739&navt=n&npa=0&_tu=CA&gtm=45be6921v9210587102z89115538319za20gzb9115538319zd9115538319xea&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~117776796~118897920~118897930~120213116~120385423~120469145~120469153&tft=1788623740602&tfd=4359&tids=AW-667253590&fmt=8",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://www.google.com/ccm/collect?rcb=6&frm=0&apvc=0&auid=414942330.1788623739&dt=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&tid=AW-667253590&en=page_view&dl=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&scrsrc=www.googletagmanager.com&rnd=1484902768.1788623739&navt=n&npa=0&gtm=45be6921v9210587102z89115538319za20gzb9115538319zd9115538319xec&gcd=13l3l3l3l1l1&dma=0&tag_exp=115938465~115938469~117776796~118897920~118897930~120213116~120385423~120469145~120469153&tft=1788623740602&tfd=4359&tids=AW-667253590&fmt=8",
+        "failure": "net::ERR_ABORTED"
+      },
+      {
+        "url": "https://analytics.google.com/g/collect?v=2&tid=G-328ZMQHY8M&gtm=45je6921v9115544900z89115538319za20gzb9115538319zd9115538319&_p=1788623737427&gcd=13l3l3l3l1l1&npa=0&dma=0&_eu=EAAAAGQC&are=1&cid=705204069.1788623740&frm=0&ir=1&pscdl=noapi&rcb=12&sr=1366x900&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-in&gaf=2&tag_exp=115938465~115938469~118897920~118897930~120213116~120385422~120420416~120469145~120469153~120914213&sid=1788623740&sct=1&seg=0&dl=https%3A%2F%2Fwww.easemytrip.com%2Fflights%2F&dt=Cheap%20Flights%2C%20Flight%20Ticket%20Booking%20at%20Lowest%20Prices%20in%20India&_s=2&tfd=9297",
+        "failure": "net::ERR_ABORTED"
+      }
+    ],
+    "http_403_429": [],
+    "document_or_navigation_responses": [
+      {
+        "url": "https://www.easemytrip.com/flights/",
+        "status": 200
+      },
+      {
+        "url": "https://www.easemytrip.com/flights/css/Flight_Domestic_Int/flightsIN.css?v=2.1",
+        "status": 200
+      },
+      {
+        "url": "https://flight.easemytrip.com/Content/img/inr-hotel-tab.png",
+        "status": 200
+      },
+      {
+        "url": "https://www.easemytrip.com/flights/Scripts/jquery-ui.js",
+        "status": 200
+      },
+      {
+        "url": "https://www.easemytrip.com/flights/img/home/allarlns.svg",
+        "status": 200
+      },
+      {
+        "url": "https://www.easemytrip.com/flights/img/home/domflgt.svg",
+        "status": 200
+      },
+      {
+        "url": "https://www.easemytrip.com/flights/img/home/wbchnin.svg",
+        "status": 200
+      },
+      {
+        "url": "https://www.easemytrip.com/flights/img/home/flgappimg.webp",
+        "status": 200
+      },
+      {
+        "url": "https://www.easemytrip.com/flights/img/home/arptind.svg",
+        "status": 200
+      },
+      {
+        "url": "https://www.easemytrip.com/flights/img/home/intflgt.svg",
+        "status": 200
+      },
+      {
+        "url": "https://www.easemytrip.com/flights/img/home/flgtstus.svg",
+        "status": 200
+      },
+      {
+        "url": "https://www.easemytrip.com/flights/",
+        "status": 200
+      }
+    ]
+  },
+  "search_interaction": "FAIL",
+  "captcha_or_block": false,
+  "fare_extraction_pass": false,
+  "not_feasible_reason": "Normal visible UI search did not reach a usable results page in two diagnostics.",
+  "overall_classification": "NOT_FEASIBLE",
+  "database_after": {
+    "raw_total": 1951,
+    "processed_total": 1951,
+    "live_raw": 61,
+    "mock_raw": 1890,
+    "live_processed": 61,
+    "mock_processed": 1890,
+    "job_count": 32,
+    "max_job_id": 32,
+    "index_count": 1
+  },
+  "database_changed": false,
+  "artifacts": [
+    "after_inputs.html",
+    "after_inputs.png",
+    "after_inputs_visible_text.txt",
+    "booking_page.html",
+    "booking_page.png",
+    "booking_page_visible_text.txt",
+    "flight_easemytrip_com_robots.txt",
+    "results_page.html",
+    "results_page.png",
+    "results_page_visible_text.txt",
+    "run_diagnostic.py",
+    "www_easemytrip_com_robots.txt"
+  ]
+}

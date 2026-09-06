@@ -1,0 +1,319 @@
+{
+  "clicks": [
+    {
+      "time": "2026-09-05T04:54:11.428Z",
+      "x": 416,
+      "y": 550,
+      "path": [
+        {
+          "tag": "DIV",
+          "text": "Search Flight",
+          "dataTestid": "home-page-flight-cta",
+          "role": null,
+          "className": "css-1dbjc4n r-1awozwy r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73"
+        },
+        {
+          "tag": "DIV",
+          "text": "Search Flight",
+          "dataTestid": null,
+          "role": null,
+          "className": "css-1dbjc4n"
+        },
+        {
+          "tag": "DIV",
+          "text": "Search Flight",
+          "dataTestid": null,
+          "role": null,
+          "className": "css-1dbjc4n r-18u37iz r-1wtj0ep r-156q2ks r-1lgpqti"
+        },
+        {
+          "tag": "DIV",
+          "text": "Welcome aboard Let's go places! Book your Charter One Way Round Trip From To Departure Date Sat, 5 Sep 2026 Return Date ",
+          "dataTestid": null,
+          "role": null,
+          "className": "css-1dbjc4n r-1pcd2l5 r-k8qxaj r-glunga r-bnwqim"
+        },
+        {
+          "tag": "DIV",
+          "text": "Flights Check-In Flight Status Manage Booking Welcome aboard Let's go places! Book your Charter One Way Round Trip From ",
+          "dataTestid": null,
+          "role": null,
+          "className": "css-1dbjc4n r-14lw9ot r-z2wwpe r-vgw6uq r-156q2ks r-11ict49 r-8uuktl r-136ojw6"
+        },
+        {
+          "tag": "DIV",
+          "text": "Add-ons SpiceMax SpiceCaf\u00e9 You1st Visa Services SpiceAssurance Friends and Family Senior Citizen Discount Student Discou",
+          "dataTestid": null,
+          "role": null,
+          "className": "css-1dbjc4n r-14lw9ot"
+        },
+        {
+          "tag": "DIV",
+          "text": "Add-ons SpiceMax SpiceCaf\u00e9 You1st Visa Services SpiceAssurance Friends and Family Senior Citizen Discount Student Discou",
+          "dataTestid": "application-id",
+          "role": null,
+          "className": "css-1dbjc4n r-1niwhzg r-1jgb5lz r-r0h9e2 r-13qz1uu"
+        },
+        {
+          "tag": "DIV",
+          "text": "Add-ons SpiceMax SpiceCaf\u00e9 You1st Visa Services SpiceAssurance Friends and Family Senior Citizen Discount Student Discou",
+          "dataTestid": null,
+          "role": null,
+          "className": "css-1dbjc4n r-akgwms r-13awgt0 r-1pi2tsx r-p1pxzi r-sa2ff0 r-1udh08x"
+        }
+      ]
+    }
+  ],
+  "mutations": [
+    {
+      "time": "2026-09-05T04:54:11.417Z",
+      "count": 1,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.422Z",
+      "count": 1,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.432Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.444Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.461Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.477Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.494Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.511Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.528Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.545Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.561Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.578Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.594Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.611Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.627Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.686Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.687Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.694Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.711Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.727Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.744Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.761Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.778Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.794Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.811Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.827Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.844Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.862Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.877Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.894Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.911Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.927Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.944Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.961Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.978Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:11.994Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:12.011Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:12.027Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:12.044Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:12.062Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:12.077Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:12.094Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:12.111Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:12.128Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:12.144Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:12.160Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:12.177Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:12.194Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:12.212Z",
+      "count": 3,
+      "url": "https://www.spicejet.com/"
+    },
+    {
+      "time": "2026-09-05T04:54:12.227Z",
+      "count": 4,
+      "url": "https://www.spicejet.com/"
+    }
+  ]
+}

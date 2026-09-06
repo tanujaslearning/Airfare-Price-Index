@@ -1,0 +1,71 @@
+{
+  "timestamp": "2026-09-05T03:37:10.570852+00:00",
+  "target": {
+    "source": "Air India",
+    "origin": "DEL",
+    "destination": "BOM",
+    "travel_date": "2026-09-05",
+    "collection_date": "2026-09-04",
+    "advance_window": "T+1",
+    "passengers": 1,
+    "cabin": "Economy",
+    "trip_type": "one-way"
+  },
+  "classification": "UNKNOWN",
+  "result": "FAILURE",
+  "robots": null,
+  "initial_url": "https://www.airindia.com/en-in/book-flights/",
+  "final_url": null,
+  "http_status": null,
+  "page_title": null,
+  "page_rendered": false,
+  "js_booking_ui_rendered": false,
+  "origin_selected": false,
+  "destination_selected": false,
+  "date_selected": false,
+  "passenger_class_selected": false,
+  "search_submitted": false,
+  "results_page_reached": false,
+  "results_rendered": false,
+  "visible_candidate_cards": 0,
+  "flight_cards_visible": false,
+  "actual_fare_visible": false,
+  "flight_number_visible": false,
+  "origin_destination_visible": false,
+  "departure_arrival_visible": false,
+  "captcha_block_detected": false,
+  "block_terms": [],
+  "no_inventory_terms": [],
+  "network_browser_error": null,
+  "interaction_log": [],
+  "console_errors": [],
+  "network_failures": [],
+  "candidate_summary": {},
+  "database_before": {
+    "size": 1318912,
+    "mtime_epoch": 1788579116.9334743,
+    "mtime_text": "2026-09-05T09:01:56.933474",
+    "latest_job_id": 13,
+    "live_quote_count": 12,
+    "raw_count": 1902
+  },
+  "database_after": {
+    "size": 1318912,
+    "mtime_epoch": 1788579116.9334743,
+    "mtime_text": "2026-09-05T09:01:56.933474",
+    "latest_job_id": 13,
+    "live_quote_count": 12,
+    "raw_count": 1902
+  },
+  "database_changed": false,
+  "no_scraping_job_created": true,
+  "no_quotes_inserted": true,
+  "diagnostic_artifacts": "diagnostics\\air_india_t1_2026-09-05",
+  "errors": [
+    {
+      "step": "robots",
+      "type": "ReadTimeout",
+      "message": ""
+    }
+  ]
+}

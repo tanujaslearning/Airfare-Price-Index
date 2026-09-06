@@ -1,0 +1,156 @@
+{
+  "timestamp": "2026-09-05T03:52:43.365024+00:00",
+  "target": {
+    "source": "SpiceJet",
+    "origin": "DEL",
+    "destination": "BOM",
+    "travel_date": "2026-09-05",
+    "collection_date": "2026-09-04",
+    "advance_window": "T+1",
+    "passengers": 1,
+    "cabin": "Economy",
+    "trip_type": "one-way"
+  },
+  "result": "FAILURE",
+  "classification": "SEARCH_INTERACTION_FAILURE",
+  "robots": {
+    "timestamp": "2026-09-05T03:52:45.613388+00:00",
+    "robots_txt_url": "https://www.spicejet.com/robots.txt",
+    "response_status": 200,
+    "response_time_ms": 1310.0,
+    "target_url": "https://www.spicejet.com/",
+    "relevant_path": "/",
+    "allowed": true,
+    "crawl_delay": null
+  },
+  "initial_url": "https://www.spicejet.com/",
+  "final_url": "https://www.spicejet.com/",
+  "http_status": 200,
+  "page_title": "SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets",
+  "page_rendered": true,
+  "js_booking_ui_rendered": true,
+  "origin_selected": true,
+  "destination_selected": false,
+  "date_selected": false,
+  "passenger_count_selected": true,
+  "cabin_selected": false,
+  "search_submitted": false,
+  "search_completed": false,
+  "results_page_reached": false,
+  "results_rendered": false,
+  "flight_cards_visible": false,
+  "visible_candidate_card_count": 0,
+  "fields_visible": {
+    "flight_number": false,
+    "origin_destination": false,
+    "departure_arrival": false,
+    "total_fare": false,
+    "cabin_fare_type": false
+  },
+  "nearby_airport_handling": "not_assessed",
+  "captcha_block": false,
+  "block_terms": [],
+  "network_browser_error": null,
+  "interaction_log": [
+    {
+      "step": "robots_and_rate_limit",
+      "status": "ok"
+    },
+    {
+      "step": "goto_booking",
+      "status": "ok",
+      "http_status": 200
+    },
+    {
+      "step": "initial_render",
+      "status": "ok",
+      "body_chars": 6163
+    },
+    {
+      "step": "select_one_way",
+      "label": "one_way",
+      "status": "ok"
+    },
+    {
+      "step": "select_origin",
+      "label": "origin",
+      "status": "ok",
+      "value": "Delhi"
+    },
+    {
+      "step": "select_origin_suggestion",
+      "status": "ok",
+      "selected": "DEL"
+    },
+    {
+      "step": "select_destination",
+      "label": "destination",
+      "status": "ok",
+      "value": "Mumbai"
+    },
+    {
+      "step": "select_destination_suggestion",
+      "status": "failed",
+      "errors": []
+    },
+    {
+      "step": "select_departure_date",
+      "label": "open_date",
+      "status": "ok"
+    },
+    {
+      "step": "select_departure_date_value",
+      "label": "select_date",
+      "status": "failed",
+      "errors": []
+    },
+    {
+      "step": "passenger_cabin",
+      "status": "visible_or_default",
+      "passenger": true,
+      "cabin": false
+    },
+    {
+      "step": "submit_search",
+      "label": "submit_search",
+      "status": "failed",
+      "errors": []
+    }
+  ],
+  "console_errors": [
+    {
+      "type": "warning",
+      "text": "🚀 container.buildInfo.environment is deprecated.Please use `container.environment.stage` instead"
+    },
+    {
+      "type": "warning",
+      "text": "🚀 container.buildInfo.environment is deprecated.Please use `container.environment.stage` instead"
+    }
+  ],
+  "network_failures": [],
+  "candidate_summary": {},
+  "errors": [],
+  "database_before": {
+    "size": 1318912,
+    "mtime_epoch": 1788579116.9334743,
+    "mtime_text": "2026-09-05T09:01:56.933474",
+    "latest_job_id": 13,
+    "live_quote_count": 12,
+    "raw_count": 1902
+  },
+  "database_after": {
+    "size": 1318912,
+    "mtime_epoch": 1788579116.9334743,
+    "mtime_text": "2026-09-05T09:01:56.933474",
+    "latest_job_id": 13,
+    "live_quote_count": 12,
+    "raw_count": 1902
+  },
+  "database_changed": false,
+  "no_scraping_job_created": true,
+  "no_quotes_inserted": true,
+  "diagnostic_artifacts": "diagnostics\\spicejet_t1_2026-09-05",
+  "artifact_body_error": "TargetClosedError('Locator.inner_text: Target page, context or browser has been closed')",
+  "artifact_html_error": "TargetClosedError('Page.content: Target page, context or browser has been closed')",
+  "artifact_screenshot_error": "TargetClosedError('Page.screenshot: Target page, context or browser has been closed')"
+}

@@ -1,0 +1,1451 @@
+{
+  "timestamp": "2026-09-05T04:27:47.237855+00:00",
+  "target": {
+    "origin": "DEL",
+    "destination": "BOM",
+    "travel_date": "2026-09-05",
+    "passengers": 1,
+    "cabin": "Economy",
+    "trip_type": "one-way"
+  },
+  "database_before": {
+    "size": 1318912,
+    "mtime_epoch": 1788579116.9334743,
+    "mtime_text": "2026-09-05T09:01:56.933474",
+    "latest_job_id": 13,
+    "live_quote_count": 12,
+    "raw_count": 1902
+  },
+  "result": "SUCCESS",
+  "root_cause_classification": "UNKNOWN",
+  "captcha_block": false,
+  "search_button_clicked": true,
+  "navigation_occurred": true,
+  "new_page_or_tab": false,
+  "network_request_generated_after_click": true,
+  "relevant_requests_after_click": [
+    {
+      "phase": "after_click",
+      "url": "https://sg-images.spicejet.com/Desktop/SpiceClubAxisCC_Desktop2.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:06.283256+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/45e66c1b2d55e84ee4b40.chunk.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:28:07.201221+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/loader.gif",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:07.201917+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://spicejetltd.tt.omtrdc.net/m2/spicejetltd/mbox/json?mbox=target-global-mbox&mboxSession=%3Credacted%3E&mboxPC=1876c1fe19f54545b68a0d32f9911611.41_0&mboxPage=c5aad945e39f4bf3844ad6046d980306&mboxRid=9dc4190c903c43d49744531bc4b09bc6&mboxVersion=1.8.3&mboxCount=2&mboxTime=1788602287145&mboxHost=www.spicejet.com&mboxURL=%3Comitted%3E&mboxReferrer=&browserHeight=800&browserWidth=1280&browserTimeOffset=330&screenHeight=800&screenWidth=1280&colorDepth=24&devicePixelRatio=1&screenOrientation=landscape&webGLRenderer=%3Comitted%3E&mboxMCSDID=64176D7738D9DEC6-1B24BE2FBD099855&mboxMCGVID=01921398374727348210255708549652437491&mboxAAMB=%3Comitted%3E&mboxMCGLH=12",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "xhr",
+      "time": "2026-09-05T04:28:07.207613+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/17566e4f1043e1b7d48f9a.chunk.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:28:07.208516+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/api/v1/search/getStationDetails?getAllCities=true&getPopular=true",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:28:07.274479+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://eu1.clevertap-prod.com/a?t=96&type=push&d=%3Comitted%3E&rn=5&i=1788582487&sn=0&gc=542815a38af04f9d93fcb38d8606e6a3&arp=%3Comitted%3E&tries=1&origin=https%3A%2F%2Fwww.spicejet.com&useIP=true&r=1788582487085",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:28:07.327046+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/direct.svg",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:07.362631+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/connecting.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:07.363285+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/v1.svg",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:07.364344+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/hopping.svg",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:07.365136+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/api/v3/search/availability",
+      "method": "POST",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:28:07.482513+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/sc-logo-rb.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:07.648290+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/spice-club-logo-white.svg",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:07.652057+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://eu1.clevertap-prod.com/a?t=96&type=push&d=%3Comitted%3E&rn=6&i=1788582487&sn=0&gc=542815a38af04f9d93fcb38d8606e6a3&arp=%3Comitted%3E&tries=1&origin=https%3A%2F%2Fwww.spicejet.com&useIP=true&r=1788582487232",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:28:07.656454+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/api/v2/search/lowfare",
+      "method": "POST",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:28:07.656765+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/api/v1/payment/resetPartialPaymentState",
+      "method": "DELETE",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:28:07.695933+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://eu1.clevertap-prod.com/a?t=96&type=push&d=%3Comitted%3E&rn=7&i=1788582487&sn=1&gc=542815a38af04f9d93fcb38d8606e6a3&arp=%3Comitted%3E&tries=1&origin=https%3A%2F%2Fwww.spicejet.com&useIP=true&r=1788582487515",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:28:07.844561+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/api/v1/booking/create",
+      "method": "POST",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:28:08.942858+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/api/v1/payment/currencyConverter/INR",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:28:09.128631+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/api/v1/payment/currencyConverterToINR/INR",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:28:09.256169+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-TYDTTL8M1K&gtm=45je6921v9132932977za20g&_p=1788582472071&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAIACQC&are=1&cid=1151316894.1788582484&frm=0&ibt=1&ir=1&ngs=1&pscdl=noapi&rcb=10&sr=1280x800&uaa=x86&uab=64&uafvl=%3Comitted%3E&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-in&_s=2&tag_exp=%3Comitted%3E&dl=%3Comitted%3E&dt=%3Comitted%3E&sid=%3Credacted%3E&sct=1&seg=1&en=page_view&_ee=1&gap.uat=%3Comitted%3E&_et=2474&tfd=23729",
+      "method": "POST",
+      "status": 204,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:28:12.178355+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-TYDTTL8M1K&gtm=45je6921v9132932977za20g&_p=1788582472071&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAIACQC&are=1&cid=1151316894.1788582484&frm=0&ibt=1&ir=1&ngs=1&pscdl=noapi&rcb=10&sr=1280x800&uaa=x86&uab=64&uafvl=%3Comitted%3E&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-in&_s=2&tag_exp=%3Comitted%3E&dl=%3Comitted%3E&dt=%3Comitted%3E&sid=%3Credacted%3E&sct=1&seg=1&en=page_view&_ee=1&gap.uat=%3Comitted%3E&_et=2474&tfd=23729",
+      "method": "POST",
+      "resource_type": "fetch",
+      "failure": "net::ERR_ABORTED",
+      "time": "2026-09-05T04:28:12.178820+00:00"
+    }
+  ],
+  "navigation_events": [
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/",
+      "main_frame": true,
+      "time": "2026-09-05T04:27:48.731914+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "about:blank",
+      "main_frame": false,
+      "time": "2026-09-05T04:27:49.695695+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "about:blank",
+      "main_frame": false,
+      "time": "2026-09-05T04:27:50.566144+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://api.juspay.in/payjs-iframe-sender",
+      "main_frame": false,
+      "time": "2026-09-05T04:27:50.597606+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://spicejet.demdex.net/dest5.html?d_nsid=%3Credacted%3E",
+      "main_frame": false,
+      "time": "2026-09-05T04:27:59.813396+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/",
+      "main_frame": true,
+      "time": "2026-09-05T04:28:04.166277+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/search?from=DEL&to=BOM&tripType=1&departure=2026-09-05&adult=1&child=0&srCitizen=0&infant=0&currency=INR&redirectTo=%2F",
+      "main_frame": true,
+      "time": "2026-09-05T04:28:07.087390+00:00"
+    }
+  ],
+  "popup_events": [],
+  "console_events": [
+    {
+      "phase": "before_click",
+      "type": "warning",
+      "text": "\ud83d\ude80 container.buildInfo.environment is deprecated.Please use `container.environment.stage` instead",
+      "time": "2026-09-05T04:27:52.352912+00:00"
+    },
+    {
+      "phase": "before_click",
+      "type": "warning",
+      "text": "\ud83d\ude80 container.buildInfo.environment is deprecated.Please use `container.environment.stage` instead",
+      "time": "2026-09-05T04:27:52.353090+00:00"
+    },
+    {
+      "phase": "after_click",
+      "type": "warning",
+      "text": "Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. More info: https://github.com/facebook/react-native/issues/11094#issuecomment-263240420",
+      "time": "2026-09-05T04:28:06.222992+00:00"
+    }
+  ],
+  "request_failures": [
+    {
+      "phase": "before_click",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-TYDTTL8M1K&gtm=45je6921v9132932977za20g&_p=1788582472071&_gaz=1&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAIACAC&are=1&cid=1151316894.1788582484&frm=0&ibt=1&ir=1&ngs=1&pscdl=noapi&rcb=10&sr=1280x800&uaa=x86&uab=64&uafvl=%3Comitted%3E&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-in&_s=1&tag_exp=%3Comitted%3E&dl=https%3A%2F%2Fwww.spicejet.com%2F&dt=%3Comitted%3E&sid=%3Credacted%3E&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&gap.uat=%3Comitted%3E&tfd=16246",
+      "method": "POST",
+      "resource_type": "fetch",
+      "failure": "net::ERR_ABORTED",
+      "time": "2026-09-05T04:28:04.811182+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-TYDTTL8M1K&gtm=45je6921v9132932977za20g&_p=1788582472071&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAIACQC&are=1&cid=1151316894.1788582484&frm=0&ibt=1&ir=1&ngs=1&pscdl=noapi&rcb=10&sr=1280x800&uaa=x86&uab=64&uafvl=%3Comitted%3E&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-in&_s=2&tag_exp=%3Comitted%3E&dl=%3Comitted%3E&dt=%3Comitted%3E&sid=%3Credacted%3E&sct=1&seg=1&en=page_view&_ee=1&gap.uat=%3Comitted%3E&_et=2474&tfd=23729",
+      "method": "POST",
+      "resource_type": "fetch",
+      "failure": "net::ERR_ABORTED",
+      "time": "2026-09-05T04:28:12.178820+00:00"
+    }
+  ],
+  "response_events": [
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "document",
+      "time": "2026-09-05T04:27:48.728317+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/0.ce51e36ca714463b0a0e.css",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "stylesheet",
+      "time": "2026-09-05T04:27:48.836976+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/styles.css",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "stylesheet",
+      "time": "2026-09-05T04:27:48.838076+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/54.ce51e36ca714463b0a0e.css",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "stylesheet",
+      "time": "2026-09-05T04:27:48.839063+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/iconsdfd17eabbfb723460a77.chunk.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:48.839826+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/foreground.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:48.877051+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/runtimea269c8262458d180b570.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:48.878379+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://fonts.googleapis.com/css2?family=Poppins%3Awght%40300%3B400%3B500%3B600%3B700%3B800%3B900&display=swap",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "stylesheet",
+      "time": "2026-09-05T04:27:49.072753+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/icons~main5dfbe40f4ec3c2da7990.chunk.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:49.089713+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.gstatic.com/firebasejs/4.10.1/firebase.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:49.158844+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://connect.facebook.net/en_US/fbevents.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:49.160643+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/main0db8025c3fa67975c557.chunk.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:49.321393+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://d2r1yp2w7bby2u.cloudfront.net/js/clevertap.min.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:49.374062+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://connect.facebook.net/signals/config/464812716565893?v=2.9.393&r=stable&domain=www.spicejet.com&hme=%3Comitted%3E&ex_m=%3Comitted%3E",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:49.505914+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/vendors61da25bbbd85eb715f5e.chunk.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:49.567438+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/v1.svg",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:49.962044+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/fb.svg",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:49.962734+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/yt.svg",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:49.963554+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/tw1.svg",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:49.963996+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/lin.svg",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:49.964719+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/visa.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:49.965079+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/discover.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:49.965495+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/android.svg",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:49.966963+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/ios.svg",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:49.967606+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/master-card.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:49.967861+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/american-express.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:49.968056+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/ig.svg",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:49.969181+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/bhim.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:49.969453+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/nb.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:49.969677+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/diners-club.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:49.969888+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/rupay.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:49.970060+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.facebook.com/tr/",
+      "method": "POST",
+      "status": 200,
+      "resource_type": "ping",
+      "time": "2026-09-05T04:27:49.971742+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://eu1.clevertap-prod.com/a?t=96&type=push&d=%3Comitted%3E&optOut=false&rn=1&i=1788582469&sn=0&tries=1&origin=https%3A%2F%2Fwww.spicejet.com&useIP=true&r=1788582469389",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:49.976010+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/api/v1/search/getStationDetails?getAllCities=true&getPopular=true",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:27:49.976557+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/api/v1/content/homeBanners",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:27:49.976888+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/unavailable-image.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:50.098657+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/loader.gif",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:50.099093+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://sg-images.spicejet.com/website/MainComponent/common/SpiceClubSec/scbg1.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:50.150557+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLEj6V1s.ttf",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "font",
+      "time": "2026-09-05T04:27:50.151153+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiEyp8kv8JHgFVrFJA.ttf",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "font",
+      "time": "2026-09-05T04:27:50.151488+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/api/v1/featureconfig/getAllFeatureConfig",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:27:50.153048+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/api/v1/metaInfo/getAllMetaInfo",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:27:50.154004+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/api/v1/mealsMetaInfo/getAllMealsInfo",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:27:50.154308+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://api.juspay.in/pay-v3.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:50.154746+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLCz7V1s.ttf",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "font",
+      "time": "2026-09-05T04:27:50.154964+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://sg-images.spicejet.com/Desktop/Web-Banner-Anniversary2.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:50.320388+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/api/v1/token",
+      "method": "POST",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:27:50.399925+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://snap.licdn.com/li.lms-analytics/insight.min.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:50.400377+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://edge.fullstory.com/s/fs.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:50.417265+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://api.juspay.in/payjs-iframe-sender",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "document",
+      "time": "2026-09-05T04:27:50.594966+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://api.juspay.in/js/pay-events.js?v=3_4",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "other",
+      "time": "2026-09-05T04:27:50.601490+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://snap.licdn.com/li.lms-analytics/insight.old.min.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:50.601693+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://eu1.clevertap-prod.com/a?t=96&type=page&d=%3Comitted%3E&rn=2&i=1788582469&sn=0&s=1788582470&gc=542815a38af04f9d93fcb38d8606e6a3&tries=1&origin=https%3A%2F%2Fwww.spicejet.com&useIP=true&r=1788582470535",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:50.709160+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://edge.fullstory.com/s/settings/JEM2D/v1/web",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "xhr",
+      "time": "2026-09-05T04:27:50.735568+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://sg-images.spicejet.com/website/MainComponent/common/ImportantLinks/chng.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:50.748397+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://sg-images.spicejet.com/website/MainComponent/common/ImportantLinks/creditcard.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:50.750557+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://sg-images.spicejet.com/website/MainComponent/common/ImportantLinks/clubIco.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:50.753340+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://sg-images.spicejet.com/website/MainComponent/common/ImportantLinks/visaservices.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:50.753941+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://sg-images.spicejet.com/website/MainComponent/common/ImportantLinks/gst.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:50.755755+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://sg-images.spicejet.com/website/MainComponent/common/Announcements/prev.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:50.755970+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://sg-images.spicejet.com/website/MainComponent/common/Announcements/next.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:50.756125+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://sg-images.spicejet.com/website/MainComponent/common/DealsPromotions/sjlogo.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:50.756272+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://eu1.clevertap-prod.com/a?t=96&type=push&d=%3Comitted%3E&rn=4&i=1788582469&sn=0&s=1788582470&gc=542815a38af04f9d93fcb38d8606e6a3&tries=1&origin=https%3A%2F%2Fwww.spicejet.com&useIP=true&r=1788582470536",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:50.817264+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://eu1.clevertap-prod.com/a?t=96&type=push&d=%3Comitted%3E&rn=3&i=1788582469&sn=0&s=1788582470&gc=542815a38af04f9d93fcb38d8606e6a3&tries=1&origin=https%3A%2F%2Fwww.spicejet.com&useIP=true&r=1788582470535",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:50.817623+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=1042755&time=1788582470609&li_adsId=%3Credacted%3E&url=https%3A%2F%2Fwww.spicejet.com%2F",
+      "method": "GET",
+      "status": 302,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:51.028028+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://sg-images.spicejet.com/Desktop/SpiceMax-Home-page-30-Sep.jpeg",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:51.051275+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://px.ads.linkedin.com/attribution_trigger?pid=1042755&time=1788582470609&url=https%3A%2F%2Fwww.spicejet.com%2F",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "xhr",
+      "time": "2026-09-05T04:27:51.107321+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://rs.fullstory.com/rec/page",
+      "method": "POST",
+      "status": 202,
+      "resource_type": "xhr",
+      "time": "2026-09-05T04:27:51.329231+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://sg-images.spicejet.com/Desktop/Visa_Homepage_banner_23Aug.jpg",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:51.329409+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=1042755&time=1788582470609&li_adsId=%3Credacted%3E&url=https%3A%2F%2Fwww.spicejet.com%2F&cookiesTest=true",
+      "method": "GET",
+      "status": 302,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:51.359833+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://sg-images.spicejet.com/Desktop/SpiceClubAxisCC_Desktop2.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:51.537322+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.linkedin.com/px/li_sync?redirect=%3Comitted%3E",
+      "method": "GET",
+      "status": 302,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:51.747768+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://px.ads.linkedin.com/collect?v=2&fmt=js&pid=1042755&time=1788582470609&li_adsId=%3Credacted%3E&url=https%3A%2F%2Fwww.spicejet.com%2F&cookiesTest=true&liSync=true",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:52.063266+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://js-agent.newrelic.com/nr-1184.min.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:52.206616+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/manifest.json",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:27:52.241881+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://static.ads-twitter.com/uwt.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:52.260687+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.googletagmanager.com/gtm.js?id=GTM-TVQ8NL3",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:52.302082+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://assets.adobedtm.com/537dbdb6fad9/0ee804a032d6/launch-128555ff1d51.min.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:52.335382+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://assets.adobedtm.com/extensions/EP308220a2a4c4403f97fc1960100db40f/AppMeasurement.min.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:52.415407+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://analytics.twitter.com/i/adsct?bci=3&dv=%3Comitted%3E&eci=2&event_id=01a264b2-c3de-4eb8-b017-53efee0f3196&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=20251df1-3b76-4183-841e-cd19b1b91258&pt=%3Comitted%3E&tw_document_href=https%3A%2F%2Fwww.spicejet.com%2F&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1788582472266.8851327936748406&txn_id=o3hv3&type=javascript&version=2.4.4",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:52.660101+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://t.co/i/adsct?bci=3&dv=%3Comitted%3E&eci=2&event_id=01a264b2-c3de-4eb8-b017-53efee0f3196&events=%5B%5B%22pageview%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=20251df1-3b76-4183-841e-cd19b1b91258&pt=%3Comitted%3E&tw_document_href=https%3A%2F%2Fwww.spicejet.com%2F&tw_iframe_status=0&tw_order_quantity=0&tw_pid_src=1&tw_sale_amount=0&twpid=tw.1788582472266.8851327936748406&txn_id=o3hv3&type=javascript&version=2.4.4",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:52.731320+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://bam.eu01.nr-data.net/1/NRJS-f1b543bfb33f40890d4?a=94352739&sa=1&v=1184.ab39b52&t=Unnamed+Transaction&rst=3830&ck=1&ref=https%3A%2F%2Fwww.spicejet.com%2F&be=357&fe=3692&dc=1772&af=err%2Cxhr%2Cstn%2Cins&perf=%3Comitted%3E&fp=1808&fcp=1808&jsonp=NREUM.setToken",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:52.731963+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://spicejetltd.tt.omtrdc.net/m2/spicejetltd/mbox/json?mbox=target-global-mbox&mboxSession=%3Credacted%3E&mboxPC=&mboxPage=c5aad945e39f4bf3844ad6046d980306&mboxRid=d53a01341b6642408265171a2998ff8f&mboxVersion=1.8.3&mboxCount=1&mboxTime=1788602272369&mboxHost=www.spicejet.com&mboxURL=https%3A%2F%2Fwww.spicejet.com%2F&mboxReferrer=&browserHeight=800&browserWidth=1280&browserTimeOffset=330&screenHeight=800&screenWidth=1280&colorDepth=24&devicePixelRatio=1&screenOrientation=landscape&webGLRenderer=%3Comitted%3E&mboxMCSDID=17328541219B9B9A-14EADA17519F2C06",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "xhr",
+      "time": "2026-09-05T04:27:54.532548+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://assets.adobedtm.com/extensions/EP308220a2a4c4403f97fc1960100db40f/AppMeasurement_Module_AudienceManagement.min.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:54.572581+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://assets.adobedtm.com/537dbdb6fad9/0ee804a032d6/271e13a627ca/RCc879bd12d4b941828618271494ae1842-source.min.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:54.615712+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://sg-images.spicejet.com/Desktop/Visa_Homepage_banner_23Aug.jpg",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:27:59.301032+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://dpm.demdex.net/id?d_visid_ver=%3Credacted%3E&d_fieldgroup=MC&d_rtbd=json&d_ver=2&d_orgid=41EC43A155915F757F000101%40AdobeOrg&d_nsid=%3Credacted%3E&ts=1788582472349",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "xhr",
+      "time": "2026-09-05T04:27:59.696549+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://spicejet.demdex.net/dest5.html?d_nsid=%3Credacted%3E",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "document",
+      "time": "2026-09-05T04:27:59.810154+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://spicejetlimited.sc.omtrdc.net/b/ss/spicejetglobalprod/10/JS-2.20.0-LCUM/s93884120224295?AQB=1&ndh=1&pf=1&callback=s_c_il%5B1%5D.doPostbacks&et=1&t=5%2F8%2F2026+9%3A57%3A59+6+-330&d.=&nsid=%3Credacted%3E&jsonv=1&.d=&sdid=17328541219B9B9A-14EADA17519F2C06&mid=01921398374727348210255708549652437491&aamlh=12&ce=UTF-8&pageName=Home&g=https%3A%2F%2Fwww.spicejet.com%2F&c.=&getPercentPageViewed=5.0.1&.c=&cc=USD&events=event60&aamb=%3Comitted%3E&c1=Home&v1=Home&c3=https%3A%2F%2Fwww.spicejet.com%2F&v3=https%3A%2F%2Fwww.spicejet.com%2F&c11=Desktop&c13=%3Comitted%3E&s=1280x800&c=24&j=1.6&v=N&k=Y&bw=1280&bh=800&mcorgid=41EC43A155915F757F000101%40AdobeOrg&AQE=1",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:27:59.871383+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://analytics.twitter.com/i/adsct?p_user_id=01903681907206563800252968369637254250&p_id=38594",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:00.080420+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://cm.everesttech.net/cm/dd?d_uuid=01903681907206563800252968369637254250",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:00.123349+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/api/v1/search/markets?stationCode=DEL",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:28:01.478257+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.spicejet.com/inline-loader.gif",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:01.478684+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://bam.eu01.nr-data.net/events/1/NRJS-f1b543bfb33f40890d4?a=94352739&sa=1&v=1184.ab39b52&t=Unnamed+Transaction&rst=13837&ck=1&ref=https%3A%2F%2Fwww.spicejet.com%2F",
+      "method": "POST",
+      "status": 200,
+      "resource_type": "xhr",
+      "time": "2026-09-05T04:28:02.515894+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://analytics.twitter.com/i/adsct?bci=3&cv=41%261&dv=%3Comitted%3E&eci=2&event_id=ebc484d9-ec1d-4f63-bafb-612533e8fa3f&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=20251df1-3b76-4183-841e-cd19b1b91258&pt=%3Comitted%3E&tw_document_href=https%3A%2F%2Fwww.spicejet.com%2F&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1788582472266.8851327936748406&txn_id=o3hv3&type=javascript&version=2.4.4",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:02.517178+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://t.co/i/adsct?bci=3&cv=41%261&dv=%3Comitted%3E&eci=2&event_id=ebc484d9-ec1d-4f63-bafb-612533e8fa3f&events=%5B%5B%22auto_long_site_dwell%22%2C%7B%7D%5D%5D&integration=advertiser&p_id=Twitter&p_user_id=0&pl_id=20251df1-3b76-4183-841e-cd19b1b91258&pt=%3Comitted%3E&tw_document_href=https%3A%2F%2Fwww.spicejet.com%2F&tw_iframe_status=0&tw_pid_src=1&twpid=tw.1788582472266.8851327936748406&txn_id=o3hv3&type=javascript&version=2.4.4",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:02.605468+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.google-analytics.com/analytics.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:28:04.333208+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.google-analytics.com/j/collect?v=1&_v=j102&a=617096050&t=pageview&_s=1&dl=https%3A%2F%2Fwww.spicejet.com%2F&ul=en-in&dt=%3Comitted%3E&sr=1280x800&vp=1280x800&_u=YEBAAAABAAAAAC~&jid=1524207783&gjid=1788438624&cid=1151316894.1788582484&tid=UA-19979066-9&_gid=1643850975.1788582484&_r=1&_slc=1&gtm=45He6921n81TVQ8NL3za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=%3Comitted%3E&z=1910955283",
+      "method": "POST",
+      "status": 200,
+      "resource_type": "xhr",
+      "time": "2026-09-05T04:28:04.407877+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.googletagmanager.com/gtag/js?id=G-TYDTTL8M1K&cx=c&_slc=1",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:28:04.572532+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-TYDTTL8M1K&gtm=45je6921v9132932977za20g&_p=1788582472071&_gaz=1&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAIACAC&are=1&cid=1151316894.1788582484&frm=0&ibt=1&ir=1&ngs=1&pscdl=noapi&rcb=10&sr=1280x800&uaa=x86&uab=64&uafvl=%3Comitted%3E&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-in&_s=1&tag_exp=%3Comitted%3E&dl=https%3A%2F%2Fwww.spicejet.com%2F&dt=%3Comitted%3E&sid=%3Credacted%3E&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&gap.uat=%3Comitted%3E&tfd=16246",
+      "method": "POST",
+      "status": 204,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:28:04.809354+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://www.google.co.in/ads/ga-audiences?v=1&t=sr&slf_rd=1&_r=4&ngs=1&ibt=1&tid=G-TYDTTL8M1K&cid=1151316894.1788582484&gtm=45je6921v9132932977za20g&rcb=10&aip=1&dma=0&gcd=13l3l3l3l2l1&npa=0&frm=0&tag_exp=%3Comitted%3E&z=328628180",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:04.821562+00:00"
+    },
+    {
+      "phase": "before_click",
+      "url": "https://stats.g.doubleclick.net/g/collect?v=2&ngs=1&ibt=1&tid=G-TYDTTL8M1K&cid=1151316894.1788582484&gtm=45je6921v9132932977za20g&rcb=10&aip=1&dma=0&gcd=13l3l3l3l2l1&npa=0&frm=0&tag_exp=%3Comitted%3E",
+      "method": "POST",
+      "status": 204,
+      "resource_type": "ping",
+      "time": "2026-09-05T04:28:04.854616+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://sg-images.spicejet.com/Desktop/SpiceClubAxisCC_Desktop2.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:06.283256+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.facebook.com/tr/",
+      "method": "POST",
+      "status": 200,
+      "resource_type": "ping",
+      "time": "2026-09-05T04:28:07.150169+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/45e66c1b2d55e84ee4b40.chunk.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:28:07.201221+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/loader.gif",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:07.201917+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://spicejetltd.tt.omtrdc.net/m2/spicejetltd/mbox/json?mbox=target-global-mbox&mboxSession=%3Credacted%3E&mboxPC=1876c1fe19f54545b68a0d32f9911611.41_0&mboxPage=c5aad945e39f4bf3844ad6046d980306&mboxRid=9dc4190c903c43d49744531bc4b09bc6&mboxVersion=1.8.3&mboxCount=2&mboxTime=1788602287145&mboxHost=www.spicejet.com&mboxURL=%3Comitted%3E&mboxReferrer=&browserHeight=800&browserWidth=1280&browserTimeOffset=330&screenHeight=800&screenWidth=1280&colorDepth=24&devicePixelRatio=1&screenOrientation=landscape&webGLRenderer=%3Comitted%3E&mboxMCSDID=64176D7738D9DEC6-1B24BE2FBD099855&mboxMCGVID=01921398374727348210255708549652437491&mboxAAMB=%3Comitted%3E&mboxMCGLH=12",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "xhr",
+      "time": "2026-09-05T04:28:07.207613+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/17566e4f1043e1b7d48f9a.chunk.js",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:28:07.208516+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/api/v1/search/getStationDetails?getAllCities=true&getPopular=true",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:28:07.274479+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://eu1.clevertap-prod.com/a?t=96&type=push&d=%3Comitted%3E&rn=5&i=1788582487&sn=0&gc=542815a38af04f9d93fcb38d8606e6a3&arp=%3Comitted%3E&tries=1&origin=https%3A%2F%2Fwww.spicejet.com&useIP=true&r=1788582487085",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:28:07.327046+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/direct.svg",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:07.362631+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/connecting.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:07.363285+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/v1.svg",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:07.364344+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/hopping.svg",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:07.365136+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/api/v3/search/availability",
+      "method": "POST",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:28:07.482513+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://fonts.gstatic.com/s/poppins/v24/pxiByp8kv8JHgFVrLGT9V1s.ttf",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "font",
+      "time": "2026-09-05T04:28:07.647847+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/sc-logo-rb.png",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:07.648290+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/spice-club-logo-white.svg",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "image",
+      "time": "2026-09-05T04:28:07.652057+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://eu1.clevertap-prod.com/a?t=96&type=push&d=%3Comitted%3E&rn=6&i=1788582487&sn=0&gc=542815a38af04f9d93fcb38d8606e6a3&arp=%3Comitted%3E&tries=1&origin=https%3A%2F%2Fwww.spicejet.com&useIP=true&r=1788582487232",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:28:07.656454+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/api/v2/search/lowfare",
+      "method": "POST",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:28:07.656765+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/api/v1/payment/resetPartialPaymentState",
+      "method": "DELETE",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:28:07.695933+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://eu1.clevertap-prod.com/a?t=96&type=push&d=%3Comitted%3E&rn=7&i=1788582487&sn=1&gc=542815a38af04f9d93fcb38d8606e6a3&arp=%3Comitted%3E&tries=1&origin=https%3A%2F%2Fwww.spicejet.com&useIP=true&r=1788582487515",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "script",
+      "time": "2026-09-05T04:28:07.844561+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/api/v1/booking/create",
+      "method": "POST",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:28:08.942858+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/api/v1/payment/currencyConverter/INR",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:28:09.128631+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://www.spicejet.com/api/v1/payment/currencyConverterToINR/INR",
+      "method": "GET",
+      "status": 200,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:28:09.256169+00:00"
+    },
+    {
+      "phase": "after_click",
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-TYDTTL8M1K&gtm=45je6921v9132932977za20g&_p=1788582472071&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAIACQC&are=1&cid=1151316894.1788582484&frm=0&ibt=1&ir=1&ngs=1&pscdl=noapi&rcb=10&sr=1280x800&uaa=x86&uab=64&uafvl=%3Comitted%3E&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-in&_s=2&tag_exp=%3Comitted%3E&dl=%3Comitted%3E&dt=%3Comitted%3E&sid=%3Credacted%3E&sct=1&seg=1&en=page_view&_ee=1&gap.uat=%3Comitted%3E&_et=2474&tfd=23729",
+      "method": "POST",
+      "status": 204,
+      "resource_type": "fetch",
+      "time": "2026-09-05T04:28:12.178355+00:00"
+    }
+  ],
+  "visible_errors": [],
+  "artifact_errors": [],
+  "robots_and_rate_limit": "ok",
+  "http_status": 200,
+  "initial_url": "https://www.spicejet.com/",
+  "page_title": "SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets",
+  "origin_evidence": {
+    "field_label": "From",
+    "airport_code": "DEL",
+    "field_text": "Delhi (DEL)",
+    "option_clicked": true,
+    "retained_after_blur": true,
+    "autocomplete_open": false,
+    "validation_error_visible": false
+  },
+  "destination_evidence": {
+    "field_label": "To",
+    "airport_code": "BOM",
+    "field_text": "Mumbai (BOM)",
+    "option_clicked": true,
+    "retained_after_blur": true,
+    "autocomplete_open": false,
+    "validation_error_visible": false
+  },
+  "url_before_click": "https://www.spicejet.com/",
+  "search_state_before_click": {
+    "url": "https://www.spicejet.com/",
+    "origin_input_text": "Delhi (DEL)",
+    "destination_input_text": "Mumbai (BOM)",
+    "visible_relevant_lines": [
+      "One Way",
+      "Round Trip",
+      "From",
+      "To",
+      "Departure Date",
+      "Sat, 5 Sep 2026",
+      "Return Date",
+      "Select Date",
+      "Passengers",
+      "1 Adult",
+      "Currency",
+      "INR",
+      "Search Flight",
+      "Due to the onset of the summer schedule from 29 March, flight timings may change. Passengers are advised to check their flight status before departure.",
+      "Due to ongoing developments in the Middle East region, some flights may be impacted. Please check your flight status for updates.",
+      "Passengers carrying arms & ammunition must request clearance at least 72 hours before departure. Email custrelations@spicejet.com for assistance. Read more.",
+      "Only 1 piece of hand baggage of up to 7 kg is permitted on all SpiceJet flights. Power banks/portable mobile chargers are ONLY allowed in Cabin Baggage. E-cigarettes are prohibited to be carried in Cabin as well as Checked-in Baggage.",
+      "With DigiYatra, enjoy quick and easy entry to the airport, and pre-security check with your face as your boarding pass for the next SpiceJet flight at select cities.Know more.",
+      "Spin to Win",
+      "Upto",
+      "Avoid last-minute baggage hassles at the airport by pre-booking your excess baggage now and save up to 10%!",
+      "Enjoy added privacy, extra space, and up to 10kg additional baggage allowance with an extra seat or row!",
+      "Customised travel solutions for business professionals.",
+      "As a member you get access to",
+      "Get your cargo shipped from one place to another at a convenient and cost-effective manner.",
+      "Fitness To Fly Guideline",
+      "Book Any Test From Any Lab",
+      "Book Any Test From Any Lab in Delhi",
+      "Investors",
+      "Investor Services",
+      "For Reservations or Customer Support:",
+      "We log the IP addresses of the visitors on our website for security reasons.",
+      "Family and Friends discount is applicable for a minimum of 2 passengers (excluding infant) on a single booking. Terms and conditions apply.",
+      "The special discounted fares are applicable to senior citizens, above the age of 60 years. To travel under this fare, the passenger must present a valid age proof at the SpiceJet check-in counter at the airport.",
+      "Children between the ages of 5 and 12 travelling alone are considered unaccompanied minors. Charges per minor for each domestic sector are INR 4999, and charges vary for each international sector, starting at INR 9999. This can be bought until 2hrs/3hrs (domestic/international) prior to departure. After booking, please fill out the Unaccompanied Minor Form and carry four printed copies to the airport.",
+      "Applicable for all students above the age of 12 years studying with a bonafide school/university. Limited inventory available. Valid photo ID and educational institute I-card need to be presented for verification at check-in. Bookings under this offer are refundable. Conditions apply.",
+      "Applicable for all serving and retired Indian Armed Forces personnel, Paramilitary Forces personnel and their dependent families. Limited inventory available. Valid photo ID and relevant military card need to be presented for verification at check-in. Conditions apply.",
+      "The fares are extended only to government officials for their official travel (those carrying a valid identity card). A valid identity card issued by the employer is a pre-requisite for travel under this offer and passengers will be required to produce the card at the SpiceJet check-in counter at the airport."
+    ],
+    "one_way_visible": true,
+    "round_trip_visible": true,
+    "date_visible": true,
+    "passenger_visible": true,
+    "currency_visible": true,
+    "search_button_present": true,
+    "search_button": {
+      "text": "Search Flight",
+      "disabled": false,
+      "ariaDisabled": null,
+      "tabIndex": "0",
+      "pointerEvents": "auto",
+      "opacity": "1",
+      "rect": {
+        "x": 335.8125,
+        "y": 527,
+        "w": 162,
+        "h": 47
+      }
+    },
+    "validation_lines": [
+      "The fares are extended only to government officials for their official travel (those carrying a valid identity card). A valid identity card issued by the employer is a pre-requisite for travel under this offer and passengers will be required to produce the card at the SpiceJet check-in counter at the airport."
+    ],
+    "spinner_lines": []
+  },
+  "dialogs_before_click": [],
+  "click_started_at": "2026-09-05T04:28:06.171493+00:00",
+  "click_completed_at": "2026-09-05T04:28:06.231322+00:00",
+  "networkidle_after_click": "ok",
+  "final_url": "https://www.spicejet.com/search?from=DEL&to=BOM&tripType=1&departure=2026-09-05&adult=1&child=0&srCitizen=0&infant=0&currency=INR&redirectTo=/",
+  "final_title": "SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets",
+  "search_state_after_click": {
+    "url": "https://www.spicejet.com/search?from=DEL&to=BOM&tripType=1&departure=2026-09-05&adult=1&child=0&srCitizen=0&infant=0&currency=INR&redirectTo=/",
+    "origin_input_text": null,
+    "destination_input_text": null,
+    "visible_relevant_lines": [
+      "Passengers",
+      "Delhi to Mumbai, 05 Sep 2026",
+      "1 Adult",
+      "One Way : Delhi to MumbaiDepart Date : Sat, 05 Sep 2026Passengers : 1 Adult",
+      "Select your Departure to Mumbai",
+      "Sat, 05 Sep 2026",
+      "Fitness To Fly Guideline",
+      "Book Any Test From Any Lab",
+      "Book Any Test From Any Lab in Delhi",
+      "Investors",
+      "Investor Services",
+      "For Reservations or Customer Support:",
+      "We log the IP addresses of the visitors on our website for security reasons."
+    ],
+    "one_way_visible": true,
+    "round_trip_visible": false,
+    "date_visible": false,
+    "passenger_visible": true,
+    "currency_visible": false,
+    "search_button_present": false,
+    "search_button": null,
+    "validation_lines": [],
+    "spinner_lines": []
+  },
+  "dialogs_after_click": [],
+  "visible_flight_numbers": [
+    "SG 802"
+  ],
+  "flight_card_count": 1,
+  "results_ui_visible": true,
+  "loading_state": false,
+  "additional_required_control": [],
+  "database_after": {
+    "size": 1318912,
+    "mtime_epoch": 1788579116.9334743,
+    "mtime_text": "2026-09-05T09:01:56.933474",
+    "latest_job_id": 13,
+    "live_quote_count": 12,
+    "raw_count": 1902
+  },
+  "database_changed": false
+}

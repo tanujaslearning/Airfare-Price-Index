@@ -1,0 +1,412 @@
+{
+  "response_count": 393,
+  "statuses": [
+    200,
+    202,
+    204,
+    302,
+    500
+  ],
+  "top_responses": [
+    {
+      "url": "https://www.easemytrip.com/flights/",
+      "status": 200,
+      "content_type": "text/html; charset=utf-8"
+    },
+    {
+      "url": "https://www.easemytrip.com/css/new-header/new-head-style-v2.css?v=9924",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://www.easemytrip.com/css/newoffer-stylesheet.css?v=12.4",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://www.easemytrip.com/css/new-footer.css",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://www.easemytrip.com/css/common/auto-suggest.css",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://www.easemytrip.com/css/common/stylesheet-h-rec.css",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://www.easemytrip.com/css/common/jquery-ui-malti.css",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://www.easemytrip.com/css/onpage-style-new.css",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://www.easemytrip.com/css/new-login-flow-style.css?v=1",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://www.easemytrip.com/scripts/libraries/1.8.3/jquery.min.js",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://www.easemytrip.com/scripts/common/angular.min.js?v=1",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://css.emtcontent.com/common/desktoprhomebody.css?v=1.81",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://www.easemytrip.com/scripts/common/slick.js",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://www.easemytrip.com/flights/css/Flight_Domestic_Int/flightsIN.css?v=2.1",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://www.easemytrip.com/scripts/multi/LoginWithOTP.js?a=7412e11",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://mybookings.easemytrip.com/Scripts/MyBooking/aes.js",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://images.emtcontent.com/user-profile.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://images.emtcontent.com/lock.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.easemytrip.com/css/menu.css?v=2.1.18abeert",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://www.easemytrip.com/scripts/gi.js?v=3333399",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://css.emtcontent.com/common/desktopmenulogin_nw.css?v=9f",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://www.easemytrip.com/Scripts/confetti.browser.min.js",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://www.easemytrip.com/Scripts/loginanimtionscript.js?v=ee55",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://www.easemytrip.com/scripts/common/contrast-mode.js",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://css.emtcontent.com/common/darkthemehdrfootr.css",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://css.emtcontent.com/holidays/common/darkthemeholidays-seo.css?5t436eeere",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://css.emtcontent.com/new-search-engine/new-clandr-home-v1.css?v=3f",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://flight.easemytrip.com/Content/img/inr-hotel-tab.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://css.emtcontent.com/new-search-engine/searchengine-new-style.css?v=8f",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://images.emtcontent.com/common/hotelpopico.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.easemytrip.com/Scripts/bcf-menu.js?v=638763636570540276",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://css.emtcontent.com/common/desktopnwroffernw.css",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://images.emtcontent.com/common/flightpopico1.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://css.emtcontent.com/common/swiper-bundle.min.css?v=new",
+      "status": 200,
+      "content_type": "text/css"
+    },
+    {
+      "url": "https://images.emtcontent.com/common/buspopico.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://www.easemytrip.com/search.aspx/CheckSignIn",
+      "status": 200,
+      "content_type": "application/json; charset=utf-8"
+    },
+    {
+      "url": "https://images.emtcontent.com/nwhomfiles/contrast-icon.svg",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://images.emtcontent.com/common/invite-earn-icon.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://images.emtcontent.com/mob-web/google-logo.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://images.emtcontent.com/mob-web/facebook.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://images.emtcontent.com/hotel-img/blr-sm.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://images.emtcontent.com/hotel-img/del-sm.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://www.easemytrip.com/scripts/Browser_FingerPrinting.js?v=1dssd3dd",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://www.easemytrip.com/scripts/UserToken.js?v=13d32ddds333ddd0dd",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://images.emtcontent.com/hotel-img/mumb-sm.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://images.emtcontent.com/bus-img/pune-sm.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://images.emtcontent.com/bus-img/hyd-sm.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://images.emtcontent.com/hotel-img/kolkata-2feb26.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://images.emtcontent.com/hotel-img/ahmd-sm.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://www.easemytrip.com/agents/Content/imgnew/side-menu.svg",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://www.easemytrip.com/offers/offerjson/offerjs/flightsoffers.js",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://www.easemytrip.com/scripts/common/jquery.lbslider.js",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://images.emtcontent.com/bus-img/chennai-sm.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap",
+      "status": 200,
+      "content_type": "text/css; charset=utf-8"
+    },
+    {
+      "url": "https://images.emtcontent.com/hotel-img/lucknow-2feb26.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://images.emtcontent.com/bus-img/jaipur-sm.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://images.emtcontent.com/hotel-img/goa-sm.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://images.emtcontent.com/hotel-img/indore-2feb26.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://images.emtcontent.com/hotel-img/singapore-2feb26.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://images.emtcontent.com/desk-img/london-img.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://images.emtcontent.com/hotel-img/denpasar-2feb26.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://www.easemytrip.com/scripts/common/swiper-bundle.min.js",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://images.emtcontent.com/desk-img/ho-chi-minh-city-img.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://images.emtcontent.com/desk-img/bangkok-img.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://images.emtcontent.com/hotel-img/kuala-lumpur-2feb26.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://widget.trustpilot.com/bootstrap/v5/tp.widget.bootstrap.min.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://images.emtcontent.com/app-web/app-store.webp",
+      "status": 200,
+      "content_type": "image/webp"
+    },
+    {
+      "url": "https://images.emtcontent.com/nwhomfiles/menuspritedesknw.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://images.emtcontent.com/desk-img/hol-icon/newtag.svg",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://images.emtcontent.com/app-web/google-play.png",
+      "status": 200,
+      "content_type": "image/png"
+    },
+    {
+      "url": "https://images.emtcontent.com/nwhomfiles/return-box.svg",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://images.emtcontent.com/nwhomfiles/24-hours.svg",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://images.emtcontent.com/train-img/app-qr-code.svg",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://apis.google.com/js/platform.js",
+      "status": 200,
+      "content_type": "text/javascript"
+    },
+    {
+      "url": "https://images.emtcontent.com/nwhomfiles/hot-sale.svg",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://images.emtcontent.com/nwhomfiles/esy-flight.svg",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://www.easemytrip.com/flights/Scripts/jquery-ui.js",
+      "status": 200,
+      "content_type": "application/javascript"
+    },
+    {
+      "url": "https://images.emtcontent.com/nwhomfiles/down-arrow.svg",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    },
+    {
+      "url": "https://www.easemytrip.com/images/mob-web/svg/emtlogo_new.svg",
+      "status": 200,
+      "content_type": "image/svg+xml"
+    }
+  ]
+}

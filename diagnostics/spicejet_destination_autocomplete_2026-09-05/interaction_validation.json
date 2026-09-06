@@ -1,0 +1,106 @@
+{
+  "timestamp": "2026-09-05T04:22:20.857030+00:00",
+  "target": {
+    "origin": "DEL",
+    "destination": "BOM",
+    "travel_date": "2026-09-05",
+    "passengers": 1,
+    "cabin": "Economy",
+    "trip_type": "one-way"
+  },
+  "steps": [
+    {
+      "step": "robots_and_rate_limit",
+      "status": "ok"
+    },
+    {
+      "step": "homepage_rendered",
+      "status": "ok"
+    },
+    {
+      "step": "one_way_selected",
+      "status": "ok"
+    },
+    {
+      "step": "origin_DEL_selected",
+      "status": "ok"
+    },
+    {
+      "step": "destination_BOM_selected",
+      "status": "ok"
+    },
+    {
+      "step": "date_2026_09_05_selected",
+      "status": "ok"
+    },
+    {
+      "step": "search_submitted",
+      "status": "ok"
+    }
+  ],
+  "console_errors": [
+    {
+      "type": "warning",
+      "text": "\ud83d\ude80 container.buildInfo.environment is deprecated.Please use `container.environment.stage` instead"
+    },
+    {
+      "type": "warning",
+      "text": "\ud83d\ude80 container.buildInfo.environment is deprecated.Please use `container.environment.stage` instead"
+    },
+    {
+      "type": "warning",
+      "text": "Animated: `useNativeDriver` is not supported because the native animated module is missing. Falling back to JS-based animation. To resolve this, add `RCTAnimation` module to this app, or remove `useNativeDriver`. More info: https://github.com/facebook/react-native/issues/11094#issuecomment-263240420"
+    }
+  ],
+  "network_errors": [
+    {
+      "url": "https://analytics.google.com/g/collect?v=2&tid=G-TYDTTL8M1K&gtm=45je6921v9132932977za20g&_p=1788582146280&_gaz=1&gcd=13l3l3l3l2l1&npa=0&dma=0&_eu=EBAIACAC&are=1&cid=761852538.1788582152&frm=0&ibt=1&ir=1&ngs=1&pscdl=noapi&rcb=18&sr=1280x800&uaa=x86&uab=64&uafvl=Not%253DA%253FBrand%3B99.0.0.0%7CHeadlessChrome%3B151.0.7922.34%7CChromium%3B151.0.7922.34&uam=&uamb=0&uap=Windows&uapv=&uaw=0&ul=en-in&_s=1&tag_exp=115616986~115938466~115938468~118897920~118897930~120385423~120469145~120469153&dl=https%3A%2F%2Fwww.spicejet.com%2F&dt=SpiceJet%20-%20Flight%20Booking%20for%20Domestic%20and%20International%2C%20Cheap%20Air%20Tickets&sid=1788582152&sct=1&seg=0&en=page_view&_fv=1&_ss=1&_ee=1&gap.uat=115616986~115938466~115938468~118897920~118897930~120385422~120469145~120469153~120914213&tfd=10461",
+      "failure": "net::ERR_ABORTED"
+    }
+  ],
+  "captcha_block": false,
+  "search_submitted": true,
+  "results_page_reached": false,
+  "flight_card_count": 0,
+  "visible_flight_numbers": [],
+  "classification": "UNKNOWN",
+  "database_before": {
+    "size": 1318912,
+    "mtime": 1788579116.9334743,
+    "latest_job_id": 13,
+    "live_quote_count": 12,
+    "raw_count": 1902
+  },
+  "http_status": 200,
+  "page_title": "SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets",
+  "initial_url": "https://www.spicejet.com/",
+  "origin_evidence": {
+    "field_label": "From",
+    "airport_code": "DEL",
+    "field_text": "Delhi (DEL)",
+    "option_clicked": true,
+    "retained_after_blur": true,
+    "autocomplete_open": false,
+    "validation_error_visible": false
+  },
+  "destination_evidence": {
+    "field_label": "To",
+    "airport_code": "BOM",
+    "field_text": "Mumbai (BOM)",
+    "option_clicked": true,
+    "retained_after_blur": true,
+    "autocomplete_open": false,
+    "validation_error_visible": false
+  },
+  "final_url": "https://www.spicejet.com/",
+  "final_title": "SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets",
+  "result": "FAILURE",
+  "database_after": {
+    "size": 1318912,
+    "mtime": 1788579116.9334743,
+    "latest_job_id": 13,
+    "live_quote_count": 12,
+    "raw_count": 1902
+  },
+  "database_changed": false
+}

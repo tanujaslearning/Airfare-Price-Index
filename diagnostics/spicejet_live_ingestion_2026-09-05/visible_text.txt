@@ -1,0 +1,9 @@
+Unfortunately, there are no flights available.
+Please search again with a different date.
+Search again
+Direct flight
+Hopping flight (same aircraft)
+Hopping flight (change of aircraft)
++1
+Flight arrives next day
+All the fare include taxes and fee.

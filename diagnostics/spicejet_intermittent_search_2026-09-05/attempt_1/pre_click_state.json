@@ -1,0 +1,325 @@
+{
+  "timestamp": "2026-09-05T04:54:11.073Z",
+  "url": "https://www.spicejet.com/",
+  "title": "SpiceJet - Flight Booking for Domestic and International, Cheap Air Tickets",
+  "readyState": "complete",
+  "bodyLength": 6147,
+  "inputs": [
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": null,
+      "value": "Delhi (DEL)",
+      "text": "",
+      "readonly": false,
+      "disabled": false,
+      "attrs": {
+        "class": "css-1cwyjr8 r-homxoj r-ubezar r-10paoce r-13qz1uu",
+        "type": "text",
+        "data-focusable": "true",
+        "value": "Delhi (DEL)"
+      },
+      "rect": {
+        "x": 46,
+        "y": 262,
+        "width": 203,
+        "height": 21,
+        "top": 262,
+        "left": 46,
+        "bottom": 283,
+        "right": 249
+      }
+    },
+    {
+      "tag": "INPUT",
+      "type": "text",
+      "placeholder": null,
+      "value": "Mumbai (BOM)",
+      "text": "",
+      "readonly": false,
+      "disabled": false,
+      "attrs": {
+        "class": "css-1cwyjr8 r-homxoj r-ubezar r-10paoce r-13qz1uu",
+        "type": "text",
+        "data-focusable": "true",
+        "value": "Mumbai (BOM)"
+      },
+      "rect": {
+        "x": 282,
+        "y": 262,
+        "width": 202,
+        "height": 21,
+        "top": 262,
+        "left": 282,
+        "bottom": 283,
+        "right": 484
+      }
+    }
+  ],
+  "searchButtons": [
+    {
+      "tag": "DIV",
+      "text": "Search Flight",
+      "disabled": false,
+      "pointerEvents": "auto",
+      "opacity": "1",
+      "cursor": "pointer",
+      "attrs": {
+        "class": "css-1dbjc4n r-1awozwy r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73",
+        "data-focusable": "true",
+        "tabindex": "0",
+        "data-testid": "home-page-flight-cta"
+      },
+      "parentAttrs": {
+        "class": "css-1dbjc4n"
+      },
+      "rect": {
+        "x": 335.8125,
+        "y": 527,
+        "width": 162,
+        "height": 47,
+        "top": 527,
+        "left": 335.8125,
+        "bottom": 574,
+        "right": 497.8125
+      },
+      "elementFromPointText": "Search Flight",
+      "elementFromPointTag": "DIV",
+      "elementFromPointAttrs": {
+        "class": "css-1dbjc4n r-1awozwy r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73",
+        "data-focusable": "true",
+        "tabindex": "0",
+        "data-testid": "home-page-flight-cta"
+      }
+    },
+    {
+      "tag": "DIV",
+      "text": "Search Flight",
+      "disabled": false,
+      "pointerEvents": "auto",
+      "opacity": "1",
+      "cursor": "auto",
+      "attrs": {
+        "class": "css-1dbjc4n r-18u37iz r-1wtj0ep r-156q2ks r-1lgpqti"
+      },
+      "parentAttrs": {
+        "class": "css-1dbjc4n r-1pcd2l5 r-k8qxaj r-glunga r-bnwqim"
+      },
+      "rect": {
+        "x": 29,
+        "y": 529,
+        "width": 472,
+        "height": 45,
+        "top": 529,
+        "left": 29,
+        "bottom": 574,
+        "right": 501
+      },
+      "elementFromPointText": "",
+      "elementFromPointTag": "DIV",
+      "elementFromPointAttrs": {
+        "class": "css-1dbjc4n r-atwnbb"
+      }
+    },
+    {
+      "tag": "DIV",
+      "text": "Search Flight",
+      "disabled": false,
+      "pointerEvents": "auto",
+      "opacity": "1",
+      "cursor": "auto",
+      "attrs": {
+        "class": "css-1dbjc4n"
+      },
+      "parentAttrs": {
+        "class": "css-1dbjc4n r-18u37iz r-1wtj0ep r-156q2ks r-1lgpqti"
+      },
+      "rect": {
+        "x": 335.8125,
+        "y": 529,
+        "width": 165.1875,
+        "height": 45,
+        "top": 529,
+        "left": 335.8125,
+        "bottom": 574,
+        "right": 501
+      },
+      "elementFromPointText": "Search Flight",
+      "elementFromPointTag": "DIV",
+      "elementFromPointAttrs": {
+        "class": "css-1dbjc4n r-1awozwy r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73",
+        "data-focusable": "true",
+        "tabindex": "0",
+        "data-testid": "home-page-flight-cta"
+      }
+    },
+    {
+      "tag": "DIV",
+      "text": "Search Flight",
+      "disabled": false,
+      "pointerEvents": "none",
+      "opacity": "1",
+      "cursor": "pointer",
+      "attrs": {
+        "class": "css-76zvg2 r-jwli3a r-1i10wst r-1kfrs79"
+      },
+      "parentAttrs": {
+        "class": "css-1dbjc4n r-1awozwy r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73",
+        "data-focusable": "true",
+        "tabindex": "0",
+        "data-testid": "home-page-flight-cta"
+      },
+      "rect": {
+        "x": 357.203125,
+        "y": 537,
+        "width": 119.203125,
+        "height": 27,
+        "top": 537,
+        "left": 357.203125,
+        "bottom": 564,
+        "right": 476.40625
+      },
+      "elementFromPointText": "Search Flight",
+      "elementFromPointTag": "DIV",
+      "elementFromPointAttrs": {
+        "class": "css-1dbjc4n r-1awozwy r-z2wwpe r-1loqt21 r-18u37iz r-1777fci r-d9fdf6 r-1w50u8q r-ah5dr5 r-1otgn73",
+        "data-focusable": "true",
+        "tabindex": "0",
+        "data-testid": "home-page-flight-cta"
+      }
+    },
+    {
+      "tag": "DIV",
+      "text": "Welcome aboard Let's go places! Book your Charter One Way Round Trip From To Departure Date Sat, 5 Sep 2026 Return Date Select Date Passengers 1 Adult Currency INR Family & Friends Senior Citizen Unaccompanied Minor Students Armed Forces Govt. Employee Special Assistance Search Flight",
+      "disabled": false,
+      "pointerEvents": "auto",
+      "opacity": "1",
+      "cursor": "auto",
+      "attrs": {
+        "class": "css-1dbjc4n r-1pcd2l5 r-k8qxaj r-glunga r-bnwqim"
+      },
+      "parentAttrs": {
+        "class": "css-1dbjc4n r-14lw9ot r-z2wwpe r-vgw6uq r-156q2ks r-11ict49 r-8uuktl r-136ojw6"
+      },
+      "rect": {
+        "x": 9,
+        "y": 116,
+        "width": 512,
+        "height": 478,
+        "top": 116,
+        "left": 9,
+        "bottom": 594,
+        "right": 521
+      },
+      "elementFromPointText": "Return Date Select Date",
+      "elementFromPointTag": "DIV",
+      "elementFromPointAttrs": {
+        "class": "css-1dbjc4n r-11u4nky r-z2wwpe r-1phboty r-rs99b7 r-1loqt21 r-13awgt0 r-ymttw5 r-5njf8e r-1otgn73",
+        "data-focusable": "true",
+        "tabindex": "0",
+        "data-testid": "return-date-dropdown-label-test-id"
+      }
+    },
+    {
+      "tag": "DIV",
+      "text": "Flights Check-In Flight Status Manage Booking Welcome aboard Let's go places! Book your Charter One Way Round Trip From To Departure Date Sat, 5 Sep 2026 Return Date Select Date Passengers 1 Adult Currency INR Family & Friends Senior Citizen Unaccompanied Minor Students Armed Forces Govt. Employee Special Assistance Search Flight",
+      "disabled": false,
+      "pointerEvents": "auto",
+      "opacity": "1",
+      "cursor": "auto",
+      "attrs": {
+        "class": "css-1dbjc4n r-14lw9ot r-z2wwpe r-vgw6uq r-156q2ks r-11ict49 r-8uuktl r-136ojw6"
+      },
+      "parentAttrs": {
+        "class": "css-1dbjc4n r-14lw9ot"
+      },
+      "rect": {
+        "x": 9,
+        "y": 70,
+        "width": 512,
+        "height": 530,
+        "top": 70,
+        "left": 9,
+        "bottom": 600,
+        "right": 521
+      },
+      "elementFromPointText": "Return Date Select Date",
+      "elementFromPointTag": "DIV",
+      "elementFromPointAttrs": {
+        "class": "css-1dbjc4n r-11u4nky r-z2wwpe r-1phboty r-rs99b7 r-1loqt21 r-13awgt0 r-ymttw5 r-5njf8e r-1otgn73",
+        "data-focusable": "true",
+        "tabindex": "0",
+        "data-testid": "return-date-dropdown-label-test-id"
+      }
+    },
+    {
+      "tag": "DIV",
+      "text": "Add-ons SpiceMax SpiceCaf\u00e9 You1st Visa Services SpiceAssurance Friends and Family Senior Citizen Discount Student Discount Extra Seat SpiceLock Indian Armed Forces Personnel SpiceFlex Govt. Employee SpicePlus FlyEarly Excess Baggage Deals GiftCard SpiceClub About SpiceClub Our Program Benefits Tiers SpiceClub Points Earn Points Use Points SpiceClub Exclusives Credit Cards Instant Vouchers SpiceScreen Cargo Charter Travel Policies Passenger Support Passenger Rights Tariffs Baggage Information Login Signup Flights Check-In Flight Status Manage Booking Welcome aboard Let's go places! Book your Charter One Way Round Trip From To Departure Date Sat, 5 Sep 2026 Return Date Select Date Passengers 1 Adult Currency INR Family & Friends Senior Citizen Unaccompanied Minor Students Armed Forces Govt. Employee Special Assistance Search Flight Due to the onset of the summer schedule from 29 March, flight timings may change. Passengers are advised to check their flight status before departure. Due to ongoing developments in the Middle East region, some flights may be impacted. Please check your flight status for updates. Passengers carrying arms & ammunition must request clearance at least 72 hours before departure. Email custrelations@spicejet.com for assistance. Read more. Use our Change Assist portal for easy rescheduling or refunds for your affected flight. Only 1 piece of hand baggage of up to 7 kg is permitted on all SpiceJet flights. Power banks/portable mobile chargers are ONLY allowed in Cabin Baggage. E-cigarettes are prohibited to be carried in Cabin as well as Checked-in Baggage. With DigiYatra, enjoy quick and easy entry to the airport, and pre-security check with your face as your boarding pass for the next SpiceJet flight at select cities.Know more. I Am Here For... Change Assist (Choose alternate flight or refund for changed/cancelled flights) SpiceClub SpiceJet Axis Bank Credit Card Visa Services GST Invoice Spin to Win Irresistible Deals SpiceMax The best seat in the sky at 30% Off SMAX30 Valid till:September 30, 2026 Enjoy ADDONS at Upto 25% Off ADDON25 Valid till:September 30, 2026 Explore More Recommended Add-Ons SpiceMax Upgrade your flying experience with more space and a host of convenient services and priority privileges. SpiceCaf\u00e9 Pamper your taste buds with our variety of delicious hot meals and sandwiches. Excess Baggage Avoid last-minute baggage hassles at the airport by pre-booking your excess baggage now and save up to 10%! You1st Enjoy Priority Check-in, Boarding & Baggage Delivery for just \u20b9595/\u20b9699 (Domestic/International)! Extra Seat Enjoy added privacy, extra space, and up to 10kg additional baggage allowance with an extra seat or row! SpicePlus Enjoy priority services with a meal and beverage at \u20b9500. Add your preferred seat for an extra cost. Tailor-made For You Group Bookings Quick responses, effortless tracking, and a seamless booking journey. SME High Flyer Exclusive fares, flexible changes & premium perks for small and medium enterprises. Corporate Traveller Customised travel solutions for business professionals. SpiceClub Loyalty Program Join our frequent flyer program and enjoy unmatched rewards, added comforts and exclusive privileges. Know More As a member you get access to Free Flight Vouchers Earn SC Points Complimentary Upgrades Join SpiceClub Cargo Small, Medium, Large & X-Large Get your cargo shipped from one place to another at a convenient and cost-effective manner. Book Now! Charter Your private space in the sky Now book a private charter for small groups or big. Book Now!",
+      "disabled": false,
+      "pointerEvents": "auto",
+      "opacity": "1",
+      "cursor": "auto",
+      "attrs": {
+        "class": "css-1dbjc4n r-14lw9ot"
+      },
+      "parentAttrs": {
+        "class": "css-1dbjc4n r-1niwhzg r-1jgb5lz r-r0h9e2 r-13qz1uu",
+        "data-testid": "application-id"
+      },
+      "rect": {
+        "x": -30,
+        "y": 0,
+        "width": 1280,
+        "height": 2725,
+        "top": 0,
+        "left": -30,
+        "bottom": 2725,
+        "right": 1250
+      },
+      "elementFromPointText": null,
+      "elementFromPointTag": null,
+      "elementFromPointAttrs": {}
+    },
+    {
+      "tag": "DIV",
+      "text": "Add-ons SpiceMax SpiceCaf\u00e9 You1st Visa Services SpiceAssurance Friends and Family Senior Citizen Discount Student Discount Extra Seat SpiceLock Indian Armed Forces Personnel SpiceFlex Govt. Employee SpicePlus FlyEarly Excess Baggage Deals GiftCard SpiceClub About SpiceClub Our Program Benefits Tiers SpiceClub Points Earn Points Use Points SpiceClub Exclusives Credit Cards Instant Vouchers SpiceScreen Cargo Charter Travel Policies Passenger Support Passenger Rights Tariffs Baggage Information Login Signup Flights Check-In Flight Status Manage Booking Welcome aboard Let's go places! Book your Charter One Way Round Trip From To Departure Date Sat, 5 Sep 2026 Return Date Select Date Passengers 1 Adult Currency INR Family & Friends Senior Citizen Unaccompanied Minor Students Armed Forces Govt. Employee Special Assistance Search Flight Due to the onset of the summer schedule from 29 March, flight timings may change. Passengers are advised to check their flight status before departure. Due to ongoing developments in the Middle East region, some flights may be impacted. Please check your flight status for updates. Passengers carrying arms & ammunition must request clearance at least 72 hours before departure. Email custrelations@spicejet.com for assistance. Read more. Use our Change Assist portal for easy rescheduling or refunds for your affected flight. Only 1 piece of hand baggage of up to 7 kg is permitted on all SpiceJet flights. Power banks/portable mobile chargers are ONLY allowed in Cabin Baggage. E-cigarettes are prohibited to be carried in Cabin as well as Checked-in Baggage. With DigiYatra, enjoy quick and easy entry to the airport, and pre-security check with your face as your boarding pass for the next SpiceJet flight at select cities.Know more. I Am Here For... Change Assist (Choose alternate flight or refund for changed/cancelled flights) SpiceClub SpiceJet Axis Bank Credit Card Visa Services GST Invoice Spin to Win Irresistible Deals SpiceMax The best seat in the sky at 30% Off SMAX30 Valid till:September 30, 2026 Enjoy ADDONS at Upto 25% Off ADDON25 Valid till:September 30, 2026 Explore More Recommended Add-Ons SpiceMax Upgrade your flying experience with more space and a host of convenient services and priority privileges. SpiceCaf\u00e9 Pamper your taste buds with our variety of delicious hot meals and sandwiches. Excess Baggage Avoid last-minute baggage hassles at the airport by pre-booking your excess baggage now and save up to 10%! You1st Enjoy Priority Check-in, Boarding & Baggage Delivery for just \u20b9595/\u20b9699 (Domestic/International)! Extra Seat Enjoy added privacy, extra space, and up to 10kg additional baggage allowance with an extra seat or row! SpicePlus Enjoy priority services with a meal and beverage at \u20b9500. Add your preferred seat for an extra cost. Tailor-made For You Group Bookings Quick responses, effortless tracking, and a seamless booking journey. SME High Flyer Exclusive fares, flexible changes & premium perks for small and medium enterprises. Corporate Traveller Customised travel solutions for business professionals. SpiceClub Loyalty Program Join our frequent flyer program and enjoy unmatched rewards, added comforts and exclusive privileges. Know More As a member you get access to Free Flight Vouchers Earn SC Points Complimentary Upgrades Join SpiceClub Cargo Small, Medium, Large & X-Large Get your cargo shipped from one place to another at a convenient and cost-effective manner. Book Now! Charter Your private space in the sky Now book a private charter for small groups or big. Book Now! About Us Spice Route Magazine Corporate Overview Fleet Careers Media Center Awards and Applaud Contact Us Airports International Offices Corporate Head Office Advertise with Us RFP Travel Info Citizen's Charter FAQ Fitness To Fly Guideline Flight Schedules Terms of Carriage Fees and Charges Know Your Rights Book Any Test From Any Lab Book Any Test From Any Lab in Delhi Investors Corporate Governance Financial Information Notices Corporate Announcements Shareholding Pattern Investor Services Disclosure Regulation 46 For Reservations or Customer Support: \ud83d\udcde +91 (0)124 4983410 / +91 (0)124 7101600 \ud83d\udce7 custrelations@spicejet.com Follow us Download our mobile app Note: We log the IP addresses of the visitors on our website for security reasons. \u00a9 Copyright Spicejet India. All Rights Reserved Registered Office: SpiceJet Ltd, 319, Udyog Vihar, Phase IV, Gurgaon, Haryana - 122016 Home \u2022 Privacy Policy \u2022 Disclaimer \u2022 GST Information \u2022 Sitemap",
+      "disabled": false,
+      "pointerEvents": "auto",
+      "opacity": "1",
+      "cursor": "auto",
+      "attrs": {},
+      "parentAttrs": {},
+      "rect": {
+        "x": 0,
+        "y": 0,
+        "width": 1280,
+        "height": 3229,
+        "top": 0,
+        "left": 0,
+        "bottom": 3229,
+        "right": 1280
+      },
+      "elementFromPointText": null,
+      "elementFromPointTag": null,
+      "elementFromPointAttrs": {}
+    }
+  ],
+  "visibleErrors": [
+    "The fares are extended only to government officials for their official travel (those carrying a valid identity card). A valid identity card issued by the employer is a pre-requisite for travel under this offer and passengers will be required to produce the card at the SpiceJet check-in counter at the airport.",
+    "The fares are extended only to government officials for their official travel (those carrying a valid identity card). A valid identity card issued by the employer is a pre-requisite for travel under this offer and passengers will be required to produce the card at the SpiceJet check-in counter at the airport.",
+    "The fares are extended only to government officials for their official travel (those carrying a valid identity card). A valid identity card issued by the employer is a pre-requisite for travel under this offer and passengers will be required to produce the card at the SpiceJet check-in counter at the airport."
+  ],
+  "loaders": [],
+  "bodySignals": {
+    "oneWayVisible": true,
+    "oneAdultVisible": true,
+    "inrVisible": false,
+    "dateVisibleUnpadded": true,
+    "dateVisiblePadded": false,
+    "searchFlightVisible": true,
+    "departsVisible": false,
+    "selectDepartureVisible": false,
+    "sgFlightVisible": false,
+    "captchaOrBlock": false
+  }
+}

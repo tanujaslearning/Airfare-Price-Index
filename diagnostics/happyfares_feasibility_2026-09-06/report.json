@@ -1,0 +1,123 @@
+{
+  "source": "HappyFares",
+  "target": {
+    "route": "DEL-BOM",
+    "collection_date": "2026-09-06",
+    "trip": "one-way",
+    "passengers": "1 adult",
+    "cabin": "Economy",
+    "currency": "INR",
+    "windows": [
+      1,
+      7,
+      15,
+      30,
+      45
+    ]
+  },
+  "robots": {
+    "https://www.happyfares.in/": {
+      "robots_url": "https://www.happyfares.in/robots.txt",
+      "status": "ALLOWED",
+      "elapsed_ms": 2411,
+      "error": null,
+      "matched_policy": "RobotFileParser.can_fetch returned true",
+      "crawl_delay": null,
+      "robots_mtime": 1788683884.71877
+    },
+    "https://www.happyfares.in/flights": {
+      "robots_url": "https://www.happyfares.in/robots.txt",
+      "status": "ALLOWED",
+      "elapsed_ms": 2253,
+      "error": null,
+      "matched_policy": "RobotFileParser.can_fetch returned true",
+      "crawl_delay": null,
+      "robots_mtime": 1788683887.9507773
+    },
+    "https://www.happyfares.in/flight-search": {
+      "robots_url": "https://www.happyfares.in/robots.txt",
+      "status": "ALLOWED",
+      "elapsed_ms": 2056,
+      "error": null,
+      "matched_policy": "RobotFileParser.can_fetch returned true",
+      "crawl_delay": null,
+      "robots_mtime": 1788683891.0747347
+    }
+  },
+  "robots_result": "ALLOWED",
+  "attempts": [
+    {
+      "window": 1,
+      "collection_date": "2026-09-06",
+      "departure_date": "2026-09-07",
+      "advance_window_days": 1,
+      "status": "TIMEOUT",
+      "quote_count": 0,
+      "final_url": null,
+      "http_status": 200,
+      "page_title": null,
+      "form_visible": false,
+      "search_submitted": false,
+      "results_rendered": false,
+      "fields_available": [],
+      "sample_observations": [],
+      "error": "Timeout 15000ms exceeded.\n=========================== logs ===========================\n\"load\" event fired\n============================================================"
+    },
+    {
+      "window": 7,
+      "collection_date": "2026-09-06",
+      "departure_date": "2026-09-13",
+      "advance_window_days": 7,
+      "status": "TIMEOUT",
+      "quote_count": 0,
+      "error": "Stopped after T+1 status TIMEOUT; no bypass or retry attempted."
+    },
+    {
+      "window": 15,
+      "collection_date": "2026-09-06",
+      "departure_date": "2026-09-21",
+      "advance_window_days": 15,
+      "status": "TIMEOUT",
+      "quote_count": 0,
+      "error": "Stopped after T+1 status TIMEOUT; no bypass or retry attempted."
+    },
+    {
+      "window": 30,
+      "collection_date": "2026-09-06",
+      "departure_date": "2026-10-06",
+      "advance_window_days": 30,
+      "status": "TIMEOUT",
+      "quote_count": 0,
+      "error": "Stopped after T+1 status TIMEOUT; no bypass or retry attempted."
+    },
+    {
+      "window": 45,
+      "collection_date": "2026-09-06",
+      "departure_date": "2026-10-21",
+      "advance_window_days": 45,
+      "status": "TIMEOUT",
+      "quote_count": 0,
+      "error": "Stopped after T+1 status TIMEOUT; no bypass or retry attempted."
+    }
+  ],
+  "total_usable_observations": 0,
+  "production_db_modified": false,
+  "db_before": {
+    "raw_total": 1951,
+    "processed_total": 1951,
+    "live_raw": 61,
+    "live_processed": 61,
+    "mock_raw": 1890,
+    "mock_processed": 1890
+  },
+  "db_after": {
+    "raw_total": 1951,
+    "processed_total": 1951,
+    "live_raw": 61,
+    "live_processed": 61,
+    "mock_raw": 1890,
+    "mock_processed": 1890
+  },
+  "captcha_or_block": false,
+  "technically_feasible": false
+}

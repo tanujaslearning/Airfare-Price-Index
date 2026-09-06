@@ -1,0 +1,83 @@
+{
+  "timestamp": "2026-09-05T10:47:26.270494+00:00",
+  "target": {
+    "source": "Yatra",
+    "route": "DEL-BOM",
+    "origin": "DEL",
+    "destination": "BOM",
+    "collection_date": "2026-09-05",
+    "departure_date": "2026-09-06",
+    "requested_window": "T+1",
+    "advance_window_days": 1,
+    "trip": "one-way",
+    "passengers": "1 adult",
+    "currency": "INR"
+  },
+  "database_before": {
+    "raw_total": 2172,
+    "processed_total": 2172,
+    "live_raw": 12,
+    "live_processed": 12,
+    "latest_job_id": 20
+  },
+  "github_reference": {
+    "repository": "https://github.com/vishal815/Python-Based-Flight-Data-Scraping-Automating-Data-Collection-for-Analysis",
+    "uses_csv_data": false,
+    "copied_selectors": false
+  },
+  "robots": {
+    "robots_url": "https://www.yatra.com/robots.txt",
+    "http_status": null,
+    "elapsed_ms": 12618.1,
+    "targets": [],
+    "result": "INCONCLUSIVE",
+    "error": "ReadTimeout: "
+  },
+  "page": {},
+  "interaction": {
+    "one_way_selected": false,
+    "origin_selected": false,
+    "destination_selected": false,
+    "date_selected": false,
+    "passenger_selected": false,
+    "currency_inr_available": false,
+    "search_submitted": false
+  },
+  "results": {
+    "url": null,
+    "results_page_reached": false,
+    "flight_card_count": 0,
+    "airline_visible": false,
+    "flight_number_visible": false,
+    "origin_destination_visible": false,
+    "departure_arrival_time_visible": false,
+    "duration_visible": false,
+    "stops_visible": false,
+    "fare_visible": false,
+    "fare_family_visible": false,
+    "displayed_date_visible": false,
+    "no_availability_visible": false,
+    "sample_observations": []
+  },
+  "blocking": {
+    "captcha": false,
+    "bot_or_access_block": false,
+    "http_403_or_429": false
+  },
+  "stable_anchors": {},
+  "interaction_log": [],
+  "console": [],
+  "network": {},
+  "database_after": {
+    "raw_total": 2172,
+    "processed_total": 2172,
+    "live_raw": 12,
+    "live_processed": 12,
+    "latest_job_id": 20
+  },
+  "database_changed": false,
+  "classification": "INCONCLUSIVE",
+  "artifacts": [
+    "run_diagnostic.py"
+  ]
+}
