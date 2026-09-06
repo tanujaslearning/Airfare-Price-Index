@@ -14,9 +14,9 @@ from backend.app.data.route_basket import APPROVED_ADVANCE_WINDOWS, DEFAULT_ROUT
 from backend.app.services.collection_dates import collection_day_bounds_utc
 from backend.app.services.dgca_route_weights import weight_by_route_code
 from backend.app.services.fare_reference_service import (
-    PROTOTYPE_REFERENCE_PERIOD_LABEL,
     legacy_assumption_reference_fare,
     live_reference_fare_map,
+    prototype_reference_period_label,
 )
 
 logger = logging.getLogger("apix.services.index_engine")
@@ -133,7 +133,7 @@ def calculate_route_indices(
     weights = weight_by_route_code(observed_routes, normalization_routes=active_routes)
     route_agg["dgca_weight"] = route_agg["route_key"].map(weights)
 
-    route_agg["reference_period"] = PROTOTYPE_REFERENCE_PERIOD_LABEL if mode == "LIVE" else "legacy MOCK assumption"
+    route_agg["reference_period"] = prototype_reference_period_label() if mode == "LIVE" else "legacy MOCK assumption"
 
     logger.info("Computed %s route indices for %d routes on %s", mode, len(route_agg), target_date)
     return route_agg

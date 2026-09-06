@@ -5,16 +5,13 @@ import {
   CheckCircle2,
   Circle,
   Database,
-  FileBarChart,
   Filter,
   Gauge,
   LayoutDashboard,
-  LineChart as LineChartIcon,
   MapPin,
   Plane,
   RefreshCw,
   Route as RouteIcon,
-  Settings,
 } from 'lucide-react';
 import {
   Bar,
@@ -32,7 +29,6 @@ import {
   checkHealth,
   getFilterOptions,
   getHistoricalIndex,
-  getLatestIndex,
   getLiveIndex,
   getLiveQuotes,
   getRouteIndex,
@@ -43,7 +39,6 @@ import {
 import {
   HealthResponse,
   IndexHistoricalResponse,
-  IndexLatestResponse,
   FilterOptionsResponse,
   FilterOption,
   LiveIndexResponse,
@@ -74,13 +69,9 @@ type AppliedFilters = {
 
 const navItems = [
   { id: 'dashboard', label: 'Dashboard', icon: LayoutDashboard },
-  { id: 'trends', label: 'Airfare Trends', icon: LineChartIcon },
+  { id: 'data', label: 'Airfare Data', icon: Database },
   { id: 'routes', label: 'Route Analysis', icon: RouteIcon },
-  { id: 'airlines', label: 'Airline Analysis', icon: Plane },
-  { id: 'cpi', label: 'CPI Insights', icon: Gauge },
-  { id: 'explorer', label: 'Data Explorer', icon: Database },
-  { id: 'reports', label: 'Reports', icon: FileBarChart },
-  { id: 'settings', label: 'Settings', icon: Settings },
+  { id: 'cpi', label: 'CPI & APIx', icon: Gauge },
 ];
 
 const DEFAULT_FILTERS: AppliedFilters = {
@@ -119,6 +110,12 @@ const getErrorMessage = (err: unknown, fallback: string): string => {
 
 const EMPTY_VALUE = '—';
 
+const UNAVAILABLE_VALUE = 'Unavailable';
+const REFERENCE_BASELINE_UNAVAILABLE =
+  'Reference baseline unavailable: complete 30/30 reference cells required.';
+const SUB_INDEX_UNAVAILABLE =
+  'Calculated only after complete reference coverage.';
+
 const formatNumber = (value: number | null | undefined, digits = 2): string => (
   value === null || value === undefined ? EMPTY_VALUE : value.toFixed(digits)
 );
@@ -138,6 +135,41 @@ const isIndexDisplayable = (
 ): window is RouteWindowBreakdown & { mean_fare: number; baseline_fare: number; sub_index: number } => (
   isNumber(window.mean_fare) && isNumber(window.baseline_fare) && isNumber(window.sub_index)
 );
+
+const referenceCoverageText = (liveIndex: LiveIndexResponse | null): string => {
+  const coverage = liveIndex?.coverage;
+  if (!coverage) {
+    return 'reference coverage unavailable';
+  }
+
+  return `reference coverage ${coverage.observed_route_window_combinations}/${coverage.expected_route_window_combinations}`;
+};
+
+const routeIndexDisplay = (
+  routeIndex: RouteCorridorIndexResponse | null,
+  liveIndex: LiveIndexResponse | null
+): { value: string; sublabel: string } => {
+  if (routeIndex && isNumber(routeIndex.route_index)) {
+    return {
+      value: formatNumber(routeIndex.route_index),
+      sublabel: routeCoverageLabel(routeIndex),
+    };
+  }
+
+  return {
+    value: UNAVAILABLE_VALUE,
+    sublabel: `Unavailable - ${referenceCoverageText(liveIndex)}`,
+  };
+};
+
+const referenceBasketStatus = (liveIndex: LiveIndexResponse | null): string => {
+  const coverage = liveIndex?.coverage;
+  if (!coverage) {
+    return 'Reference basket incomplete.';
+  }
+
+  return `Reference basket incomplete: ${coverage.observed_route_window_combinations}/${coverage.expected_route_window_combinations} cells observed.`;
+};
 
 const formatDate = (value: string | null | undefined): string => {
   if (!value) {
@@ -223,7 +255,22 @@ const quoteCollectionDate = (quote: LiveQuoteItem): string => quote.scraped_at.s
 
 const quoteDepartureDate = (quote: LiveQuoteItem): string => quote.departure_datetime.slice(0, 10);
 
-const pageIdFromHash = (): string => window.location.hash.replace(/^#\/?/, '') || 'dashboard';
+const pageRedirects: Record<string, string> = {
+  dashboard: 'dashboard',
+  data: 'data',
+  routes: 'routes',
+  cpi: 'cpi',
+  trends: 'dashboard',
+  reports: 'dashboard',
+  airlines: 'data',
+  explorer: 'data',
+  settings: 'cpi',
+};
+
+const pageIdFromHash = (): string => {
+  const rawPageId = window.location.hash.replace(/^#\/?/, '') || 'dashboard';
+  return pageRedirects[rawPageId] || 'dashboard';
+};
 
 const getLatestQuoteCollectionDate = (quotes: LiveQuoteItem[]): string | null => (
   quotes.reduce<string | null>((latest, quote) => {
@@ -254,7 +301,6 @@ const getCoverageByRoute = (quotes: LiveQuoteItem[], collectionDate: string | nu
 
 export const HomePage: React.FC = () => {
   const [health, setHealth] = useState<HealthResponse | null>(null);
-  const [latestIndex, setLatestIndex] = useState<IndexLatestResponse | null>(null);
   const [historicalIndex, setHistoricalIndex] = useState<IndexHistoricalResponse | null>(null);
   const [liveIndex, setLiveIndex] = useState<LiveIndexResponse | null>(null);
   const [liveQuotes, setLiveQuotes] = useState<LiveQuotesResponse | null>(null);
@@ -562,8 +608,7 @@ export const HomePage: React.FC = () => {
         getRouteWeights(true),
         getFilterOptions('LIVE'),
       ]);
-      const [latestResult, historicalResult, liveQuotesResult] = await Promise.allSettled([
-        getLatestIndex('daily', 'LIVE'),
+      const [historicalResult, liveQuotesResult] = await Promise.allSettled([
         getHistoricalIndex({
           frequency: 'daily',
           collection_mode: 'LIVE',
@@ -574,7 +619,6 @@ export const HomePage: React.FC = () => {
 
       setHealth(healthData);
       setLiveIndex(liveData);
-      setLatestIndex(latestResult.status === 'fulfilled' ? latestResult.value : null);
       setHistoricalIndex(historicalResult.status === 'fulfilled' ? historicalResult.value : null);
       setLiveQuotes(liveQuotesResult.status === 'fulfilled' ? liveQuotesResult.value : null);
       setRoutes(routesData);
@@ -585,8 +629,6 @@ export const HomePage: React.FC = () => {
         setDashboardError(
           `LIVE DATA: Insufficient live coverage (${liveData.coverage.observed_route_window_combinations} / ${liveData.coverage.expected_route_window_combinations} route-window combinations).`
         );
-      } else if (latestResult.status === 'rejected') {
-        setDashboardError(getErrorMessage(latestResult.reason, 'Unable to load latest LIVE index.'));
       } else if (historicalResult.status === 'rejected') {
         setDashboardError(getErrorMessage(historicalResult.reason, 'Unable to load historical LIVE index.'));
       }
@@ -686,11 +728,11 @@ export const HomePage: React.FC = () => {
   }, []);
 
   const navigateTo = (pageId: string) => {
-    window.location.hash = pageId === 'dashboard' ? '' : pageId;
+    window.location.hash = pageId === 'dashboard' ? '/' : `/${pageId}`;
     setActivePage(pageId);
   };
 
-  const liveIndexValue = liveIndex?.index_value ?? (filtersAreApplied ? null : latestIndex?.index_value) ?? null;
+  const liveIndexValue = liveIndex?.index_value ?? null;
   const liveCoverage = liveIndex?.coverage;
   const liveIndexSublabel = liveIndex?.index_value !== null && liveIndex?.index_value !== undefined
     ? `${liveIndex.index_scope.toLowerCase()} live scope`
@@ -702,21 +744,36 @@ export const HomePage: React.FC = () => {
     : liveIndexValue === null
       ? 'APIx unavailable'
       : formatNumber(liveIndexValue);
-  const latestCollectionDate = liveIndex?.collection_date ?? latestIndex?.date ?? null;
+  const latestCollectionDate = liveIndex?.collection_date ?? latestObservationCollectionDate;
+  const totalCells = liveIndex?.coverage.expected_route_window_combinations || routes.length * APPROVED_WINDOWS.length;
+  const observedCells = liveIndex?.coverage.observed_route_window_combinations || Array.from(coverageByRoute.values()).reduce(
+    (sum, windows) => sum + windows.size,
+    0
+  );
+  const missingCells = Math.max(0, totalCells - observedCells);
+  const contributingSources = liveIndex?.sources_represented.join(', ')
+    || sourceSummaries.map((source) => source.source).join(', ')
+    || EMPTY_VALUE;
   const selectedRouteWeight = findRouteWeight(routeWeights, routeIndex?.route_code);
   const routeFilterEmpty = filtersAreApplied && availableRoutes.length === 0;
   const routeFilterEmptyLabel = 'No prescribed route matches the selected filters.';
   const routeFilterEmptyHint = 'Select a route from the configured DGCA-based route basket.';
 
   const insights = [
-    `Current LIVE scope index is ${formatNumber(liveIndexValue)}.`,
+    liveIndexValue === null
+      ? `Current LIVE scope index is unavailable. ${referenceBasketStatus(liveIndex)}`
+      : `Current LIVE scope index is ${formatNumber(liveIndexValue)}.`,
     liveIndex?.status === 'INSUFFICIENT_COVERAGE'
       ? `LIVE DATA: Insufficient live coverage (${liveIndex.coverage.observed_route_window_combinations} / ${liveIndex.coverage.expected_route_window_combinations} route-window combinations).`
       : null,
     routeFilterEmpty
       ? routeFilterEmptyLabel
       : `${availableRoutes.length} prescribed routes match the applied route filters.`,
-    routeIndex ? `Selected route ${routeIndex.route_code} has sub-index ${formatNumber(routeIndex.route_index)}. ${routeCoverageLabel(routeIndex)}.` : null,
+    routeIndex
+      ? isNumber(routeIndex.route_index)
+        ? `Selected route ${routeIndex.route_code} has sub-index ${formatNumber(routeIndex.route_index)}. ${routeCoverageLabel(routeIndex)}.`
+        : `Selected route ${routeIndex.route_code} sub-index is unavailable because ${referenceCoverageText(liveIndex)}.`
+      : null,
     t1Window && t45Window && t1Window.quotes_count > 0 && t45Window.quotes_count > 0 && isNumber(t1Window.mean_fare) && isNumber(t45Window.mean_fare)
       ? `T+1 fare is ${t1Window.mean_fare >= t45Window.mean_fare ? 'higher' : 'lower'} than T+45.`
       : null,
@@ -902,6 +959,18 @@ export const HomePage: React.FC = () => {
           </section>
 
           <section className="grid grid-cols-1 gap-4 xl:grid-cols-12">
+            <DashboardCard className="xl:col-span-12" title="DAILY COLLECTION STATUS">
+              <div className="grid gap-3 sm:grid-cols-3 xl:grid-cols-7">
+                <Metric label="Collection date" value={latestCollectionDate ? formatDate(latestCollectionDate) : 'No LIVE collection'} />
+                <Metric label="Target cells" value={String(totalCells)} />
+                <Metric label="LIVE cells" value={`${observedCells}/${totalCells}`} />
+                <Metric label="Missing cells" value={String(missingCells)} />
+                <Metric label="LIVE observations" value={String(liveIndex?.live_quote_count || filteredLiveQuotes.length)} />
+                <Metric label="Contributing sources" value={contributingSources} />
+                <Metric label="National APIx" value={liveIndexValue === null ? 'Unavailable' : formatNumber(liveIndexValue)} />
+              </div>
+            </DashboardCard>
+
             <DashboardCard className="xl:col-span-7" title="AIRFARE PRICE INDEX TREND">
               {loading || !historicalIndex ? (
                 <LoadingState label="Loading index trend..." />
@@ -1040,7 +1109,11 @@ export const HomePage: React.FC = () => {
                       value={formatDgcaWeight(selectedRouteWeight)}
                       sublabel={selectedRouteWeight?.traffic_period || undefined}
                     />
-                    <Metric label="LIVE Route Sub-Index" value={formatNumber(routeIndex.route_index)} sublabel={routeCoverageLabel(routeIndex)} />
+                    <Metric
+                      label="LIVE Route Sub-Index"
+                      value={routeIndexDisplay(routeIndex, liveIndex).value}
+                      sublabel={routeIndexDisplay(routeIndex, liveIndex).sublabel}
+                    />
                   </div>
 
                   <div className="space-y-2">
@@ -1151,13 +1224,9 @@ interface SectionPageProps {
 }
 
 const sectionTitles: Record<string, string> = {
-  trends: 'Airfare Trends',
+  data: 'Airfare Data',
   routes: 'Route Analysis',
-  airlines: 'Airline Analysis',
-  cpi: 'CPI Insights',
-  explorer: 'Data Explorer',
-  reports: 'Reports',
-  settings: 'Settings',
+  cpi: 'CPI & APIx',
 };
 
 const SectionPage: React.FC<SectionPageProps> = ({
@@ -1258,7 +1327,11 @@ const SectionPage: React.FC<SectionPageProps> = ({
                   value={formatDgcaWeight(findRouteWeight(routeWeights, routeIndex.route_code))}
                   sublabel={findRouteWeight(routeWeights, routeIndex.route_code)?.traffic_period || undefined}
                 />
-                <Metric label="LIVE Route Sub-Index" value={formatNumber(routeIndex.route_index)} sublabel={routeCoverageLabel(routeIndex)} />
+                <Metric
+                  label="LIVE Route Sub-Index"
+                  value={routeIndexDisplay(routeIndex, liveIndex).value}
+                  sublabel={routeIndexDisplay(routeIndex, liveIndex).sublabel}
+                />
                 <Metric label="LIVE quotes" value={String(routeIndex.windows.reduce((sum, window) => sum + window.quotes_count, 0))} />
               </div>
               <BookingWindowTable windows={routeIndex.windows} />
@@ -1354,19 +1427,77 @@ const SectionPage: React.FC<SectionPageProps> = ({
             <Metric label="Routes tracked" value={String(routes.length)} />
             <Metric label="Booking windows" value={String(APPROVED_WINDOWS.length)} />
             <Metric label="DGCA weights available" value={routeWeights?.coverage.available === routes.length ? 'Yes' : 'Partial'} />
-            <Metric label="National APIx" value={liveIndex?.index_value === null || liveIndex?.index_value === undefined ? 'Unavailable' : formatNumber(liveIndex.index_value)} sublabel="Requires sufficient LIVE coverage" />
+            <Metric
+              label="National APIx"
+              value={liveIndex?.index_value === null || liveIndex?.index_value === undefined ? 'Unavailable' : formatNumber(liveIndex.index_value)}
+              sublabel={liveIndex?.index_value === null || liveIndex?.index_value === undefined ? referenceBasketStatus(liveIndex) : 'Reference basket complete'}
+            />
             <Metric label="Methodology" value="Observed vs baseline" sublabel="Prototype baseline, not official MoSPI/DGCA" />
           </div>
+          <p className="mt-4 text-sm text-slate-600">
+            {referenceBasketStatus(liveIndex)} National APIx is withheld when required LIVE coverage or reference data is insufficient.
+          </p>
+        </DashboardCard>
+        <DashboardCard title="METHODOLOGY FLOW">
+          <ol className="space-y-2 text-sm text-slate-700">
+            {[
+              'LIVE fares',
+              'Cleaning & validation',
+              'Route x booking-window',
+              'Reference fare',
+              'Route sub-index',
+              'DGCA passenger weight',
+              'National APIx',
+              'CPI / inflation support',
+            ].map((step, index) => (
+              <li key={step} className="flex items-center gap-2">
+                <span className="flex h-6 w-6 items-center justify-center rounded-md bg-sky-50 text-xs font-semibold text-sky-700">
+                  {index + 1}
+                </span>
+                <span>{step}</span>
+              </li>
+            ))}
+          </ol>
+        </DashboardCard>
+        <DashboardCard title="SYSTEM STATUS">
+          <div className="grid gap-3 sm:grid-cols-2">
+            <Metric label="Collection frequency" value="Daily" />
+            <Metric label="Timezone" value="Asia/Kolkata" />
+            <Metric label="Primary collection mode" value="LIVE" />
+            <Metric label="Compliance" value="robots.txt / rate limits" sublabel="Source access checks enabled" />
+            <Metric label="Database" value={health?.database || 'Connected'} />
+            <Metric label="API" value={health?.status === 'healthy' ? 'Online' : 'Checking service'} />
+          </div>
+          <p className="mt-4 text-sm text-slate-600">
+            Source access failures are logged and handled through compliant failover. CAPTCHA or anti-bot mechanisms are not bypassed.
+          </p>
         </DashboardCard>
       </div>
     );
   }
 
-  if (pageId === 'explorer') {
+  if (pageId === 'data') {
     return (
       <div className="space-y-4">
         <DashboardCard title="ROUTE WEIGHTS">
           <RouteWeightsTable routes={routes} routeWeights={routeWeights} />
+        </DashboardCard>
+        <DashboardCard title="SOURCE COVERAGE">
+          {sourceSummaries.length > 0 ? (
+            <div className="space-y-2">
+              {sourceSummaries.map((source) => (
+                <div key={source.source} className="grid gap-2 rounded-md bg-slate-50 px-3 py-3 text-sm sm:grid-cols-5">
+                  <div className="font-semibold text-slate-900">{source.source}</div>
+                  <div><span className="text-slate-500">LIVE observations</span><div className="font-semibold">{source.quoteCount}</div></div>
+                  <div><span className="text-slate-500">Routes</span><div className="font-semibold">{source.routesCovered}</div></div>
+                  <div><span className="text-slate-500">Windows</span><div className="font-semibold">{source.windowsCovered}</div></div>
+                  <div><span className="text-slate-500">Average fare</span><div className="font-semibold">{formatFare(source.avgFare)}</div></div>
+                </div>
+              ))}
+            </div>
+          ) : (
+            <EmptyState label="No persisted LIVE observations match these filters." />
+          )}
         </DashboardCard>
         <DashboardCard title="LIVE OBSERVATIONS">
           <LiveQuoteTable quotes={liveQuotes} />
@@ -1493,9 +1624,17 @@ const CompactWindowTable: React.FC<{
           <tr key={window.label}>
             <td className="px-2.5 py-1.5 font-semibold text-slate-900">{window.label}</td>
             <td className="px-2.5 py-1.5 text-slate-700">{window.hasData ? formatFare(window.meanFare) : EMPTY_VALUE}</td>
-            <td className="px-2.5 py-1.5 text-slate-500">{window.hasData ? formatFare(window.baselineFare) : EMPTY_VALUE}</td>
-            <td className={`px-2.5 py-1.5 font-semibold ${window.hasData ? 'text-sky-700' : 'text-slate-400'}`}>
-              {window.hasData ? formatNumber(window.subIndex, 1) : EMPTY_VALUE}
+            <td
+              className="px-2.5 py-1.5 text-slate-500"
+              title={window.hasData && !isNumber(window.baselineFare) ? REFERENCE_BASELINE_UNAVAILABLE : undefined}
+            >
+              {isNumber(window.baselineFare) ? formatFare(window.baselineFare) : window.hasData ? UNAVAILABLE_VALUE : EMPTY_VALUE}
+            </td>
+            <td
+              className={`px-2.5 py-1.5 font-semibold ${window.hasIndexData ? 'text-sky-700' : 'text-slate-400'}`}
+              title={window.hasData && !isNumber(window.subIndex) ? SUB_INDEX_UNAVAILABLE : undefined}
+            >
+              {isNumber(window.subIndex) ? formatNumber(window.subIndex, 1) : window.hasData ? UNAVAILABLE_VALUE : EMPTY_VALUE}
             </td>
             <td className="px-2.5 py-1.5 text-slate-500">{window.quotes}</td>
           </tr>
@@ -1522,14 +1661,23 @@ const BookingWindowTable: React.FC<{ windows: RouteWindowBreakdown[] }> = ({ win
         {windows.map((window) => {
           const hasFareData = window.quotes_count > 0 && isNumber(window.mean_fare);
           const hasIndexData = window.quotes_count > 0 && isIndexDisplayable(window);
+          const baselineUnavailable = hasFareData && !isNumber(window.baseline_fare);
+          const subIndexUnavailable = hasFareData && !isNumber(window.sub_index);
           return (
             <tr key={window.advance_window_days}>
               <td className="px-3 py-2 font-semibold text-slate-900">{window.window_label}</td>
               <td className="px-3 py-2">{hasFareData ? formatFare(window.mean_fare) : EMPTY_VALUE}</td>
-              <td className="px-3 py-2">{hasIndexData ? formatFare(window.baseline_fare) : EMPTY_VALUE}</td>
-              <td className="px-3 py-2 font-semibold">{hasIndexData ? formatNumber(window.sub_index, 1) : EMPTY_VALUE}</td>
+              <td className="px-3 py-2" title={baselineUnavailable ? REFERENCE_BASELINE_UNAVAILABLE : undefined}>
+                {isNumber(window.baseline_fare) ? formatFare(window.baseline_fare) : hasFareData ? UNAVAILABLE_VALUE : EMPTY_VALUE}
+              </td>
+              <td
+                className={`px-3 py-2 font-semibold ${hasIndexData ? 'text-sky-700' : 'text-slate-500'}`}
+                title={subIndexUnavailable ? SUB_INDEX_UNAVAILABLE : undefined}
+              >
+                {isNumber(window.sub_index) ? formatNumber(window.sub_index, 1) : hasFareData ? UNAVAILABLE_VALUE : EMPTY_VALUE}
+              </td>
               <td className="px-3 py-2">{window.quotes_count}</td>
-              <td className="px-3 py-2">{hasIndexData ? 'Index available' : hasFareData ? 'Fare only' : 'Unavailable'}</td>
+              <td className="px-3 py-2">{hasIndexData ? 'Index available' : hasFareData ? 'Reference incomplete' : 'Unavailable'}</td>
             </tr>
           );
         })}

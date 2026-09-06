@@ -11,6 +11,7 @@ from typing import Dict, List, Optional, Tuple
 from sqlalchemy import func
 from sqlalchemy.orm import Session
 
+from backend.app.core.config import settings
 from backend.app.data.route_basket import APPROVED_ADVANCE_WINDOWS, DEFAULT_ROUTE_BASELINES
 from backend.app.models.quote import ProcessedAirfareQuote, RawAirfareQuote
 from backend.app.models.route import Route
@@ -30,11 +31,21 @@ OFFICIAL_CPI_PRICE_REFERENCE_PERIOD = "calendar year 2024"
 OFFICIAL_CPI_WEIGHT_REFERENCE_PERIOD = "HCES 2023-24"
 
 PROTOTYPE_REFERENCE_METHOD = "OBSERVED_LIVE_FIXED_REFERENCE_PERIOD"
-PROTOTYPE_REFERENCE_COLLECTION_DATE = date(2026, 9, 5)
+PROTOTYPE_REFERENCE_COLLECTION_DATE = settings.PROTOTYPE_REFERENCE_COLLECTION_DATE
 PROTOTYPE_REFERENCE_START_DATE = PROTOTYPE_REFERENCE_COLLECTION_DATE
 PROTOTYPE_REFERENCE_END_DATE = PROTOTYPE_REFERENCE_COLLECTION_DATE
-PROTOTYPE_REFERENCE_PERIOD_LABEL = "observed LIVE fixed reference period 2026-09-05"
+PROTOTYPE_REFERENCE_PERIOD_LABEL = f"observed LIVE fixed reference period {PROTOTYPE_REFERENCE_COLLECTION_DATE.isoformat()}"
 PROTOTYPE_REFERENCE_REQUIRED_COVERAGE_PCT = 100.0
+
+
+def prototype_reference_collection_date() -> date:
+    """Returns the configured fixed LIVE reference collection date."""
+    return settings.PROTOTYPE_REFERENCE_COLLECTION_DATE
+
+
+def prototype_reference_period_label() -> str:
+    """Returns a display label for the configured LIVE reference period."""
+    return f"observed LIVE fixed reference period {prototype_reference_collection_date().isoformat()}"
 
 
 @dataclass(frozen=True)
@@ -78,11 +89,12 @@ def legacy_assumption_reference_fare(route_key: str, advance_window_days: int) -
 
 def live_reference_status(db: Session) -> ReferenceStatus:
     """Checks whether the fixed LIVE reference period has complete route/window coverage."""
-    completeness = validate_live_reference_completeness(db, PROTOTYPE_REFERENCE_COLLECTION_DATE)
+    completeness = validate_live_reference_completeness(db, prototype_reference_collection_date())
+    period_label = prototype_reference_period_label()
     if completeness.expected_cells == 0:
         return ReferenceStatus(
             status="INSUFFICIENT_REFERENCE_DATA",
-            period=PROTOTYPE_REFERENCE_PERIOD_LABEL,
+            period=period_label,
             expected_route_window_combinations=0,
             observed_route_window_combinations=0,
             message="No active routes are configured for the prototype reference basket.",
@@ -91,14 +103,14 @@ def live_reference_status(db: Session) -> ReferenceStatus:
     if completeness.complete:
         return ReferenceStatus(
             status="AVAILABLE",
-            period=PROTOTYPE_REFERENCE_PERIOD_LABEL,
+            period=period_label,
             expected_route_window_combinations=completeness.expected_cells,
             observed_route_window_combinations=completeness.valid_live_cells,
             message="Fixed observed LIVE reference period is complete.",
         )
     return ReferenceStatus(
         status="INSUFFICIENT_REFERENCE_DATA",
-        period=PROTOTYPE_REFERENCE_PERIOD_LABEL,
+        period=period_label,
         expected_route_window_combinations=completeness.expected_cells,
         observed_route_window_combinations=completeness.valid_live_cells,
         message=(
@@ -118,7 +130,7 @@ def validate_live_reference_completeness(
     observations explicitly marked collection_mode=LIVE and collected on the
     designated local collection date.
     """
-    ref_date = reference_date or PROTOTYPE_REFERENCE_COLLECTION_DATE
+    ref_date = reference_date or prototype_reference_collection_date()
     active_routes = db.query(Route).filter(Route.is_active == True).order_by(Route.id.asc()).all()
     expected_keys = [
         (route.id, route.route_key, window)
@@ -172,8 +184,8 @@ def live_reference_fare_map(db: Session) -> Tuple[ReferenceStatus, Dict[Tuple[st
     if not status.is_available:
         return status, {}
 
-    start, _ = collection_day_bounds_utc(PROTOTYPE_REFERENCE_START_DATE)
-    _, end = collection_day_bounds_utc(PROTOTYPE_REFERENCE_END_DATE)
+    reference_date = prototype_reference_collection_date()
+    start, end = collection_day_bounds_utc(reference_date)
     rows = (
         db.query(
             Route.origin_code,

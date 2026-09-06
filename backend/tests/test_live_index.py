@@ -10,6 +10,7 @@ from sqlalchemy.pool import StaticPool
 
 from backend.app.db.base_class import Base
 from backend.app.data.route_basket import APPROVED_ADVANCE_WINDOWS
+from backend.app.core.config import Settings
 from backend.app.db.seed import seed_database
 from backend.app.db.session import get_db
 from backend.app.main import app
@@ -18,11 +19,15 @@ from backend.app.models.index_value import AirfareIndexValue
 from backend.app.models.quote import ProcessedAirfareQuote, RawAirfareQuote
 from backend.app.models.route import Route
 from backend.app.schemas.quote import RawAirfareQuoteCreate
+import backend.app.services.fare_reference_service as fare_reference_service
 from backend.app.services.index_engine import calculate_composite_index, get_route_baseline_fare
 from backend.app.services.fare_reference_service import (
     PROTOTYPE_REFERENCE_COLLECTION_DATE,
     PROTOTYPE_REFERENCE_START_DATE,
+    live_reference_fare_map,
     live_reference_status,
+    prototype_reference_collection_date,
+    prototype_reference_period_label,
     validate_live_reference_completeness,
 )
 from backend.app.services.ingestion_service import finish_scraping_job, ingest_raw_quotes, start_scraping_job
@@ -182,13 +187,14 @@ def test_live_only_index_includes_live_and_excludes_mock(db_session):
 
 def test_changing_mock_fares_does_not_change_live_index(db_session):
     _seed_complete_live_matrix(db_session, collection_date=PROTOTYPE_REFERENCE_START_DATE, fare_multiplier=1.0, prefix="QP-REF")
-    _seed_complete_live_matrix(db_session, collection_date=date(2026, 9, 6), fare_multiplier=1.2, prefix="QP-CURRENT")
+    current_collection_date = PROTOTYPE_REFERENCE_START_DATE + timedelta(days=1)
+    _seed_complete_live_matrix(db_session, collection_date=current_collection_date, fare_multiplier=1.2, prefix="QP-CURRENT")
     _seed_complete_mock_matrix(db_session, fare_multiplier=25.0)
     route = db_session.query(Route).filter(Route.origin_code == "DEL", Route.destination_code == "BOM").first()
 
     before = calculate_live_only_index(
         db_session,
-        collection_date=date(2026, 9, 6),
+        collection_date=current_collection_date,
         route=route,
         advance_window_days=7,
     )
@@ -206,7 +212,7 @@ def test_changing_mock_fares_does_not_change_live_index(db_session):
 
     after = calculate_live_only_index(
         db_session,
-        collection_date=date(2026, 9, 6),
+        collection_date=current_collection_date,
         route=route,
         advance_window_days=7,
     )
@@ -217,12 +223,13 @@ def test_changing_mock_fares_does_not_change_live_index(db_session):
 
 def test_changing_live_fares_changes_live_index(db_session):
     _seed_complete_live_matrix(db_session, collection_date=PROTOTYPE_REFERENCE_START_DATE, fare_multiplier=1.0, prefix="QP-REF")
-    _seed_complete_live_matrix(db_session, collection_date=date(2026, 9, 6), fare_multiplier=1.2, prefix="QP-CURRENT")
+    current_collection_date = PROTOTYPE_REFERENCE_START_DATE + timedelta(days=1)
+    _seed_complete_live_matrix(db_session, collection_date=current_collection_date, fare_multiplier=1.2, prefix="QP-CURRENT")
     route = db_session.query(Route).filter(Route.origin_code == "DEL", Route.destination_code == "BOM").first()
 
     before = calculate_live_only_index(
         db_session,
-        collection_date=date(2026, 9, 6),
+        collection_date=current_collection_date,
         route=route,
         advance_window_days=7,
     )
@@ -232,7 +239,10 @@ def test_changing_live_fares_changes_live_index(db_session):
         db_session.query(ProcessedAirfareQuote)
         .join(RawAirfareQuote, ProcessedAirfareQuote.raw_quote_id == RawAirfareQuote.id)
         .filter(RawAirfareQuote.collection_mode == "LIVE")
-        .filter(RawAirfareQuote.scraped_at >= datetime(2026, 9, 6, tzinfo=timezone.utc))
+        .filter(
+            RawAirfareQuote.scraped_at
+            >= datetime.combine(current_collection_date, datetime.min.time(), tzinfo=timezone.utc)
+        )
         .all()
     )
     for quote in live_processed:
@@ -241,7 +251,7 @@ def test_changing_live_fares_changes_live_index(db_session):
 
     after = calculate_live_only_index(
         db_session,
-        collection_date=date(2026, 9, 6),
+        collection_date=current_collection_date,
         route=route,
         advance_window_days=7,
     )
@@ -315,13 +325,93 @@ def test_reference_completeness_ignores_mock_only_cells_and_failed_jobs(db_sessi
     assert completeness.complete is False
 
 
-def test_reference_collection_date_is_explicit_and_fixed(db_session):
-    assert PROTOTYPE_REFERENCE_COLLECTION_DATE == date(2026, 9, 5)
+def test_reference_collection_date_comes_from_settings(monkeypatch, db_session):
+    configured_date = date(2026, 9, 7)
+    monkeypatch.setattr(fare_reference_service.settings, "PROTOTYPE_REFERENCE_COLLECTION_DATE", configured_date)
 
+    assert prototype_reference_collection_date() == configured_date
+    assert prototype_reference_period_label() == "observed LIVE fixed reference period 2026-09-07"
     status = live_reference_status(db_session)
 
     assert status.status == "INSUFFICIENT_REFERENCE_DATA"
+    assert status.period == "observed LIVE fixed reference period 2026-09-07"
     assert status.observed_route_window_combinations == 0
+
+
+def test_reference_collection_date_setting_parses_explicit_env_style_date():
+    configured = Settings(PROTOTYPE_REFERENCE_COLLECTION_DATE="2026-09-07")
+
+    assert configured.PROTOTYPE_REFERENCE_COLLECTION_DATE == date(2026, 9, 7)
+
+
+def test_reference_validation_does_not_reuse_2026_09_06_when_configured_for_2026_09_07(
+    monkeypatch,
+    db_session,
+):
+    _seed_complete_live_matrix(
+        db_session,
+        collection_date=date(2026, 9, 6),
+        fare_multiplier=1.0,
+        prefix="QP-OLD-REF",
+    )
+    monkeypatch.setattr(
+        fare_reference_service.settings,
+        "PROTOTYPE_REFERENCE_COLLECTION_DATE",
+        date(2026, 9, 7),
+    )
+
+    completeness = validate_live_reference_completeness(db_session)
+    status = live_reference_status(db_session)
+
+    assert completeness.reference_date == date(2026, 9, 7)
+    assert completeness.expected_cells == 30
+    assert completeness.valid_live_cells == 0
+    assert completeness.complete is False
+    assert status.status == "INSUFFICIENT_REFERENCE_DATA"
+    assert status.observed_route_window_combinations == 0
+
+
+def test_incomplete_configured_reference_blocks_live_baselines_and_apix(monkeypatch, db_session):
+    configured_date = date(2026, 9, 7)
+    monkeypatch.setattr(
+        fare_reference_service.settings,
+        "PROTOTYPE_REFERENCE_COLLECTION_DATE",
+        configured_date,
+    )
+    route = db_session.query(Route).filter(Route.origin_code == "DEL", Route.destination_code == "BOM").first()
+    akasa = db_session.query(Airline).filter(Airline.code == "QP").first()
+    live_job = start_scraping_job(db_session, source_name="DailyLive:Akasa Air:DEL-BOM:T+1")
+    raw = ingest_raw_quotes(
+        db_session,
+        [
+            _quote(
+                route,
+                akasa,
+                configured_date + timedelta(days=1),
+                1,
+                6500.0,
+                "QP-CONFIG-PARTIAL",
+                configured_date,
+            )
+        ],
+        job=live_job,
+        collection_mode="LIVE",
+    )
+    finish_scraping_job(db_session, live_job, len(raw), "COMPLETED")
+    process_raw_batch(db_session, raw_quotes=raw, job_id=live_job.id)
+
+    completeness = validate_live_reference_completeness(db_session)
+    status, references = live_reference_fare_map(db_session)
+    index_record = calculate_composite_index(db_session, configured_date, collection_mode="LIVE")
+    live_index_count = db_session.query(AirfareIndexValue).filter(AirfareIndexValue.collection_mode == "LIVE").count()
+
+    assert completeness.reference_date == configured_date
+    assert completeness.valid_live_cells == 1
+    assert completeness.complete is False
+    assert status.status == "INSUFFICIENT_REFERENCE_DATA"
+    assert references == {}
+    assert index_record is None
+    assert live_index_count == 0
 
 
 def test_complete_live_reference_period_becomes_available(db_session):
@@ -462,9 +552,10 @@ def test_live_index_api_and_existing_index_endpoints(live_index_client: TestClie
     _seed_complete_live_matrix(db_session)
     calculate_composite_index(db_session, PROTOTYPE_REFERENCE_START_DATE, collection_mode="LIVE")
 
-    live_response = live_index_client.get("/api/v1/index/live?collection_date=2026-09-05")
+    reference_date = PROTOTYPE_REFERENCE_START_DATE.isoformat()
+    live_response = live_index_client.get(f"/api/v1/index/live?collection_date={reference_date}")
     latest_response = live_index_client.get("/api/v1/index/latest")
-    route_response = live_index_client.get("/api/v1/routes/DEL-BOM/index?target_date=2026-09-05")
+    route_response = live_index_client.get(f"/api/v1/routes/DEL-BOM/index?target_date={reference_date}")
 
     assert live_response.status_code == 200
     assert live_response.json()["status"] == "SUFFICIENT_COVERAGE"
@@ -479,12 +570,13 @@ def test_live_index_api_and_existing_index_endpoints(live_index_client: TestClie
 
 def test_live_index_api_filters_and_invalid_values(live_index_client: TestClient, db_session):
     _seed_complete_live_matrix(db_session)
+    reference_date = PROTOTYPE_REFERENCE_START_DATE.isoformat()
 
     filtered = live_index_client.get(
-        "/api/v1/index/live?collection_date=2026-09-05&route_code=DELBOM&advance_window_days=7&source=QP"
+        f"/api/v1/index/live?collection_date={reference_date}&route_code=DELBOM&advance_window_days=7&source=QP"
     )
     scoped = live_index_client.get(
-        "/api/v1/index/live?collection_date=2026-09-05&origin=DEL&destination=BOM&source=QP"
+        f"/api/v1/index/live?collection_date={reference_date}&origin=DEL&destination=BOM&source=QP"
     )
     missing_source = live_index_client.get("/api/v1/index/live?source=UnknownAir")
     bad_route = live_index_client.get("/api/v1/index/live?route_code=DEL")
@@ -533,10 +625,19 @@ def test_route_index_historical_points_are_recomputed_per_collection_date(live_i
     akasa = db_session.query(Airline).filter(Airline.code == "QP").first()
     live_job = start_scraping_job(db_session, source_name="DailyLive:Akasa Air:DEL-BOM:T+7")
     baseline = get_route_baseline_fare("DEL-BOM", 7)
+    next_collection_date = PROTOTYPE_REFERENCE_START_DATE + timedelta(days=1)
     raw = ingest_raw_quotes(
         db_session,
         [
-            _quote(route, akasa, date(2026, 9, 13), 7, baseline * 1.2, "QP-HIST-2", date(2026, 9, 6)),
+            _quote(
+                route,
+                akasa,
+                next_collection_date + timedelta(days=7),
+                7,
+                baseline * 1.2,
+                "QP-HIST-2",
+                next_collection_date,
+            ),
         ],
         job=live_job,
         collection_mode="LIVE",
@@ -549,6 +650,8 @@ def test_route_index_historical_points_are_recomputed_per_collection_date(live_i
     assert response.status_code == 200
     points = response.json()["historical_points"]
     by_date = {point["date"]: point["route_index"] for point in points}
-    assert by_date["2026-09-05"] == 100.0
-    assert by_date["2026-09-06"] == 120.0
-    assert by_date["2026-09-05"] != by_date["2026-09-06"]
+    reference_date = PROTOTYPE_REFERENCE_START_DATE.isoformat()
+    next_date = next_collection_date.isoformat()
+    assert by_date[reference_date] == 100.0
+    assert by_date[next_date] == 120.0
+    assert by_date[reference_date] != by_date[next_date]

@@ -283,6 +283,11 @@ def test_index_uses_scraped_at_collection_date_not_processed_at(db_session):
     db_session.commit()
 
     collection_date = PROTOTYPE_REFERENCE_START_DATE
+    scraped_at = datetime.combine(collection_date, datetime.min.time(), tzinfo=timezone.utc) + timedelta(
+        hours=18,
+        minutes=20,
+    )
+    processed_at = scraped_at + timedelta(minutes=30)
     raw_quote = None
     for window in (1, 7, 15, 30, 45):
         baseline = get_route_baseline_fare("DEL-BOM", window)
@@ -296,7 +301,7 @@ def test_index_uses_scraped_at_collection_date_not_processed_at(db_session):
             total_fare=baseline,
             cabin_class="ECONOMY",
             collection_mode="LIVE",
-            scraped_at=datetime(2026, 9, 5, 18, 20, tzinfo=timezone.utc),  # 23:50 IST on Sep 5
+            scraped_at=scraped_at,  # 23:50 IST on the configured collection date
         )
         db_session.add(raw_quote)
         db_session.commit()
@@ -307,7 +312,7 @@ def test_index_uses_scraped_at_collection_date_not_processed_at(db_session):
                 advance_window_days=window,
                 clean_total_fare=baseline,
                 is_outlier=False,
-                processed_at=datetime(2026, 9, 5, 18, 50, tzinfo=timezone.utc),  # 00:20 IST on Sep 6
+                processed_at=processed_at,  # 00:20 IST on the following local date
             )
         )
     db_session.commit()
@@ -315,4 +320,4 @@ def test_index_uses_scraped_at_collection_date_not_processed_at(db_session):
     assert live_reference_status(db_session).is_available
     assert collection_date_from_timestamp(raw_quote.scraped_at) == collection_date
     assert not calculate_route_indices(db_session, collection_date, collection_mode="LIVE").empty
-    assert calculate_route_indices(db_session, date(2026, 9, 6), collection_mode="LIVE").empty
+    assert calculate_route_indices(db_session, collection_date + timedelta(days=1), collection_mode="LIVE").empty
